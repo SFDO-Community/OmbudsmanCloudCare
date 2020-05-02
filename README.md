@@ -1,7 +1,10 @@
 # OmbudsmanCloudCare
 
-Add a brief description of this project here, in Markdown format.
-It will be shown on the main page of the project's GitHub repository.
+The Ombudsman Cloud Care (OCC) app modernizes Navy Ombudsman manual call logs and case management processes to drive digital transformation, innovation and operational excellence AT NO COST.
+
+OCC app users are Command Ombudsman appointed by the Commanding Officer. 
+
+The OCC app is built on Salesforce (Sales Cloud) and the Nonprofit Success Pack (NPSP). It is a case management solution, empowering Command Ombudsman to work securely across digital devices (smart phone, tablet, computer). 
 
 ## Development
 
