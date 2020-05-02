@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Preferred_Email</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL( npe01__Preferred_Email__c ,&quot;&quot;),
+OR(
+LEN(npe01__AlternateEmail__c  )&gt;0,
+LEN(npe01__WorkEmail__c )&gt;0,
+LEN(npe01__HomeEmail__c  )&gt;0
+)
+)</errorConditionFormula>
+    <errorDisplayField>npe01__Preferred_Email__c</errorDisplayField>
+    <errorMessage>Please select a Preferred Email</errorMessage>
+</ValidationRule>

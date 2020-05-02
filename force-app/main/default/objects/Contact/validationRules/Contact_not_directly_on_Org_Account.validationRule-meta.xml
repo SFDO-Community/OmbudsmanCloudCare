@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_not_directly_on_Org_Account</fullName>
+    <active>true</active>
+    <description>Validation that Contacts follow the Household Account model and are only on their household, not directly on an Organization account</description>
+    <errorConditionFormula>Account.RecordType.DeveloperName = &quot;Organization&quot;</errorConditionFormula>
+    <errorDisplayField>AccountId</errorDisplayField>
+    <errorMessage>Do not put contacts on Organization Accounts. Leave this field blank for NPSP to create the household account.</errorMessage>
+</ValidationRule>

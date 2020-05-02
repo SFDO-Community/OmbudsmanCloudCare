@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Preferred_Phone</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ ISPICKVAL(npe01__PreferredPhone__c ,&quot;&quot;),
+OR(
+ LEN(MobilePhone)&gt;0,
+ LEN( npe01__WorkPhone__c)&gt;0,
+ LEN( OtherPhone )&gt;0
+)
+)</errorConditionFormula>
+    <errorDisplayField>npe01__PreferredPhone__c</errorDisplayField>
+    <errorMessage>Please select a Preferred Phone</errorMessage>
+</ValidationRule>

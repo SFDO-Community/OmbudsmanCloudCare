@@ -1,0 +1,21 @@
+minimum_cumulusci_version: '3.11.0'
+project:
+    name: OmbudsmanCloudCare
+    package:
+        name:  OmbudsmanCloudCare
+        api_version: '48.0'
+    dependencies:
+        - github: 'https://github.com/SalesforceFoundation/NPSP'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/OmbudsmanCloudCare/tests
+            options:
+                outputdir: robot/OmbudsmanCloudCare/results
+
+    robot_testdoc:
+        options:
+            path: robot/OmbudsmanCloudCare/tests
+            output: robot/OmbudsmanCloudCare/doc/OmbudsmanCloudCare_tests.html
