@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Contact_not_directly_on_Org_Account</fullName>
     <active>true</active>
     <description>Validation that Contacts follow the Household Account model and are only on their household, not directly on an Organization account</description>

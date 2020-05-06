@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Childcare</fullName>
+        <default>false</default>
+        <label>Childcare</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Deployment/FRG</fullName>
+        <default>false</default>
+        <label>Deployment/FRG</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Emergency/Crisis</fullName>
+        <default>false</default>
+        <label>Emergency/Crisis</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Employment</fullName>
+        <default>false</default>
+        <label>Employment</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>EFMP</fullName>
+        <default>false</default>
+        <label>EFMP</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Financial/Pay</fullName>
+        <default>false</default>
+        <label>Financial/Pay</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Individual Augmentee</fullName>
+        <default>false</default>
+        <label>Individual Augmentee</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Legal</fullName>
+        <default>false</default>
+        <label>Legal</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical</fullName>
+        <default>false</default>
+        <label>Medical</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Military Records</fullName>
+        <default>false</default>
+        <label>Military Records</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>MWR</fullName>
+        <default>false</default>
+        <label>MWR</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Newsetter</fullName>
+        <default>false</default>
+        <label>Newsetter</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Relocation/Housing/Sponsor</fullName>
+        <default>false</default>
+        <label>Relocation/Housing/Sponsor</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Sexual Assault Prevention</fullName>
+        <default>false</default>
+        <label>Sexual Assault Prevention</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media</fullName>
+        <default>false</default>
+        <label>Social Media</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Other Info &amp; Referral</fullName>
+        <default>false</default>
+        <label>Other Info &amp; Referral</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>
