@@ -2,7 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Resource_Contact</fullName>
     <active>true</active>
-    <description>Select when adding a contact from a resource/organization</description>
+    <description>Select when adding a contact from a resource/organization.</description>
     <label>Resource Contact</label>
     <picklistValues>
         <picklist>Gender__c</picklist>
