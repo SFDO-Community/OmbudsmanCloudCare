@@ -14,7 +14,7 @@
     </brandingSetProperty>
     <brandingSetProperty>
         <propertyName>BRAND_IMAGE</propertyName>
-        <propertyValue>/file-asset/X6?v=1</propertyValue>
+        <propertyValue>/file-asset/OCCBrandImage?v=1</propertyValue>
     </brandingSetProperty>
     <brandingSetProperty>
         <propertyName>BANNER_IMAGE</propertyName>
@@ -26,7 +26,7 @@
     </brandingSetProperty>
     <brandingSetProperty>
         <propertyName>GROUP_IMAGE</propertyName>
-        <propertyValue>/file-asset/occribbon1?v=1</propertyValue>
+        <propertyValue/>
     </brandingSetProperty>
     <brandingSetProperty>
         <propertyName>PROFILE_BANNER_IMAGE</propertyName>
@@ -34,7 +34,7 @@
     </brandingSetProperty>
     <brandingSetProperty>
         <propertyName>USER_IMAGE</propertyName>
-        <propertyValue>/file-asset/occribbon?v=1</propertyValue>
+        <propertyValue/>
     </brandingSetProperty>
     <brandingSetProperty>
         <propertyName>LINK_AS_BACKGROUND</propertyName>
@@ -42,7 +42,7 @@
     </brandingSetProperty>
     <brandingSetProperty>
         <propertyName>OVERRIDE_LOADING_PAGE</propertyName>
-        <propertyValue>false</propertyValue>
+        <propertyValue>true</propertyValue>
     </brandingSetProperty>
     <brandingSetProperty>
         <propertyName>OVERRIDE_A11Y_COLOR</propertyName>
