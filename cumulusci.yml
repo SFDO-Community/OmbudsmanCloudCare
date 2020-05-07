@@ -6,6 +6,8 @@ project:
         api_version: '48.0'
     dependencies:
         - github: 'https://github.com/SalesforceFoundation/NPSP'
+        - namespace: Mopsy
+          version: '1.54'
     source_format: sfdx
 
 tasks:
