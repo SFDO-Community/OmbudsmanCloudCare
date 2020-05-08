@@ -12,34 +12,6 @@ CREATE TABLE "Account" (
 	parent_id VARCHAR(255), 
 	PRIMARY KEY (sf_id)
 );
-INSERT INTO "Account" VALUES('001P000001ehrizIAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrj0IAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrj1IAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrj2IAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrj3IAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrj4IAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrj5IAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrj6IAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrj7IAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrj8IAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrj9IAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrjAIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrjBIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrjCIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlJIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlKIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlLIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlMIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlNIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlOIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlPIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlQIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlRIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlSIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlTIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlUIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlVIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlWIAQ','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
 INSERT INTO "Account" VALUES('001P000001ehrlXIAQ','Marcus Household','012P00000016AcBIAU','true','Household Account','Octavia Marcus','','Octavia','','');
 INSERT INTO "Account" VALUES('001P000001ehrlYIAQ','Dick Household','012P00000016AcBIAU','true','Household Account','Moby Dick','','Moby','','');
 INSERT INTO "Account" VALUES('001P000001ehrlZIAQ','the First Mate Household','012P00000016AcBIAU','true','Household Account','Peleg the First Mate','','Peleg','','');
@@ -54,20 +26,6 @@ INSERT INTO "Account" VALUES('001P000001ehrlhIAA','Kolodner Household','012P0000
 INSERT INTO "Account" VALUES('001P000001ehrliIAA','Berry Household','012P00000016AcBIAU','true','Household Account','Boo Berry','','Boo','','');
 INSERT INTO "Account" VALUES('001P000001ehrljIAA','Beard Household','012P00000016AcBIAU','true','Household Account','Momma Beard','','Momma','','');
 INSERT INTO "Account" VALUES('001P000001ehrlkIAA','Sisko Household','012P00000016AcBIAU','true','Household Account','Jake Sisko','','Jake','','');
-INSERT INTO "Account" VALUES('001P000001ehrllIAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlmIAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlnIAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrloIAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlpIAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlqIAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlrIAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlsIAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrltIAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrluIAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlvIAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlwIAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlxIAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
-INSERT INTO "Account" VALUES('001P000001ehrlyIAA','Anonymous Household','012P00000016AcBIAU','true','Household Account','Sir or Madam','','Sir or Madam','','');
 CREATE TABLE "Account_rt_mapping" (
 	record_type_id VARCHAR(18) NOT NULL, 
 	developer_name VARCHAR(255), 
@@ -90,6 +48,8 @@ CREATE TABLE "Case" (
 	sailor__c VARCHAR(255), 
 	PRIMARY KEY (sf_id)
 );
+INSERT INTO "Case" VALUES('5003h000001IETiAAO','false','Medical','Phone','Olive Oil called the ombudsman line because she was under the impression that canned spinach is in short supply.','New','Heard PopEye wasn''t getting enough spinach.','','0013h000005cnP9AAI','0033h000001uE2pAAE','','a0V3h000000YtShEAK');
+INSERT INTO "Case" VALUES('5003h000001IEsnAAG','false','Sexual Assault Prevention','Social Media','Olive Oil posted on Facebook that Bluto keeps asking her for dates and threatening her precious PopEye.','Escalated','Upset that Bluto is bulllying PopEye and hitting on her','','0013h000005cnP9AAI','0033h000001uE2pAAE','','a0V3h000000YtShEAK');
 CREATE TABLE "Contact" (
 	sf_id VARCHAR(255) NOT NULL, 
 	"FirstName" VARCHAR(255), 
@@ -181,7 +141,9 @@ CREATE TABLE "Task" (
 	"Subject" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
-INSERT INTO "Task" VALUES(1,'2020-05-06','Description/Comments field','Not Started','Subject of the Task');
+INSERT INTO "Task" VALUES(1,'2020-04-01','Notified that family member passed away. Inform chaplain of details to pass on to sailor.','Not Started','Refer grief case to chaplain');
+INSERT INTO "Task" VALUES(2,'2020-04-01','Description/Comments field','Not Started','Subject of the Task');
+INSERT INTO "Task" VALUES(3,'2020-04-01','Description/Comments field','Not Started','Subject of the Task');
 CREATE TABLE "npsp__Address__c" (
 	sf_id VARCHAR(255) NOT NULL, 
 	"npsp__API_Response__c" VARCHAR(255), 
