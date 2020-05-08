@@ -136,3 +136,11 @@ Insert npsp__Address__c:
   lookups:
     npsp__Household_Account__c:
       table: Account
+Insert Task:
+  sf_object: Task
+  table: Task
+  fields:
+    ActivityDate: ActivityDate
+    Description: Description
+    Status: Status
+    Subject: Subject
