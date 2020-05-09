@@ -40,10 +40,6 @@ Insert Contact:
     npe01__SystemAccountProcessor__c: npe01__SystemAccountProcessor__c
     npe01__WorkEmail__c: npe01__WorkEmail__c
     npe01__WorkPhone__c: npe01__WorkPhone__c
-    npo02__AverageAmount__c: npo02__AverageAmount__c
-    npo02__Household_Naming_Order__c: npo02__Household_Naming_Order__c
-    npo02__Naming_Exclusions__c: npo02__Naming_Exclusions__c
-    npo02__SystemHouseholdProcessor__c: npo02__SystemHouseholdProcessor__c
     npsp__Deceased__c: npsp__Deceased__c
     npsp__Do_Not_Contact__c: npsp__Do_Not_Contact__c
     npsp__Exclude_from_Household_Formal_Greeting__c: npsp__Exclude_from_Household_Formal_Greeting__c
@@ -78,10 +74,49 @@ Insert Account:
     npo02__HouseholdPhone__c: npo02__HouseholdPhone__c
     npo02__Informal_Greeting__c: npo02__Informal_Greeting__c
     npo02__SYSTEM_CUSTOM_NAMING__c: npo02__SYSTEM_CUSTOM_NAMING__c
+    npsp__Number_of_Household_Members__c: npsp__Number_of_Household_Members__c
   lookups:
     ParentId:
       table: Account
       after: Insert Account
+    npe01__One2OneContact__c:
+      table: Contact
+Insert npsp__Address__c:
+  sf_object: npsp__Address__c
+  table: npsp__Address__c
+  fields:
+    Id: sf_id
+    npsp__API_Response__c: npsp__API_Response__c
+    npsp__Address_Type__c: npsp__Address_Type__c
+    npsp__Administrative_Area__c: npsp__Administrative_Area__c
+    npsp__Ambiguous__c: npsp__Ambiguous__c
+    npsp__Congressional_District__c: npsp__Congressional_District__c
+    npsp__County_Name__c: npsp__County_Name__c
+    npsp__Default_Address__c: npsp__Default_Address__c
+    npsp__Exclude_from_Updates__c: npsp__Exclude_from_Updates__c
+    npsp__Latest_End_Date__c: npsp__Latest_End_Date__c
+    npsp__Latest_Start_Date__c: npsp__Latest_Start_Date__c
+    npsp__MailingCity__c: npsp__MailingCity__c
+    npsp__MailingCountry__c: npsp__MailingCountry__c
+    npsp__MailingPostalCode__c: npsp__MailingPostalCode__c
+    npsp__MailingState__c: npsp__MailingState__c
+    npsp__MailingStreet2__c: npsp__MailingStreet2__c
+    npsp__MailingStreet__c: npsp__MailingStreet__c
+    npsp__NCOA_Evaluation_Date__c: npsp__NCOA_Evaluation_Date__c
+    npsp__NCOA_Result_Code__c: npsp__NCOA_Result_Code__c
+    npsp__Pre_Verification_Address__c: npsp__Pre_Verification_Address__c
+    npsp__Seasonal_End_Day__c: npsp__Seasonal_End_Day__c
+    npsp__Seasonal_End_Month__c: npsp__Seasonal_End_Month__c
+    npsp__Seasonal_Start_Day__c: npsp__Seasonal_Start_Day__c
+    npsp__Seasonal_Start_Month__c: npsp__Seasonal_Start_Month__c
+    npsp__State_Lower_District__c: npsp__State_Lower_District__c
+    npsp__State_Upper_District__c: npsp__State_Upper_District__c
+    npsp__Verification_Status__c: npsp__Verification_Status__c
+    npsp__Verified_Date__c: npsp__Verified_Date__c
+    npsp__Verified__c: npsp__Verified__c
+  lookups:
+    npsp__Household_Account__c:
+      table: Account
 Insert Case:
   sf_object: Case
   table: Case
@@ -104,38 +139,6 @@ Insert Case:
       after: Insert Case
     Sailor__c:
       table: Sailor__c
-Insert npsp__Address__c:
-  sf_object: npsp__Address__c
-  table: npsp__Address__c
-  fields:
-    Id: sf_id
-    npsp__API_Response__c: npsp__API_Response__c
-    npsp__Address_Type__c: npsp__Address_Type__c
-    npsp__Administrative_Area__c: npsp__Administrative_Area__c
-    npsp__Ambiguous__c: npsp__Ambiguous__c
-    npsp__Congressional_District__c: npsp__Congressional_District__c
-    npsp__County_Name__c: npsp__County_Name__c
-    npsp__Default_Address__c: npsp__Default_Address__c
-    npsp__Latest_End_Date__c: npsp__Latest_End_Date__c
-    npsp__Latest_Start_Date__c: npsp__Latest_Start_Date__c
-    npsp__MailingCity__c: npsp__MailingCity__c
-    npsp__MailingCountry__c: npsp__MailingCountry__c
-    npsp__MailingPostalCode__c: npsp__MailingPostalCode__c
-    npsp__MailingState__c: npsp__MailingState__c
-    npsp__MailingStreet2__c: npsp__MailingStreet2__c
-    npsp__MailingStreet__c: npsp__MailingStreet__c
-    npsp__Pre_Verification_Address__c: npsp__Pre_Verification_Address__c
-    npsp__Seasonal_End_Day__c: npsp__Seasonal_End_Day__c
-    npsp__Seasonal_End_Month__c: npsp__Seasonal_End_Month__c
-    npsp__Seasonal_Start_Day__c: npsp__Seasonal_Start_Day__c
-    npsp__Seasonal_Start_Month__c: npsp__Seasonal_Start_Month__c
-    npsp__State_Lower_District__c: npsp__State_Lower_District__c
-    npsp__State_Upper_District__c: npsp__State_Upper_District__c
-    npsp__Verification_Status__c: npsp__Verification_Status__c
-    npsp__Verified__c: npsp__Verified__c
-  lookups:
-    npsp__Household_Account__c:
-      table: Account
 Insert Task:
   sf_object: Task
   table: Task
