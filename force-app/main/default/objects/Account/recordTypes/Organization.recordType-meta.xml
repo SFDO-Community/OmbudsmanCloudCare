@@ -2,6 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Organization</fullName>
     <active>true</active>
+    <compactLayoutAssignment>OCC_Org_Acct_Compact_Layout</compactLayoutAssignment>
     <description>An Account representing an organization</description>
     <label>Organization</label>
     <picklistValues>

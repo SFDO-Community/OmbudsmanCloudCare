@@ -13,5 +13,5 @@
         <operation>equals</operation>
         <value>Contact.Resource_Contact</value>
     </filters>
-    <label>Copy of All Resource Contacts</label>
+    <label>All Resource Contacts</label>
 </ListView>

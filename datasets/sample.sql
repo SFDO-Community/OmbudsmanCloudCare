@@ -145,23 +145,23 @@ CREATE TABLE "Sailor__c" (
 	lookup_to_contact__c VARCHAR(255), 
 	PRIMARY KEY (sf_id)
 );
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcSmIAI','Tasha Yar','ncc1701','Safety','Tasha','','Yar','2020-05-08','Chief Security Officer','wherestashanow@ncc1701.navy.mil','Current','');
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcSrIAI','Lieutenant Worf','ncc1701','Combat Systems','Lieutenant','','Worf','2020-05-08','Chief Security Officer','klingonsrule@ncc1701.navy.mil','Current','');
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcTGIAY','Deanna Troi','ncc1701','Medical','Deanna','','Troi','2020-05-08','Counselor','empathsunderstand@ncc1701.navy.mil','Current','');
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcSwIAI','Beverly Crusher','ncc1701','Medical','Beverly','','Crusher','2020-05-08','Doctor','itsdoctorcrushertoyou@ncc1701.navy.mil','Current','');
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGCIAY','Captain Hook','ncc1701','Admin','Captain','9998','Hook','','Admiral','mkolodner+hook@nuromo.com','Current','');
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGDIAY','Jordi LaForge','ncc1701','Engineering','Jordi','2321','LaForge','','Science Officer','mkolodner+jordi@nuromo.com','Current','');
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGEIAY','John Beard','ncc1701','Air','John','','Beard','','AN','john.beard@ncc1701.navy.mil','Current','');
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGFIAY','Mr. Odysseus','ncc1701','Deck','Mr.','2121','Odysseus','','Lieutenent','mkolodner+odysseus@nuromo.com','Current','');
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGGIAY','Benjamin Sisko','ncc1701','Admin','Benjamin','','Sisko','','CMDR','benjamin.sisko@ncc1701.navy.mil','Current','');
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGHIAY','Sinbad the Sailor','ncc1701','Air','Sinbad','8989','the Sailor','','Warrant Ofcr','mkolodner+sinbad@nuromo.com','Current','');
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGIIAY','James T. Kirk','ncc1701','Air','James T.','6565','Kirk','','Admiral','mkolodner+kirk@nuromo.com','Current','');
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGJIAY','Captain Crunch','ncc1701','Operations','Captain','9898','Crunch','','Ensign','mkolodner+crunch@nuromo.com','Current','');
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGKIAY','Popeye the Sailor Man','ncc1701','Public Affairs','Popeye','9999','the Sailor Man','','Private','mkolodner+popeye@nuromo.com','Current','');
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGLIAY','Captain Ahab','ncc1701','Weapons','Captain','8888','Ahab','','Captain','mkolodner+ahab@nuromo.com','Current','');
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcShIAI','William Riker','ncc1701','Combat Systems','William','','Riker','2020-05-08','First Officer','rikerthestriker@ncc1701.navy.mil','Current','');
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcScIAI','Jean-Luc Picard','ncc1701','Admin','Jean-Luc','','Picard','2020-05-08','Captain','elcapitan@ncc1701.navy.mil','Current','');
-INSERT INTO "Sailor__c" VALUES('a0qP0000001gcT6IAI','Wesley Crusher','ncc1701','Engineering','Wesley','','Crusher','2020-05-08','Ensign','justakidinspace@ncc1701.navy.mil','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcSmIAI','Tasha Yar','NCC-1701','Safety','Tasha','','Yar','2020-05-08','Chief Security Officer','wherestashanow@ncc1701.navy.mil','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcSrIAI','Lieutenant Worf','NCC-1701','Combat Systems','Lieutenant','','Worf','2020-05-08','Chief Security Officer','klingonsrule@ncc1701.navy.mil','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcTGIAY','Deanna Troi','NCC-1701','Medical','Deanna','','Troi','2020-05-08','Counselor','empathsunderstand@ncc1701.navy.mil','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcSwIAI','Beverly Crusher','NCC-1701','Medical','Beverly','','Crusher','2020-05-08','Doctor','itsdoctorcrushertoyou@ncc1701.navy.mil','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGCIAY','Captain Hook','NCC-1701','Admin','Captain','9998','Hook','','Admiral','mkolodner+hook@nuromo.com','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGDIAY','Jordi LaForge','NCC-1701','Engineering','Jordi','2321','LaForge','','Science Officer','mkolodner+jordi@nuromo.com','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGEIAY','John Beard','NCC-1701','Air','John','','Beard','','AN','john.beard@ncc1701.navy.mil','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGFIAY','Mr. Odysseus','NCC-1701','Deck','Mr.','2121','Odysseus','','Lieutenent','mkolodner+odysseus@nuromo.com','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGGIAY','Benjamin Sisko','NCC-1701','Admin','Benjamin','','Sisko','','CMDR','benjamin.sisko@ncc1701.navy.mil','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGHIAY','Sinbad the Sailor','NCC-1701','Air','Sinbad','8989','the Sailor','','Warrant Ofcr','mkolodner+sinbad@nuromo.com','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGIIAY','James T. Kirk','NCC-1701','Air','James T.','6565','Kirk','','Admiral','mkolodner+kirk@nuromo.com','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGJIAY','Captain Crunch','NCC-1701','Operations','Captain','9898','Crunch','','Ensign','mkolodner+crunch@nuromo.com','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGKIAY','Popeye the Sailor Man','NCC-1701','Public Affairs','Popeye','9999','the Sailor Man','','Private','mkolodner+popeye@nuromo.com','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcGLIAY','Captain Ahab','NCC-1701','Weapons','Captain','8888','Ahab','','Captain','mkolodner+ahab@nuromo.com','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcShIAI','William Riker','NCC-1701','Combat Systems','William','','Riker','2020-05-08','First Officer','rikerthestriker@ncc1701.navy.mil','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcScIAI','Jean-Luc Picard','NCC-1701','Admin','Jean-Luc','','Picard','2020-05-08','Captain','elcapitan@ncc1701.navy.mil','Current','');
+INSERT INTO "Sailor__c" VALUES('a0qP0000001gcT6IAI','Wesley Crusher','NCC-1701','Engineering','Wesley','','Crusher','2020-05-08','Ensign','justakidinspace@ncc1701.navy.mil','Current','');
 CREATE TABLE "Task" (
 	id INTEGER NOT NULL, 
 	"ActivityDate" VARCHAR(255), 

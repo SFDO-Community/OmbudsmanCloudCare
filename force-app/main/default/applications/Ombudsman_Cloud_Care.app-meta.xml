@@ -19,6 +19,14 @@
         <pageOrSobjectType>Case</pageOrSobjectType>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Home_Page_Default</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>NPSP_Contact_Record_Page</content>
@@ -37,12 +45,22 @@
         <pageOrSobjectType>Contact</pageOrSobjectType>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Tab</actionName>
-        <content>Home_Page_Default</content>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Account_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Account_Record_Page</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
-        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
     </actionOverrides>
     <brand>
         <headerColor>#9699BF</headerColor>
