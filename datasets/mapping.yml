@@ -25,6 +25,7 @@ Insert Contact:
     FirstName: FirstName
     LastName: LastName
     DoNotCall: DoNotCall
+    Email: Email
     Gender__c: Gender__c
     HasOptedOutOfEmail: HasOptedOutOfEmail
     HasOptedOutOfFax: HasOptedOutOfFax
@@ -46,6 +47,7 @@ Insert Contact:
     npsp__Exclude_from_Household_Informal_Greeting__c: npsp__Exclude_from_Household_Informal_Greeting__c
     npsp__Exclude_from_Household_Name__c: npsp__Exclude_from_Household_Name__c
     npsp__is_Address_Override__c: npsp__is_Address_Override__c
+    Phone: Phone
   lookups:
     AccountId:
       table: Account
