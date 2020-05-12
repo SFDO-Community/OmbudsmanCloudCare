@@ -322,7 +322,7 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>OCC_Contact_Compact</compactLayoutAssignment>
+    <compactLayoutAssignment>OCC_Family_Contact_Compact</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <externalSharingModel>ControlledByParent</externalSharingModel>

@@ -2,6 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <fullName>Resource_Contact</fullName>
     <active>true</active>
+    <compactLayoutAssignment>OCC_Resource_Contact_Compact</compactLayoutAssignment>
     <description>Select when adding a contact from a resource/organization.</description>
     <label>Resource Contact</label>
     <picklistValues>

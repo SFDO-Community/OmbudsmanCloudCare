@@ -8,7 +8,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>richTextValue</name>
-                <value>&lt;p&gt;&lt;b style=&quot;color: rgb(150, 153, 191); font-size: 20px;&quot;&gt;Welcome to the Ombudsman Cloud Care app!&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: rgb(0, 0, 0); font-size: 14px;&quot;&gt;This cloud-based case management system is built to help you manage cases and keep families strong during deployment.&lt;/b&gt;&lt;/p&gt;</value>
+                <value>&lt;p&gt;&lt;b style=&quot;font-size: 20px; color: rgb(150, 153, 191);&quot;&gt;Welcome to the Ombudsman Cloud Care app!&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 14px; color: rgb(0, 0, 0);&quot;&gt;This cloud-based case management system is built to help you manage cases and keep families strong during deployment. &lt;/b&gt;&lt;/p&gt;</value>
             </componentInstanceProperties>
             <componentName>flexipage:richText</componentName>
         </componentInstances>
@@ -51,7 +51,22 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>reportName</name>
-                <value>New_Family_Members_Report_ccy</value>
+                <value>New_Cases_by_Reason_this_week_4hm</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>showRefreshButton</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:reportChart</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>cacheAge</name>
+                <value>1440</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>reportName</name>
+                <value>New_Family_Members_by_State_Report_ori</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>showRefreshButton</name>
@@ -71,7 +86,26 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>reportName</name>
-                <value>New_Family_Members_by_State_Report_ori</value>
+                <value>New_Family_Members_Report_ccy</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>showRefreshButton</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:reportChart</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>cacheAge</name>
+                <value>1440</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>label</name>
+                <value>All Time Cases by Reason</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>reportName</name>
+                <value>Cases_by_Reason_0EK</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>showRefreshButton</name>
