@@ -129,6 +129,7 @@ Insert Case:
     Status: Status
     Subject: Subject
     Type: Type
+    Priority: Priority
   lookups:
     AccountId:
       table: Account
