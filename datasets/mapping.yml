@@ -69,6 +69,9 @@ Insert Account:
   fields:
     Id: sf_id
     Name: Name
+    Description: Description
+    Phone: Phone
+    Website: Website
     RecordTypeId: RecordTypeId
     npe01__SYSTEMIsIndividual__c: npe01__SYSTEMIsIndividual__c
     npe01__SYSTEM_AccountType__c: npe01__SYSTEM_AccountType__c
