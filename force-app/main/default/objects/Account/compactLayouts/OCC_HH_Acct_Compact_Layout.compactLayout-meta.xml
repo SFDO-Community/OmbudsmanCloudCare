@@ -4,5 +4,6 @@
     <fields>Name</fields>
     <fields>npe01__One2OneContact__c</fields>
     <fields>npo02__HouseholdPhone__c</fields>
+    <fields>npsp__Number_of_Household_Members__c</fields>
     <label>OCC HH Acct Compact Layout</label>
 </CompactLayout>
