@@ -11,6 +11,11 @@ project:
     source_format: sfdx
 
 tasks:
+    dx_status:
+        class_path: cumulusci.tasks.sfdx.SFDXOrgTask
+        options:
+            command: "force:source:status"
+
     robot:
         options:
             suites: robot/OmbudsmanCloudCare/tests

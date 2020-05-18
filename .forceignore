@@ -1,0 +1,16 @@
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+#
+
+package.xml
+Custom%3A Marketing Profile.profile
+Custom%3A Sales Profile.profile
+Custom%3A Support Profile.profile
+Trial Customer Portal User.profile
+Executive Management.profile
+Fundraising and Development.profile
+Office Staff.profile
+Program Staff.profile
+**.profileSessionSetting
+**.profilePasswordPolicy
+.DS_Store
