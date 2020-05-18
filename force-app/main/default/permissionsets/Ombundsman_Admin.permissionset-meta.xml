@@ -4,7 +4,7 @@
         <application>Ombudsman_Cloud_Care</application>
         <visible>true</visible>
     </applicationVisibilities>
-    <description>Grants access to Ombundsman Objects and fields with view all and modify all permissions</description>
+    <description>Grants access to Ombudsman Objects and fields with view all and modify all permissions</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Relationship_to_Sailor__c</field>
@@ -71,7 +71,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Ombundsman Admin</label>
+    <label>Ombudsman Admin</label>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>

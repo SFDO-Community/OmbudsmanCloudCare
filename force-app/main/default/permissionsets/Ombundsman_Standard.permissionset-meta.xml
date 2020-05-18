@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Permission set granting access to Ombundsman objects and fields.</description>
+    <description>Permission set granting access to Ombudsman objects and fields.</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>Sailor__c.Command_Name__c</field>
@@ -57,7 +57,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Ombundsman Standard</label>
+    <label>Ombudsman Standard</label>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
