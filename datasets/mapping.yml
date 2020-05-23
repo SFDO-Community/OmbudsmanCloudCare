@@ -26,7 +26,6 @@ Insert Contact:
     LastName: LastName
     DoNotCall: DoNotCall
     Email: Email
-    Gender__c: Gender__c
     HasOptedOutOfEmail: HasOptedOutOfEmail
     HasOptedOutOfFax: HasOptedOutOfFax
     RecordTypeId: RecordTypeId
