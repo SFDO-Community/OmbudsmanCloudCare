@@ -2,6 +2,14 @@
   "orgName": "OmbudsmanCloudCare - Beta Test Org",
   "edition": "Developer",
   "settings": {
+    "caseSettings": {
+      "emailToCase": {
+        "enableEmailToCase": true
+      },
+      "webToCase": {
+        "enableWebToCase": true
+      }
+    },
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
@@ -16,5 +24,6 @@
       "sessionSettings": {
         "forceRelogin": false
       }
-    }  }
+    }
+  }
 }
