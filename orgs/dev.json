@@ -2,6 +2,14 @@
   "orgName": "OmbudsmanCloudCare - Dev Org",
   "edition": "Developer",
   "settings": {
+    "caseSettings": {
+      "emailToCase": {
+        "enableEmailToCase": true
+      },
+      "webToCase": {
+        "enableWebToCase": true
+      }
+    },
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
@@ -22,11 +30,6 @@
     },
     "languageSettings": {
       "enableTranslationWorkbench": true
-    },
-    "caseSettings": {
-     "emailToCase": {
-     "enableEmailToCase": true
-     }
     }
   }
 }

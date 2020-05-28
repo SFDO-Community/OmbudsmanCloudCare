@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Ombudsman_Cloud_Care</application>
+        <default>true</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Account.HH_Account</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.Organization</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Contact.Family_Member</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contact.Resource_Contact</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Sailor__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+</Profile>

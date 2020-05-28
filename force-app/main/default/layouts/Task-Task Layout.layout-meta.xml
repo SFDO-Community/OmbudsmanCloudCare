@@ -115,40 +115,16 @@
     </layoutSections>
     <quickActionList>
         <quickActionListItems>
-            <quickActionName>Task.EditDescription_2</quickActionName>
+            <quickActionName>Task.Defer</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
-            <quickActionName>Task.Defer_2</quickActionName>
+            <quickActionName>Task.UpdatePriority</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
-            <quickActionName>Task.UpdateStatus_2</quickActionName>
+            <quickActionName>Task.UpdateStatus</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
-            <quickActionName>Task.UpdatePriority_2</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Task.EditDescription_1</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Task.Defer_1</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Task.UpdateStatus_1</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Task.UpdatePriority_1</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Task.EditDescription_0</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Task.Defer_0</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Task.UpdateStatus_0</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Task.UpdatePriority_0</quickActionName>
+            <quickActionName>Task.EditDescription</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>FeedItem.TextPost</quickActionName>
@@ -170,18 +146,6 @@
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>NewEvent</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Task.EditDescription</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Task.Defer</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Task.UpdateStatus</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Task.UpdatePriority</quickActionName>
         </quickActionListItems>
     </quickActionList>
     <relatedContent>
@@ -207,7 +171,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hU0000000kNl4</masterLabel>
+        <masterLabel>00h8A000001ShzC</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
