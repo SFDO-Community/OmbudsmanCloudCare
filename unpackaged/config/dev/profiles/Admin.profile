@@ -5,6 +5,41 @@
         <default>true</default>
         <visible>true</visible>
     </applicationVisibilities>
+    <custom>false</custom>
+    <layoutAssignments>
+        <layout>Account-OCC Household Account Layout</layout>
+        <recordType>Account.HH_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-OCC Organization Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-OCC Organization Account Layout</layout>
+        <recordType>Account.Organization</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Close Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-OCC Family Member</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-OCC Family Member</layout>
+        <recordType>Contact.Family_Member</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-OCC Resource Contact Layout</layout>
+        <recordType>Contact.Resource_Contact</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Sailor__c-Sailor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Task Layout</layout>
+    </layoutAssignments>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Account.HH_Account</recordType>
@@ -29,4 +64,5 @@
         <tab>Sailor__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <userLicense>Salesforce</userLicense>
 </Profile>
