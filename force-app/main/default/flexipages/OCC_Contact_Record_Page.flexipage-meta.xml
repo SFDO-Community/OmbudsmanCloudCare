@@ -10,10 +10,6 @@
                 <name>hideChatterActions</name>
                 <value>false</value>
             </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>numVisibleActions</name>
-                <value>3</value>
-            </componentInstanceProperties>
             <componentName>force:highlightsPanel</componentName>
         </componentInstances>
         <mode>Replace</mode>
@@ -30,14 +26,7 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>cooper:companyInsightTeaserCard</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentInstanceProperties>
-                <name>displayOption</name>
-                <value>BOTH</value>
-            </componentInstanceProperties>
-            <componentName>runtime_sales_merge:mergeCandidatesPreviewCard</componentName>
+            <componentName>runtime_sales_social:socialPanel</componentName>
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
@@ -60,10 +49,6 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentInstanceProperties>
-                <name>active</name>
-                <value>true</value>
-            </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>body</name>
                 <value>detailTabContent</value>
@@ -167,13 +152,20 @@
             </componentInstanceProperties>
             <componentName>flexipage:tabset</componentName>
         </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>displayOption</name>
+                <value>BOTH</value>
+            </componentInstanceProperties>
+            <componentName>runtime_sales_merge:mergeCandidatesPreviewCard</componentName>
+        </componentInstances>
         <mode>Replace</mode>
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Account Record Page</masterLabel>
-    <parentFlexiPage>sfa__Account_rec_L</parentFlexiPage>
-    <sobjectType>Account</sobjectType>
+    <masterLabel>NPSP Contact Record Page</masterLabel>
+    <parentFlexiPage>sfa__Contact_rec_L</parentFlexiPage>
+    <sobjectType>Contact</sobjectType>
     <template>
         <name>flexipage:recordHomeTemplateDesktop</name>
     </template>

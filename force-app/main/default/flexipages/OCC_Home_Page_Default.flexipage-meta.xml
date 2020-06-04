@@ -181,7 +181,7 @@
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Home Page Default</masterLabel>
+    <masterLabel>OCC Home Page Default</masterLabel>
     <parentFlexiPage>home__desktopDefault</parentFlexiPage>
     <template>
         <name>home:desktopTemplate</name>
