@@ -124,7 +124,7 @@
         <name>rightsidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Case Record Page</masterLabel>
+    <masterLabel>OCC Case Record Page</masterLabel>
     <sobjectType>Case</sobjectType>
     <template>
         <name>flexipage:recordHomeThreeColHeaderTemplateDesktop</name>

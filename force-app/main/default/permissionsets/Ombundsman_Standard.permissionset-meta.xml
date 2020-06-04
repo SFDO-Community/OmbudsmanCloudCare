@@ -51,11 +51,6 @@
         <field>Sailor__c.Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>npe5__Affiliation__c.Contact_Link__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Ombudsman Standard</label>
     <objectPermissions>
