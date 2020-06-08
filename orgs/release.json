@@ -16,6 +16,9 @@
     "chatterSettings": {
       "enableChatter": true
     },
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true
+    },
     "userManagementSettings": {
       "enableNewProfileUI": true
     },
@@ -24,6 +27,9 @@
       "sessionSettings": {
         "forceRelogin": false
       }
+    },
+    "languageSettings": {
+      "enableTranslationWorkbench": true
     }
   }
 }
