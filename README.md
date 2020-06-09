@@ -10,7 +10,8 @@ In March 2020, the COVID-19 world pandemic dramatically impacted Navy families w
 
 Recognizing early in the COVID-19 crisis the huge burden being placed on the Ombudsman, Mary knew that someone had to act to create a better system to support their volunteer efforts. Mary used her decades of military spouse leadership experience to assemble a “Tiger Team” to design, build and test a product called the Ombudsman Cloud Care (OCC) app. This revolutionary app utilizes the digital revolution and Salesforce power to modernize the Ombudsman case management process and ensure efficiency, security, and operational excellence at no cost to the Ombudsman. . Most importantly, this app provides support to these trusted volunteers so they can better support the families of our Nation’s service members in times of need.
 
-Root Problems
+Root Problems:
+
     *   Open-Ended Crisis: The timeline for the world’s recovery from COVID-19 is unknown. Collectively, we are all learning how to operate and forge new best practices in this evolving environment.
     *   Caseload Spikes: One Command Ombudsman Team we spoke with, composed of four volunteers, received over 1,000 calls and emails in the first two weeks regarding self-quarantine, social distancing, and shelter-in-place challenges. The caseload continued to spike as weeks of distancing turned into months and military families experienced isolation, anxiety, and uncertainty on top of deployment stressors with a deployed spouse, parent, son, daughter, or friend.
     *   Confidential Case Details: Command Ombudsman need a way to manage complex confidential case activities, notes, and details beyond their current paper call logs and Excel spreadsheets.
