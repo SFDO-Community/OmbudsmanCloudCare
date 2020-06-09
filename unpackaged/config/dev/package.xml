@@ -4,5 +4,9 @@
         <members>Admin</members>
         <name>Profile</name>
     </types>
+  <types>
+    <name>Settings</name>
+    <members>Security</members>
+  </types>
     <version>48.0</version>
 </Package>
