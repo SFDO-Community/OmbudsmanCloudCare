@@ -12,11 +12,11 @@ Recognizing early in the COVID-19 crisis the huge burden being placed on the Omb
 
 Root Problems:
 
-    *   Open-Ended Crisis: The timeline for the world’s recovery from COVID-19 is unknown. Collectively, we are all learning how to operate and forge new best practices in this evolving environment.
-    *   Caseload Spikes: One Command Ombudsman Team we spoke with, composed of four volunteers, received over 1,000 calls and emails in the first two weeks regarding self-quarantine, social distancing, and shelter-in-place challenges. The caseload continued to spike as weeks of distancing turned into months and military families experienced isolation, anxiety, and uncertainty on top of deployment stressors with a deployed spouse, parent, son, daughter, or friend.
-    *   Confidential Case Details: Command Ombudsman need a way to manage complex confidential case activities, notes, and details beyond their current paper call logs and Excel spreadsheets.
-    *   Secure Storage: In addition to keeping the information confidential, the Command Ombudsman need a way to securely store data for future reference.
-    *   Communication: Command Ombudsman teams need a faster and more accurate way to collaborate amongst themselves, and communicate with the chain of command regarding trends, mandatory reportable issues, and confidential case details experienced by command families.
+*   Open-Ended Crisis: The timeline for the world’s recovery from COVID-19 is unknown. Collectively, we are all learning how to operate and forge new best practices in this evolving environment.
+*   Caseload Spikes: One Command Ombudsman Team we spoke with, composed of four volunteers, received over 1,000 calls and emails in the first two weeks regarding self-quarantine, social distancing, and shelter-in-place challenges. The caseload continued to spike as weeks of distancing turned into months and military families experienced isolation, anxiety, and uncertainty on top of deployment stressors with a deployed spouse, parent, son, daughter, or friend.
+*   Confidential Case Details: Command Ombudsman need a way to manage complex confidential case activities, notes, and details beyond their current paper call logs and Excel spreadsheets.
+*   Secure Storage: In addition to keeping the information confidential, the Command Ombudsman need a way to securely store data for future reference.
+*   Communication: Command Ombudsman teams need a faster and more accurate way to collaborate amongst themselves, and communicate with the chain of command regarding trends, mandatory reportable issues, and confidential case details experienced by command families.
 
 Originally conceived during the first weeks of the COVID-19 crisis, OCC is built to handle Ombudsman needs during crisis and day-to-day operations. With Ombudsman Cloud Care, Ombudsman have access to a modern, secure, cloud-based case management and a collaboration solution so they will be ready for the regular challenges of deployment and the extraordinary stresses of future crises.
 
