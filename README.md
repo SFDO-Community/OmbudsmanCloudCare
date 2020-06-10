@@ -41,7 +41,7 @@ Brittany Dickerson
 
 Laura Etzler
 
-Katie Bianco Hernandez
+[Katie Bianco Hernandez](https://powerofus.force.com/s/profile/0051E00000GYmx7QAD)
 
 [Nick Lindberg](https://powerofus.force.com/s/profile/00580000006BbyJAAS)
 
