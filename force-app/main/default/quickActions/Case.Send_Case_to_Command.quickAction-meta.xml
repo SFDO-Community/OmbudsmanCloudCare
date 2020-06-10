@@ -44,7 +44,7 @@
         <quickActionLayoutColumns/>
     </quickActionLayout>
     <quickActionSendEmailOptions>
-        <defaultEmailTemplateName>unfiled$public/Sample_Email_Case_to_Command</defaultEmailTemplateName>
+        <defaultEmailTemplateName>OCC_Templates/Sample_Email_Case_to_Command</defaultEmailTemplateName>
         <ignoreDefaultEmailTemplateSubject>false</ignoreDefaultEmailTemplateSubject>
     </quickActionSendEmailOptions>
     <targetObject>EmailMessage</targetObject>
