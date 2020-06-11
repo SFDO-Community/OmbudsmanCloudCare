@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayoutAssignment>OCC_Org_Acct_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>OCC_HH_Acct_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>npe01__One2OneContact__c</fields>
+        <fields>npo02__HouseholdPhone__c</fields>
+        <fields>npsp__Number_of_Household_Members__c</fields>
+        <label>OCC HH Acct Compact Layout</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>OCC_Org_Acct_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Website</fields>
+        <fields>Phone</fields>
+        <fields>npe01__One2OneContact__c</fields>
+        <label>OCC Org Acct Compact Layout</label>
+    </compactLayouts>
+    <recordTypes>
+        <fullName>HH_Account</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>OCC_HH_Acct_Compact_Layout</compactLayoutAssignment>
+        <description>An Account representing a Household containing one or more individuals.</description>
+        <label>Household Account</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Organization</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>OCC_Org_Acct_Compact_Layout</compactLayoutAssignment>
+        <description>An Account representing an organization</description>
+        <label>Organization</label>
+    </recordTypes>
+</CustomObject>
