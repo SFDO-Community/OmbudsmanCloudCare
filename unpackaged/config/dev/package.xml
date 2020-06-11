@@ -5,8 +5,8 @@
     <name>Profile</name>
   </types>
   <types>
-    <name>Settings</name>
     <members>Security</members>
+    <name>Settings</name>
   </types>
   <version>48.0</version>
 </Package>
