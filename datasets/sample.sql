@@ -17,31 +17,7 @@ CREATE TABLE "Account" (
 	npe01__one2_one_contact__c VARCHAR(255), 
 	PRIMARY KEY (sf_id)
 );
-INSERT INTO "Account" VALUES('001P000001f1OI7IAM','Helper Household','','','','012P0000000nS6TIAU','true','Household Account','Thomas Helper','','Thomas','','1.0','','003P000001NAjsPIAT');
-INSERT INTO "Account" VALUES('001P000001f1NiaIAE','Smith Household','','','','012P0000000nS6TIAU','true','Household Account','Bob Smith','','Bob','','1.0','','003P000001NAjkrIAD');
-INSERT INTO "Account" VALUES('001P000001f1NibIAE','O''Brien Household','','','','012P0000000nS6TIAU','true','Household Account','Miles O''Brien','','Miles','','1.0','','003P000001NAjksIAD');
-INSERT INTO "Account" VALUES('001P000001f1NicIAE','Marcus Household','','','','012P0000000nS6TIAU','true','Household Account','Octavia Marcus','','Octavia','','1.0','','003P000001NAjknIAD');
-INSERT INTO "Account" VALUES('001P000001f1NurIAE','Kolodner Household','','','','012P0000000nS6TIAU','true','Household Account','Michael Kolodner','','Michael','','1.0','','003P000001NAjkoIAD');
-INSERT INTO "Account" VALUES('001P000001f1NusIAE','Jones Household','','','','012P0000000nS6TIAU','true','Household Account','Samantha Jones','','Samantha','','1.0','','003P000001NAjkpIAD');
-INSERT INTO "Account" VALUES('001P000001f1NutIAE','Troi Household','','','','012P0000000nS6TIAU','true','Household Account','Liana Troi','','Liana','','1.0','','003P000001NAjkqIAD');
-INSERT INTO "Account" VALUES('001P000001f1NuuIAE','Gray Household','','','','012P0000000nS6TIAU','true','Household Account','Earl Gray','','Earl','','1.0','','003P000001NAjktIAD');
 INSERT INTO "Account" VALUES('001P000001f1NuvIAE','Resource Organization','One of the greatest resources available to Federation families. They specialize in helping with everything.','555-245-6458','www.resource.com','012P0000000nS6UIAU','false','','','','','','','','003P000001NAjsPIAT');
-INSERT INTO "Account" VALUES('001P000001f1NuwIAE','Blumenthal Household','','','','012P0000000nS6TIAU','true','Household Account','Scott Blumenthal','','Scott','','1.0','','003P000001NAjkuIAD');
-INSERT INTO "Account" VALUES('001P000001f1NuxIAE','LaForge Household','','','','012P0000000nS6TIAU','true','Household Account','Georgina LaForge','','Georgina','','1.0','','003P000001NAjkxIAD');
-INSERT INTO "Account" VALUES('001P000001f1NuyIAE','Beard Household','','','','012P0000000nS6TIAU','true','Household Account','Momma Beard','','Momma','','1.0','','003P000001NAjkyIAD');
-INSERT INTO "Account" VALUES('001P000001f1NuzIAE','Odysseus Household','','','','012P0000000nS6TIAU','true','Household Account','Penelope Odysseus','','Penelope','','1.0','','003P000001NAjkzIAD');
-INSERT INTO "Account" VALUES('001P000001f1Nv0IAE','Sisko Household','','','','012P0000000nS6TIAU','true','Household Account','Jake Sisko','','Jake','','1.0','','003P000001NAjl0IAD');
-INSERT INTO "Account" VALUES('001P000001f1Nv1IAE','Marcus Household','','','','012P0000000nS6TIAU','true','Household Account','David Marcus','','David','','1.0','','003P000001NAjl1IAD');
-INSERT INTO "Account" VALUES('001P000001f1Nv2IAE','Berry Household','','','','012P0000000nS6TIAU','true','Household Account','Boo Berry','','Boo','','1.0','','003P000001NAjl2IAD');
-INSERT INTO "Account" VALUES('001P000001f1Nv3IAE','Chocula Household','','','','012P0000000nS6TIAU','true','Household Account','Count Chocula','','Count','','1.0','','003P000001NAjl3IAD');
-INSERT INTO "Account" VALUES('001P000001f1Nv4IAE','Bully Household','','','','012P0000000nS6TIAU','true','Household Account','Bluto Bully','','Bluto','','1.0','','003P000001NAjl4IAD');
-INSERT INTO "Account" VALUES('001P000001f1Nv5IAE','Oil Household','','','','012P0000000nS6TIAU','true','Household Account','Olive Oil','','Olive','','1.0','','003P000001NAjl5IAD');
-INSERT INTO "Account" VALUES('001P000001f1Nv6IAE','Mom Household','','','','012P0000000nS6TIAU','true','Household Account','Popeye''s Mom','','Popeye''s','','1.0','','003P000001NAjl6IAD');
-INSERT INTO "Account" VALUES('001P000001f1Nv7IAE','the First Mate Household','','','','012P0000000nS6TIAU','true','Household Account','Peleg the First Mate','','Peleg','','1.0','','003P000001NAjl7IAD');
-INSERT INTO "Account" VALUES('001P000001f1Nv8IAE','Dick Household','','','','012P0000000nS6TIAU','true','Household Account','Moby Dick','','Moby','','1.0','','003P000001NAjl8IAD');
-INSERT INTO "Account" VALUES('001P000001f1Nv9IAE','Yar Household','','','','012P0000000nS6TIAU','true','Household Account','Tanya Yar','','Tanya','','1.0','','003P000001NAjkvIAD');
-INSERT INTO "Account" VALUES('001P000001f1NvAIAU','Crusher Household','','','','012P0000000nS6TIAU','true','Household Account','Betsy Crusher','','Betsy','','1.0','','003P000001NAjkwIAD');
-INSERT INTO "Account" VALUES('001P000001f1NvBIAU','McNaughton Household','','','','012P0000000nS6TIAU','true','Household Account','Hester McNaughton','','Hester','','1.0','','003P000001NAjl9IAD');
 INSERT INTO "Account" VALUES('001P000001f1OMsIAM','New York Times','The Grey Lady. Newspaper of record for many. "The first draft of history."','555-212-5514','www.nytimes.com','012P0000000nS6UIAU','false','','','','','','','','003P000001NAjkuIAD');
 CREATE TABLE "Account_rt_mapping" (
 	record_type_id VARCHAR(18) NOT NULL, 
