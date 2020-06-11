@@ -213,7 +213,7 @@ Hang in there. I understand that your situation is very difficult. Here is a lis
  - Brittany
 
 ref:_00D213aDj._500215olRC:ref','Completed','Email: Struggling with Loss of Income Due to Layoffs    [ ref:_00D213aDj._500215olRC:ref ]');
-INSERT INTO "Task" VALUES(9,'2020-05-11','','Waiting on someone else','Reached out to Federation for Resources');
+INSERT INTO "Task" VALUES(9,'2020-05-11','','Waiting on someone else','Reached out to the Federation for Resources');
 INSERT INTO "Task" VALUES(10,'2020-05-11','Additional To: empathsunderstand@nuromo.com
 CC: 
 BCC: 34921581+mkolodner@users.noreply.github.com

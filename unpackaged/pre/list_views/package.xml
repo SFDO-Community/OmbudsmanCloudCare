@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>ListView</name>
+    <members>Account.Household_Accounts</members>
+    <members>Account.Resource_Organization_Accounts</members>
+  </types>
+  <version>48.0</version>
+</Package>
