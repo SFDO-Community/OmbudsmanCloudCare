@@ -55,6 +55,9 @@ tasks:
           List_view:
             - Household_Accounts
             - Resource_Organization_Accounts
+          Compact_layouts:
+            - OCC_HH_Acct_Compact_Layout
+            - OCC_Org_Acct_Compact_Layout
 
   robot:
     options:
