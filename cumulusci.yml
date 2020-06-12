@@ -36,6 +36,26 @@ tasks:
       record_type_developer_name: Family_Member
       sobject: Contact
 
+    uninstall_packaged_incremental:
+      description: Deletes any metadata from the package in the target org not in the local workspace
+      class_path: cumulusci.tasks.salesforce.UninstallPackagedIncremental
+      options:
+        ignore:
+          QuickAction:
+            - NewEvent
+            - NewCase
+            - SendEmail
+            - Case.SendEmail
+          FlexiPage:
+            - NPSP_Address_Record_Page
+            - NPSP_Deliverable
+            - NPSP_Engagement_Plan_Record_Page
+            - NPSP_GAU_Allocation
+            - NPSP_General_Accounting_Unit
+          List_view:
+            - Household_Accounts
+            - Resource_Organization_Accounts
+
   robot:
     options:
       suites: robot/OmbudsmanCloudCare/tests
