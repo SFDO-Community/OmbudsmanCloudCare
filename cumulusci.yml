@@ -10,6 +10,12 @@ project:
       version: "1.54"
   source_format: sfdx
 
+orgs:
+  scratch:
+    demo:
+      config_file: orgs/demo.json
+      days: 30
+
 tasks:
   deploy_dev_config:
     description: Deploys the post install configuration for an unmanaged DE org
