@@ -18,7 +18,31 @@ CREATE TABLE "Account" (
 	record_type VARCHAR(255), 
 	PRIMARY KEY (sf_id)
 );
+INSERT INTO "Account" VALUES('0010R00001094FtQAI','Marcus Household','','','','0120R000001nOyvQAE','true','Household Account','Octavia Marcus','','Octavia','','1.0','','0030R000012LqMvQAK',NULL);
+INSERT INTO "Account" VALUES('0010R00001094FuQAI','Kolodner Household','','','','0120R000001nOyvQAE','true','Household Account','Michael Kolodner','','Michael','','1.0','','0030R000012LqMwQAK',NULL);
+INSERT INTO "Account" VALUES('0010R00001094FvQAI','Jones Household','','','','0120R000001nOyvQAE','true','Household Account','Samantha Jones','','Samantha','','1.0','','0030R000012LqMxQAK',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HcQAI','Troi Household','','','','0120R000001nOyvQAE','true','Household Account','Liana Troi','','Liana','','1.0','','0030R000012LqMyQAK',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HdQAI','Smith Household','','','','0120R000001nOyvQAE','true','Household Account','Bob Smith','','Bob','','1.0','','0030R000012LqMzQAK',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HeQAI','O''Brien Household','','','','0120R000001nOyvQAE','true','Household Account','Miles O''Brien','','Miles','','1.0','','0030R000012LqN0QAK',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HfQAI','Gray Household','','','','0120R000001nOyvQAE','true','Household Account','Earl Gray','','Earl','','1.0','','0030R000012LqN1QAK',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HgQAI','Blumenthal Household','','','','0120R000001nOyvQAE','true','Household Account','Scott Blumenthal','','Scott','','1.0','','0030R000012LqN2QAK',NULL);
 INSERT INTO "Account" VALUES('0010R00001094HhQAI','New York Times','The Grey Lady. Newspaper of record for many. "The first draft of history."','555-212-5514','www.nytimes.com','0120R000001nOywQAE','false','','','','','','','','0030R000012LqN2QAK',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HiQAI','Yar Household','','','','0120R000001nOyvQAE','true','Household Account','Tanya Yar','','Tanya','','1.0','','0030R000012LqNBQA0',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HjQAI','Crusher Household','','','','0120R000001nOyvQAE','true','Household Account','Betsy Crusher','','Betsy','','1.0','','0030R000012LqNCQA0',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HkQAI','LaForge Household','','','','0120R000001nOyvQAE','true','Household Account','Georgina LaForge','','Georgina','','1.0','','0030R000012LqNDQA0',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HlQAI','Beard Household','','','','0120R000001nOyvQAE','true','Household Account','Momma Beard','','Momma','','1.0','','0030R000012LqNEQA0',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HmQAI','Odysseus Household','','','','0120R000001nOyvQAE','true','Household Account','Penelope Odysseus','','Penelope','','1.0','','0030R000012LqNFQA0',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HnQAI','Sisko Household','','','','0120R000001nOyvQAE','true','Household Account','Jake Sisko','','Jake','','1.0','','0030R000012LqNGQA0',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HoQAI','Marcus Household','','','','0120R000001nOyvQAE','true','Household Account','David Marcus','','David','','1.0','','0030R000012LqNHQA0',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HpQAI','Berry Household','','','','0120R000001nOyvQAE','true','Household Account','Boo Berry','','Boo','','1.0','','0030R000012LqN4QAK',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HqQAI','Chocula Household','','','','0120R000001nOyvQAE','true','Household Account','Count Chocula','','Count','','1.0','','0030R000012LqN5QAK',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HrQAI','Bully Household','','','','0120R000001nOyvQAE','true','Household Account','Bluto Bully','','Bluto','','1.0','','0030R000012LqN6QAK',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HsQAI','Oil Household','','','','0120R000001nOyvQAE','true','Household Account','Olive Oil','','Olive','','1.0','','0030R000012LqN7QAK',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HtQAI','Mom Household','','','','0120R000001nOyvQAE','true','Household Account','Popeye''s Mom','','Popeye''s','','1.0','','0030R000012LqN8QAK',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HuQAI','the First Mate Household','','','','0120R000001nOyvQAE','true','Household Account','Peleg the First Mate','','Peleg','','1.0','','0030R000012LqN9QAK',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HvQAI','Dick Household','','','','0120R000001nOyvQAE','true','Household Account','Moby Dick','','Moby','','1.0','','0030R000012LqNAQA0',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HwQAI','McNaughton Household','','','','0120R000001nOyvQAE','true','Household Account','Hester McNaughton','','Hester','','1.0','','0030R000012LqN3QAK',NULL);
+INSERT INTO "Account" VALUES('0010R00001094HxQAI','Helper Household','','','','0120R000001nOyvQAE','true','Household Account','Thomas Helper','','Thomas','','1.0','','0030R000012LqMuQAK',NULL);
 INSERT INTO "Account" VALUES('0010R00001094HyQAI','Resource Organization','One of the greatest resources available to Federation families. They specialize in helping with everything.','555-245-6458','www.resource.com','0120R000001nOywQAE','false','','','','','','','','0030R000012LqMuQAK',NULL);
 CREATE TABLE "Account_rt_mapping" (
 	record_type_id VARCHAR(18) NOT NULL, 
@@ -58,6 +82,18 @@ INSERT INTO "Case" VALUES('5000R000006nBw6QAE','false','Sexual Assault Preventio
 INSERT INTO "Case" VALUES('5000R000006nBw7QAE','false','Emergency/Crisis','Email','Tasha hasn''t been in contact with her family for weeks which is unusual. She participated in a team operation to rescue a team member, but hasn''t checked in since. We heard something weird happened but we don''t have all the facts.','New','Haven''t heard from Tasha Yar in weeks','','Medium','0010R00001094HiQAI','0030R000012LqNBQA0','','a0r0R000001ZcXSQA0',NULL);
 INSERT INTO "Case" VALUES('5000R000006nBw8QAE','false','Emergency/Crisis','Phone','Dr. Beverly Crusher''s sister called. On a recent call home, Dr. Crusher admitted that she was still grieving her husband, years after his loss and was suffering symptoms of depression. Family are concerned and request someone check in on her.','New','Grief Counseling Required','','Medium','0010R00001094HjQAI','0030R000012LqNCQA0','','a0r0R000001ZcXVQA0',NULL);
 INSERT INTO "Case" VALUES('5000R000006nBw9QAE','false','Other Info & Referral','Social Media','Wesley Crusher''s grandmother posted on Facebook that "the ship has wifi now and if you haven''t heard from your sailor yet then you should contact the Ombudsman immediately."','Closed','Overload of Emails due to Facebook Post','','Medium','0010R00001094HwQAI','0030R000012LqN3QAK','','a0r0R000001ZcXMQA0',NULL);
+CREATE TABLE "CaseComment" (
+	sf_id VARCHAR(255) NOT NULL, 
+	"CommentBody" VARCHAR(255), 
+	"ParentId" VARCHAR(255), 
+	record_type VARCHAR(255), 
+	PRIMARY KEY (sf_id)
+);
+INSERT INTO "CaseComment" VALUES('00a0R000003dOpgQAE','Contact Deanna Troi for counseling services','5000R000006nBw8QAE',NULL);
+INSERT INTO "CaseComment" VALUES('00a0R000003dOpbQAE','Miles O''Brien works with the Ombudsmen on a regular basis regarding apprenticeship/internship participants. He understands and appreciates our role. Great partner!','5000R000006nBv9QAE',NULL);
+INSERT INTO "CaseComment" VALUES('00a0R000003dOplQAE','Please confirm legality of this request from a news source before proceeding','5000R000006nBw2QAE',NULL);
+INSERT INTO "CaseComment" VALUES('00a0R000003dOpWQAU','Related to Vagra II Rescue Mission. This issue needs to be handled with the highest sensitivity. Please consult with Counselor Deanna Troi before communicating with family.','5000R000006nBw7QAE',NULL);
+INSERT INTO "CaseComment" VALUES('00a0R000003dOpXQAU','Must respond no later than June 1 to allow for shipping time before deployment','5000R000006nBv8QAE',NULL);
 CREATE TABLE "Contact" (
 	sf_id VARCHAR(255) NOT NULL, 
 	"FirstName" VARCHAR(255), 
@@ -158,22 +194,23 @@ INSERT INTO "Sailor__c" VALUES('a0r0R000001ZcXUQA0','Deanna Troi','NCC-1701','Me
 INSERT INTO "Sailor__c" VALUES('a0r0R000001ZcXVQA0','Beverly Crusher','NCC-1701','Medical','Beverly','','Crusher','2020-05-08','Doctor','itsdoctorcrushertoyou@ncc1701.navy.mil','Current','',NULL);
 INSERT INTO "Sailor__c" VALUES('a0r0R000001ZcXWQA0','Captain Hook','NCC-1701','Admin','Captain','9998','Hook','','Admiral','mkolodner+hook@nuromo.com','Current','',NULL);
 CREATE TABLE "Task" (
-	id INTEGER NOT NULL, 
+	sf_id VARCHAR(255) NOT NULL, 
 	"ActivityDate" VARCHAR(255), 
 	"Description" VARCHAR(255), 
 	"Status" VARCHAR(255), 
 	"Subject" VARCHAR(255), 
 	"WhoId" VARCHAR(255), 
+	"WhatId" VARCHAR(255), 
 	record_type VARCHAR(255), 
-	PRIMARY KEY (id)
+	PRIMARY KEY (sf_id)
 );
-INSERT INTO "Task" VALUES(1,'2020-05-06','Description/Comments field','Not Started','Subject of the Task','',NULL);
-INSERT INTO "Task" VALUES(2,'2020-05-15','','Not Started','Contact Deanna Troi re: Crusher','0030R000012LqMyQAK',NULL);
-INSERT INTO "Task" VALUES(3,'2020-05-30','','Not Started','Provide description of Ombudsman daily operations','0030R000012LqN1QAK',NULL);
-INSERT INTO "Task" VALUES(4,'2020-05-15','','In Progress','Contact Deanna Troi re: Tasha Yar','',NULL);
-INSERT INTO "Task" VALUES(5,'2020-05-08','','Completed','Provide mailing address','0030R000012LqN2QAK',NULL);
-INSERT INTO "Task" VALUES(6,'2020-05-15','','Not Started','Determine Ombudsman''s role','',NULL);
-INSERT INTO "Task" VALUES(7,'2020-05-10','Additional To: 
+INSERT INTO "Task" VALUES('00T0R00000Na7AhUAJ','2020-05-06','Description/Comments field','Not Started','Subject of the Task','','',NULL);
+INSERT INTO "Task" VALUES('00T0R00000Na7AiUAJ','2020-05-15','','Not Started','Contact Deanna Troi re: Crusher','0030R000012LqMyQAK','5000R000006nBw8QAE',NULL);
+INSERT INTO "Task" VALUES('00T0R00000Na7AjUAJ','2020-05-30','','Not Started','Provide description of Ombudsman daily operations','0030R000012LqN1QAK','5000R000006nBw1QAE',NULL);
+INSERT INTO "Task" VALUES('00T0R00000Na7AkUAJ','2020-05-15','','In Progress','Contact Deanna Troi re: Tasha Yar','','5000R000006nBw7QAE',NULL);
+INSERT INTO "Task" VALUES('00T0R00000Na7B5UAJ','2020-05-08','','Completed','Provide mailing address','0030R000012LqN2QAK','5000R000006nBw2QAE',NULL);
+INSERT INTO "Task" VALUES('00T0R00000Na7B6UAJ','2020-05-15','','Not Started','Determine Ombudsman''s role','','5000R000006nBw1QAE',NULL);
+INSERT INTO "Task" VALUES('00T0R00000Na7B7UAJ','2020-05-10','Additional To: 
 CC: 
 BCC: 34921581+mkolodner@users.noreply.github.com
 Attachment: 
@@ -182,8 +219,8 @@ Subject: Heard PopEye wasn''t getting enough spinach.    [ ref:_00D213aDj._50021
 Body:
 We''re here for you, Olive.
 
-ref:_00D213aDj._500215oiG0:ref','Completed','Email: Heard PopEye wasn''t getting enough spinach.    [ ref:_00D213aDj._500215oiG0:ref ]','',NULL);
-INSERT INTO "Task" VALUES(8,'2020-05-11','Additional To: mkolodner+familycontact10@nuromo.com
+ref:_00D213aDj._500215oiG0:ref','Completed','Email: Heard PopEye wasn''t getting enough spinach.    [ ref:_00D213aDj._500215oiG0:ref ]','','5000R000006nBw5QAE',NULL);
+INSERT INTO "Task" VALUES('00T0R00000Na7B8UAJ','2020-05-11','Additional To: mkolodner+familycontact10@nuromo.com
 CC: 
 BCC: 34921581+mkolodner@users.noreply.github.com
 Attachment: 
@@ -194,9 +231,9 @@ Georgina,
 Hang in there. I understand that your situation is very difficult. Here is a list of local food banks that should be able to give you some immediate help. 
  - Brittany
 
-ref:_00D213aDj._500215olRC:ref','Completed','Email: Struggling with Loss of Income Due to Layoffs    [ ref:_00D213aDj._500215olRC:ref ]','0030R000012LqNDQA0',NULL);
-INSERT INTO "Task" VALUES(9,'2020-05-11','','Waiting on someone else','Reached out to Federation for Resources','0030R000012LqN3QAK',NULL);
-INSERT INTO "Task" VALUES(10,'2020-05-11','Additional To: empathsunderstand@nuromo.com
+ref:_00D213aDj._500215olRC:ref','Completed','Email: Struggling with Loss of Income Due to Layoffs    [ ref:_00D213aDj._500215olRC:ref ]','0030R000012LqNDQA0','5000R000006nBw3QAE',NULL);
+INSERT INTO "Task" VALUES('00T0R00000Na7B9UAJ','2020-05-11','','Waiting on someone else','Reached out to Federation for Resources','0030R000012LqN3QAK','5000R000006nBw9QAE',NULL);
+INSERT INTO "Task" VALUES('00T0R00000Na7BAUAZ','2020-05-11','Additional To: empathsunderstand@nuromo.com
 CC: 
 BCC: 34921581+mkolodner@users.noreply.github.com
 Attachment: 
@@ -206,8 +243,8 @@ Body:
 Liana,
 Wanted to reach out to let you know that I''m still waiting for a response from Federation Fleet Services. I''ll get back to you as soon as I have more information.
 
-ref:_00D213aDj._500215olSP:ref','Completed','Email: Struggling with Depression and Anxiety    [ ref:_00D213aDj._500215olSP:ref ]','',NULL);
-INSERT INTO "Task" VALUES(11,'2020-05-11','Additional To: 
+ref:_00D213aDj._500215olSP:ref','Completed','Email: Struggling with Depression and Anxiety    [ ref:_00D213aDj._500215olSP:ref ]','','',NULL);
+INSERT INTO "Task" VALUES('00T0R00000Na7BBUAZ','2020-05-11','Additional To: 
 CC: 
 BCC: 34921581+mkolodner@users.noreply.github.com
 Attachment: 
@@ -217,8 +254,8 @@ Body:
 Ms McNaughton,
 Please note that during this time of crisis the volunteer ombudsmen do not have the capacity to reach out to individual sailors. 
 
-ref:_00D213aDj._500215olSo:ref','Completed','Email: Overload of Emails due to Facebook Post    [ ref:_00D213aDj._500215olSo:ref ]','',NULL);
-INSERT INTO "Task" VALUES(12,'2020-06-10','Additional To: michael@kolodner.com
+ref:_00D213aDj._500215olSo:ref','Completed','Email: Overload of Emails due to Facebook Post    [ ref:_00D213aDj._500215olSo:ref ]','','5000R000006nBw9QAE',NULL);
+INSERT INTO "Task" VALUES('00T0R00000Na8JMUAZ','2020-06-10','Additional To: michael@kolodner.com
 CC: 
 BCC: 
 Attachment: 
@@ -245,5 +282,5 @@ _____________________________________________________________________
 Powered by Salesforce
 http://cs94.salesforce.com/
 
-ref:_00D0RFB9K._5000R6nBw2:ref','Completed','Email: Ombudsman Update Re: Ongoing Matter    [ ref:_00D0RFB9K._5000R6nBw2:ref ]','',NULL);
+ref:_00D0RFB9K._5000R6nBw2:ref','Completed','Email: Ombudsman Update Re: Ongoing Matter    [ ref:_00D0RFB9K._5000R6nBw2:ref ]','','5000R000006nBw2QAE',NULL);
 COMMIT;

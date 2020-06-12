@@ -109,11 +109,22 @@ Insert Task:
   sf_object: Task
   table: Task
   fields:
+    Id: sf_id
     ActivityDate: ActivityDate
     Description: Description
     Status: Status
     Subject: Subject
-    WhoId: WhoId
   lookups:
+    WhoId:
+      table: Contact
     WhatId:
+      table: Case
+Insert CaseComment:
+  sf_object: CaseComment
+  table: CaseComment
+  fields:
+    Id: sf_id
+    CommentBody: CommentBody
+  lookups:
+    ParentId:
       table: Case
