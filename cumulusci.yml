@@ -17,10 +17,24 @@ tasks:
     options:
       path: unpackaged/config/dev
 
+  dx_install_mopsy:
+    class_path: cumulusci.tasks.sfdx.SFDXOrgTask
+    options:
+      command: "force:package:install -p 04t1n000002KQ4hAAG"
+
   dx_status:
     class_path: cumulusci.tasks.sfdx.SFDXOrgTask
     options:
       command: "force:source:status"
+
+  ensure_record_type:
+    name: Ensure Contact Record Types
+    description: This will ensure Record Types are enabled for the Contact object in your org before installing OCC. If there are no Contact record types yet, it will create one called Family Member.
+    class_path: cumulusci.tasks.salesforce.EnsureRecordTypes
+    options:
+      record_type_label: Family Member
+      record_type_developer_name: Family_Member
+      sobject: Contact
 
   robot:
     options:
@@ -32,6 +46,7 @@ tasks:
     options:
       path: robot/OmbudsmanCloudCare/tests
       output: robot/OmbudsmanCloudCare/doc/OmbudsmanCloudCare_tests.html
+
 flows:
   config_qa:
     steps:
@@ -43,3 +58,41 @@ flows:
         task: deploy_dev_config
       4:
         task: load_dataset
+
+  dependencies:
+    steps:
+      3:
+        task: ensure_record_type
+
+plans:
+  existing_org:
+    slug: install
+    title: Install Ombudsman Cloud Care
+    is_listed: True
+    tier: primary
+    preflight_message: "This will install Ombudsman Cloud Care into your org."
+    post_install_message: "Thanks for installing Ombudsman Cloud Care. Please visit the [Ombudsman Cloud Care](https://powerofus.force.com/s/group/0F91E0000000hq1SAA) community group on the Power of Us Hub for any questions about Ombudsmand Cloud Care."
+    error_message: "To get help with this error, go to [Ombudsman Cloud Care](https://powerofus.force.com/s/group/0F91E0000000hq1SAA) community group on the Power of Us Hub and post a question include any details about the install."
+
+    steps:
+      1:
+        task: update_dependencies
+      2:
+        task: deploy
+        options:
+          path: unpackaged/pre
+        ui_options:
+          name: OCC Pre Install Config for Salesforce
+      3:
+        task: ensure_record_type
+        ui_options:
+          name: Contact Record Types
+      4:
+        task: install_managed
+      5:
+        task: deploy_post
+        options:
+          unmanaged: False
+        ui_options:
+          first:
+            name: OCC Post Intall Config for Salesforce
