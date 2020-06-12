@@ -56,9 +56,6 @@ Insert Contact:
       after: Insert Contact
     Sailor__c:
       table: Sailor__c
-    npsp__Current_Address__c:
-      table: npsp__Address__c
-      after: Insert npsp__Address__c
     npsp__Primary_Affiliation__c:
       table: Account
       after: Insert Account
@@ -85,42 +82,6 @@ Insert Account:
       after: Insert Account
     npe01__One2OneContact__c:
       table: Contact
-Insert npsp__Address__c:
-  sf_object: npsp__Address__c
-  table: npsp__Address__c
-  fields:
-    Id: sf_id
-    npsp__API_Response__c: npsp__API_Response__c
-    npsp__Address_Type__c: npsp__Address_Type__c
-    npsp__Administrative_Area__c: npsp__Administrative_Area__c
-    npsp__Ambiguous__c: npsp__Ambiguous__c
-    npsp__Congressional_District__c: npsp__Congressional_District__c
-    npsp__County_Name__c: npsp__County_Name__c
-    npsp__Default_Address__c: npsp__Default_Address__c
-    npsp__Exclude_from_Updates__c: npsp__Exclude_from_Updates__c
-    npsp__Latest_End_Date__c: npsp__Latest_End_Date__c
-    npsp__Latest_Start_Date__c: npsp__Latest_Start_Date__c
-    npsp__MailingCity__c: npsp__MailingCity__c
-    npsp__MailingCountry__c: npsp__MailingCountry__c
-    npsp__MailingPostalCode__c: npsp__MailingPostalCode__c
-    npsp__MailingState__c: npsp__MailingState__c
-    npsp__MailingStreet2__c: npsp__MailingStreet2__c
-    npsp__MailingStreet__c: npsp__MailingStreet__c
-    npsp__NCOA_Evaluation_Date__c: npsp__NCOA_Evaluation_Date__c
-    npsp__NCOA_Result_Code__c: npsp__NCOA_Result_Code__c
-    npsp__Pre_Verification_Address__c: npsp__Pre_Verification_Address__c
-    npsp__Seasonal_End_Day__c: npsp__Seasonal_End_Day__c
-    npsp__Seasonal_End_Month__c: npsp__Seasonal_End_Month__c
-    npsp__Seasonal_Start_Day__c: npsp__Seasonal_Start_Day__c
-    npsp__Seasonal_Start_Month__c: npsp__Seasonal_Start_Month__c
-    npsp__State_Lower_District__c: npsp__State_Lower_District__c
-    npsp__State_Upper_District__c: npsp__State_Upper_District__c
-    npsp__Verification_Status__c: npsp__Verification_Status__c
-    npsp__Verified_Date__c: npsp__Verified_Date__c
-    npsp__Verified__c: npsp__Verified__c
-  lookups:
-    npsp__Household_Account__c:
-      table: Account
 Insert Case:
   sf_object: Case
   table: Case
@@ -152,3 +113,7 @@ Insert Task:
     Description: Description
     Status: Status
     Subject: Subject
+    WhoId: WhoId
+  lookups:
+    WhatId:
+      table: Case
