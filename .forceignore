@@ -6,10 +6,6 @@ package.xml
 # All Profiles
 *.profile
 
-# Ignore NPSP Metadata
-**.npsp
-**.npo02
-
 **.profileSessionSetting
 **.profilePasswordPolicy
 .DS_Store
