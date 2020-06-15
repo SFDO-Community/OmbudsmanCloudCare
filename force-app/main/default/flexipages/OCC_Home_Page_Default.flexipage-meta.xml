@@ -12,7 +12,7 @@
             </componentInstanceProperties>
             <componentName>flexipage:richText</componentName>
         </componentInstances>
-                <componentInstances>
+        <componentInstances>
             <componentInstanceProperties>
                 <name>enableInlineEdit</name>
                 <value>true</value>
@@ -120,45 +120,30 @@
     <flexiPageRegions>
         <componentInstances>
             <componentInstanceProperties>
-                <name>additionalFields</name>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>cardTitle</name>
-                <value>Task List</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>limitTasksShown</name>
-                <value>5</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>myTasks</name>
+                <name>enableInlineEdit</name>
                 <value>true</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>nullActivityDateFirst</name>
-                <value>true</value>
+                <name>entityName</name>
+                <value>Task</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>restrictTaskToHostRecord</name>
+                <name>filterName</name>
+                <value>OpenTasks</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>hideActionBar</name>
                 <value>false</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>showComments</name>
-                <value>One Line Truncated</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>showCompleteTaskCheckbox</name>
-                <value>true</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>showWithContact</name>
-                <value>Phone</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>sortByAscActivityDate</name>
+                <name>hideSearchBar</name>
                 <value>false</value>
             </componentInstanceProperties>
-            <componentName>Mopsy:Mopsy</componentName>
+            <componentInstanceProperties>
+                <name>pageSize</name>
+                <value>3</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:filterListCard</componentName>
         </componentInstances>
         <componentInstances>
             <componentName>home:recentRecordContainer</componentName>

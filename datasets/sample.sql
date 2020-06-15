@@ -18,8 +18,8 @@ CREATE TABLE "Account" (
 	record_type VARCHAR(255), 
 	PRIMARY KEY (sf_id)
 );
-INSERT INTO "Account" VALUES('0010R00001094HhQAI','New York Times','The Grey Lady. Newspaper of record for many. "The first draft of history."','555-212-5514','www.nytimes.com','0120R000001nOywQAE','false','','','','','','','','0030R000012LqN2QAK',NULL);
-INSERT INTO "Account" VALUES('0010R00001094HyQAI','Resource Organization','One of the greatest resources available to Federation families. They specialize in helping with everything.','555-245-6458','www.resource.com','0120R000001nOywQAE','false','','','','','','','','0030R000012LqMuQAK',NULL);
+INSERT INTO "Account" VALUES('001P000001f1NuvIAE','Resource Organization','One of the greatest resources available to Federation families. They specialize in helping with everything.','555-245-6458','www.resource.com','0120R000001nOywQAE','false','','','','','','','','0030R000012LqMuQAK',NULL);
+INSERT INTO "Account" VALUES('001P000001f1OMsIAM','New York Times','The Grey Lady. Newspaper of record for many. The first draft of history.','555-212-5514','www.nytimes.com','0120R000001nOywQAE','false','','','','','','','','0030R000012LqN2QAK',NULL);
 CREATE TABLE "Account_rt_mapping" (
 	record_type_id VARCHAR(18) NOT NULL, 
 	developer_name VARCHAR(255), 
