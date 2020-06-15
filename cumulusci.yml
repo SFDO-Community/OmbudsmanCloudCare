@@ -107,7 +107,7 @@ plans:
       1:
         task: update_dependencies
       2:
-        task: deploy
+        task: deploy_pre
         options:
           path: unpackaged/pre
         ui_options:
