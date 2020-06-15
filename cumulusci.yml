@@ -6,8 +6,6 @@ project:
     api_version: "48.0"
   dependencies:
     - github: "https://github.com/SalesforceFoundation/NPSP"
-    - namespace: Mopsy
-      version: "1.54"
   source_format: sfdx
 
 orgs:
@@ -22,11 +20,6 @@ tasks:
     class_path: cumulusci.tasks.salesforce.Deploy
     options:
       path: unpackaged/config/dev
-
-  dx_install_mopsy:
-    class_path: cumulusci.tasks.sfdx.SFDXOrgTask
-    options:
-      command: "force:package:install -p 04t1n000002KQ4hAAG"
 
   dx_status:
     class_path: cumulusci.tasks.sfdx.SFDXOrgTask
