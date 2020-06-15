@@ -124,4 +124,4 @@ plans:
           unmanaged: False
         ui_options:
           first:
-            name: OCC Post Intall Config for Salesforce
+            name: OCC Post Install Config for Salesforce
