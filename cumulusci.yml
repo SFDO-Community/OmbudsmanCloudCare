@@ -35,28 +35,42 @@ tasks:
       record_type_developer_name: Family_Member
       sobject: Contact
 
-    uninstall_packaged_incremental:
-      description: Deletes any metadata from the package in the target org not in the local workspace
-      class_path: cumulusci.tasks.salesforce.UninstallPackagedIncremental
-      options:
-        ignore:
-          QuickAction:
-            - NewEvent
-            - NewCase
-            - SendEmail
-            - Case.SendEmail
-          FlexiPage:
-            - NPSP_Address_Record_Page
-            - NPSP_Deliverable
-            - NPSP_Engagement_Plan_Record_Page
-            - NPSP_GAU_Allocation
-            - NPSP_General_Accounting_Unit
-          List_view:
-            - Household_Accounts
-            - Resource_Organization_Accounts
-          Compact_layouts:
-            - OCC_HH_Acct_Compact_Layout
-            - OCC_Org_Acct_Compact_Layout
+  list_changes:
+    name: List Changes from Scratch Org
+    description: List the changes from a scratch org
+    class_path: cumulusci.tasks.salesforce.sourcetracking.ListChanges
+    options:
+      exclude: "Profile, PicklistValue, StandardValueSet"
+
+  retrieve_changes:
+    name: Retrieve Changes from Scratch Org
+    description: Retrieve changed components from a scratch org
+    class_path: cumulusci.tasks.salesforce.sourcetracking.RetrieveChanges
+    options:
+      exclude: "Profile, PicklistValue, StandardValueSet"
+
+  uninstall_packaged_incremental:
+    description: Deletes any metadata from the package in the target org not in the local workspace
+    class_path: cumulusci.tasks.salesforce.UninstallPackagedIncremental
+    options:
+      ignore:
+        QuickAction:
+          - NewEvent
+          - NewCase
+          - SendEmail
+          - Case.SendEmail
+        FlexiPage:
+          - NPSP_Address_Record_Page
+          - NPSP_Deliverable
+          - NPSP_Engagement_Plan_Record_Page
+          - NPSP_GAU_Allocation
+          - NPSP_General_Accounting_Unit
+        List_view:
+          - Household_Accounts
+          - Resource_Organization_Accounts
+        Compact_layouts:
+          - OCC_HH_Acct_Compact_Layout
+          - OCC_Org_Acct_Compact_Layout
 
   robot:
     options:
