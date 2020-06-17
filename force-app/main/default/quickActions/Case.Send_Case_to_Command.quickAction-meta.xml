@@ -2,6 +2,10 @@
 <QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Allows users to send case details to Command.</description>
     <fieldOverrides>
+        <field>Send_Case_to_Command_Message__c</field>
+        <formula>True</formula>
+    </fieldOverrides>
+    <fieldOverrides>
         <field>ToAddress</field>
         <formula>&quot;&quot;</formula>
     </fieldOverrides>
