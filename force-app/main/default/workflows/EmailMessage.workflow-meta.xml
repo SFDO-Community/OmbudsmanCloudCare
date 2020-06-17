@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Update_Command_Contacted_Field</fullName>
+        <description>Updates the ‘Command Contacted’ Field to checked</description>
+        <field>Command_Contacted__c</field>
+        <literalValue>1</literalValue>
+        <name>Update ‘Command Contacted’ Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <rules>
+        <fullName>Automatic %E2%80%98Command Contacted%E2%80%99 Field Update</fullName>
+        <actions>
+            <name>Update_Command_Contacted_Field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>EmailMessage.Send_Case_to_Command_Message__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Updates ‘Command Contacted’ field after ‘Send Case to Command’ email is sent.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

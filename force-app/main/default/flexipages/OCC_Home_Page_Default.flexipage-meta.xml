@@ -119,31 +119,7 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentInstanceProperties>
-                <name>enableInlineEdit</name>
-                <value>true</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>entityName</name>
-                <value>Task</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>filterName</name>
-                <value>OpenTasks</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>hideActionBar</name>
-                <value>false</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>hideSearchBar</name>
-                <value>false</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>pageSize</name>
-                <value>3</value>
-            </componentInstanceProperties>
-            <componentName>flexipage:filterListCard</componentName>
+            <componentName>runtime_sales_activities:todayTaskContainer</componentName>
         </componentInstances>
         <componentInstances>
             <componentName>home:recentRecordContainer</componentName>
