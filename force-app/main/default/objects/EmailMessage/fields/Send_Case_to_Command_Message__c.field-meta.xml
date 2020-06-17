@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_Case_to_Command_Message__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether or not an email is a &apos;Send Case to Command&apos; email.</description>
+    <externalId>false</externalId>
+    <label>Send Case to Command Message</label>
+    <type>Checkbox</type>
+</CustomField>
