@@ -15,6 +15,80 @@ orgs:
       days: 30
 
 tasks:
+  add_standard_value_set_entries_caseorigin:
+    description: Adds specified picklist entries to Case Origin Standard Value Set.
+    class_path: cumulusci.tasks.metadata_etl.AddValueSetEntries
+    options:
+      api_names:
+        - CaseOrigin
+      entries:
+        - label: Social Media
+          fullName: Social Media
+
+  add_standard_value_set_entries_casepriority:
+    description: Adds specified picklist entries to Case Priority Standard Value Set.
+    class_path: cumulusci.tasks.metadata_etl.AddValueSetEntries
+    options:
+      api_names:
+        - CasePriority
+      entries:
+        - label: Mandatory Reportable
+          fullName: Mandatory Reportable
+
+  add_standard_value_set_entries_casereason:
+    description: Adds specified picklist entries to Case Reason Standard Value Set.
+    class_path: cumulusci.tasks.metadata_etl.AddValueSetEntries
+    options:
+      api_names:
+        - CaseReason
+      entries:
+        - label: Childcare
+          fullName: Childcare
+        - label: Deployment/FRG
+          fullName: Deployment/FRG
+        - label: Education
+          fullName: Education
+        - label: Emergency/Crisis
+          fullName: Emergency/Crisis
+        - label: Employment
+          fullName: Employment
+        - label: EFMP
+          fullName: EFMP
+        - label: Financial/Pay
+          fullName: Financial/Pay
+        - label: Individual Augmentee
+          fullName: Individual Augmentee
+        - label: Legal
+          fullName: Legal
+        - label: Medical
+          fullName: Medical
+        - label: Military Records
+          fullName: Military Records
+        - label: MWR
+          fullName: MWR
+        - label: Newsetter
+          fullName: Newsetter
+        - label: Red Cross Message
+          fullName: Red Cross Message
+        - label: Relocation/Housing/Sponsor
+          fullName: Relocation/Housing/Sponsor
+        - label: Sexual Assault Prevention
+          fullName: Sexual Assault Prevention
+        - label: Social Media
+          fullName: Social Media
+        - label: Other Info and Referral
+          fullName: Other Info and Referral
+
+  add_standard_value_set_entries_salutation:
+    description: Adds specified picklist entries to Salutation Standard Value Set.
+    class_path: cumulusci.tasks.metadata_etl.AddValueSetEntries
+    options:
+      api_names:
+        - Saluation
+      entries:
+        - label: Mx.
+          fullName: Mx.
+
   deploy_dev_config:
     description: Deploys the post install configuration for an unmanaged DE org
     class_path: cumulusci.tasks.salesforce.Deploy
@@ -106,6 +180,14 @@ flows:
   dependencies:
     steps:
       3:
+        task: add_standard_value_set_entries_caseorigin
+      4:
+        task: add_standard_value_set_entries_casereason
+      5:
+        task: add_standard_value_set_entries_casepriority
+      6:
+        task: add_standard_value_set_entries_salutation
+      7:
         task: ensure_record_type
 
 plans:
@@ -128,12 +210,28 @@ plans:
         ui_options:
           name: OCC Pre Install Config for Salesforce
       3:
+        task: add_standard_value_set_entries_caseorigin
+        ui_options:
+          name: Adds specified picklist entries to Case Origin Standard Value Set
+      4:
+        task: add_standard_value_set_entries_casereason
+        ui_options:
+          name: Adds specified picklist entries to Case Reason Standard Value Set
+      5:
+        task: add_standard_value_set_entries_casepriority
+        ui_options:
+          name: Adds specified picklist entries to Case Priority Standard Value Set
+      6:
+        task: add_standard_value_set_entries_salutation
+        ui_options:
+          name: Adds specified picklist entries to Salutation Standard Value Set
+      7:
         task: ensure_record_type
         ui_options:
           name: Contact Record Types
-      4:
+      8:
         task: install_managed
-      5:
+      9:
         task: deploy_post
         options:
           unmanaged: False
