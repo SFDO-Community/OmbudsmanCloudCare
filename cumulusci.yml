@@ -101,6 +101,12 @@ tasks:
     options:
       path: unpackaged/config/qa
 
+  deploy_standardvaluesets:
+    description: Deploys the pre install configuration for an unmanaged scratch org
+    class_path: cumulusci.tasks.salesforce.Deploy
+    options:
+      path: unpackaged/config/standardValueSets
+
   dx_status:
     class_path: cumulusci.tasks.sfdx.SFDXOrgTask
     options:
@@ -180,6 +186,8 @@ flows:
   dependencies:
     steps:
       3:
+        task: deploy_standardvaluesets
+      4:
         task: ensure_record_type
 
 plans:
