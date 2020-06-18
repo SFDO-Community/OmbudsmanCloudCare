@@ -84,7 +84,7 @@ tasks:
     class_path: cumulusci.tasks.metadata_etl.AddValueSetEntries
     options:
       api_names:
-        - Saluation
+        - Salutation
       entries:
         - label: Mx.
           fullName: Mx.
