@@ -4,5 +4,12 @@
     <members>Admin</members>
     <name>Profile</name>
   </types>
+  <types>
+    <name>StandardValueSet</name>
+    <members>CaseOrigin</members>
+    <members>CasePriority</members>
+    <members>CaseReason</members>
+    <members>Salutation</members>
+  </types>
   <version>48.0</version>
 </Package>

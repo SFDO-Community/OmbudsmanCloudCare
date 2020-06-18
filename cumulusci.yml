@@ -180,14 +180,6 @@ flows:
   dependencies:
     steps:
       3:
-        task: add_standard_value_set_entries_caseorigin
-      4:
-        task: add_standard_value_set_entries_casereason
-      5:
-        task: add_standard_value_set_entries_casepriority
-      6:
-        task: add_standard_value_set_entries_salutation
-      7:
         task: ensure_record_type
 
 plans:
