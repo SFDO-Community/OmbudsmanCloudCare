@@ -83,9 +83,13 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-Task</tabs>
+    <tabs>OCC_Help_and_Training_Center</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Ombudsman_Cloud_Care_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>OCC_Help_and_Training_Center</tab>
+        </mappings>
         <mappings>
             <tab>Sailor__c</tab>
         </mappings>
