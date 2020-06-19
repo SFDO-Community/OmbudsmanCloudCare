@@ -23,7 +23,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>filterName</name>
-                <value>All_OCC_Open_Cases</value>
+                <value>MyOCCOpenCases</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>hideActionBar</name>
