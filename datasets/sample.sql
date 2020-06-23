@@ -193,7 +193,7 @@ Body:
 Liana,
 Wanted to reach out to let you know that I''m still waiting for a response from Federation Fleet Services. I''ll get back to you as soon as I have more information.
 
-ref:_00D213aDj._500215olSP:ref','Completed','Email: Struggling with Depression and Anxiety    [ ref:_00D213aDj._500215olSP:ref ]','6 min','','',NULL);
+ref:_00D213aDj._500215olSP:ref','Completed','Email: Struggling with Depression and Anxiety    [ ref:_00D213aDj._500215olSP:ref ]','15 min','','',NULL);
 INSERT INTO "Task" VALUES('00T1100000OLOnfEAH','2020-05-15','','Not Started','Determine Ombudsman''s role','30 min','','5001100000HN2W6AAL',NULL);
 INSERT INTO "Task" VALUES('00T1100000OLOngEAH','2020-06-10','Additional To: michael@kolodner.com
 CC: 
@@ -242,7 +242,7 @@ Please note that during this time of crisis the volunteer ombudsmen do not have 
 
 ref:_00D213aDj._500215olSo:ref','Completed','Email: Overload of Emails due to Facebook Post    [ ref:_00D213aDj._500215olSo:ref ]','6 min','','5001100000HN2W9AAL',NULL);
 INSERT INTO "Task" VALUES('00T1100000OLOoYEAX','2020-05-15','','Not Started','Contact Deanna Troi re: Crusher','6 min','0031100001fHgjQAAS','5001100000HN2WDAA1',NULL);
-INSERT INTO "Task" VALUES('00T1100000OLOoZEAX','2020-05-30','','Not Started','Provide description of Ombudsman daily operations','6 min','0031100001fHgjTAAS','5001100000HN2W6AAL',NULL);
+INSERT INTO "Task" VALUES('00T1100000OLOoZEAX','2020-05-30','','Not Started','Provide description of Ombudsman daily operations','45 min','0031100001fHgjTAAS','5001100000HN2W6AAL',NULL);
 INSERT INTO "Task" VALUES('00T1100000OLOoaEAH','2020-05-08','','Completed','Provide mailing address','6 min','0031100001fHgjUAAS','5001100000HN2WEAA1',NULL);
 INSERT INTO "Task" VALUES('00T1100000OLOobEAH','2020-05-11','Additional To: mkolodner+familycontact10@nuromo.com
 CC: 
