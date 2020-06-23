@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomHelpMenuSection xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customHelpMenuItems>
+        <linkUrl>https://occadminhandbook.bit.ai/docs/view/Gn1Ljg0ko6W7ycjk</linkUrl>
+        <masterLabel>FAQ</masterLabel>
+        <sortOrder>1</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://occadminhandbook.bit.ai/docs/view/zv0wSuubp84Vnzsq</linkUrl>
+        <masterLabel>User Manual</masterLabel>
+        <sortOrder>2</sortOrder>
+    </customHelpMenuItems>
+    <masterLabel>Ombudsman Cloud Care Help and Training</masterLabel>
+</CustomHelpMenuSection>

@@ -114,6 +114,7 @@ Insert Task:
     Description: Description
     Status: Status
     Subject: Subject
+    Time_Spent__c: Time_Spent__c
   lookups:
     WhoId:
       table: Contact

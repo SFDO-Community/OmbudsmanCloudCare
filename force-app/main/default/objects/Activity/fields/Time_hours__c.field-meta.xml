@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_hours__c</fullName>
+    <description>Converts &apos;Time Spent&apos; to fractional hours</description>
+    <externalId>false</externalId>
+    <formula>CASE(Time_Spent__c, 
+  &apos;0&apos;, 0, 
+  &apos;6 min&apos;, 0.10,
+  &apos;15 min&apos;, 0.25,
+  &apos;30 min&apos;, 0.50,
+  &apos;45 min&apos;, 0.75,
+  &apos;1 hour&apos;, 1,
+  &apos;1 hour 15 min&apos;, 1.25,
+  &apos;1 hour 30 min&apos;, 1.50,
+  &apos;2 hours&apos;, 2,
+  &apos;2 hours 30 min&apos;, 2.50,
+  &apos;3 hours&apos;, 3,
+  &apos;4 hours&apos;, 4,
+  0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Time (hours)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
