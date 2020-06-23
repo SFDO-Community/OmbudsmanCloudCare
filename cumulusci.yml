@@ -197,7 +197,7 @@ plans:
     is_listed: True
     tier: primary
     preflight_message: "This will install Ombudsman Cloud Care into your org."
-    post_install_message: "Thanks for installing Ombudsman Cloud Care. Please visit the [Ombudsman Cloud Care](https://powerofus.force.com/s/group/0F91E0000000hq1SAA) community group on the Power of Us Hub for any questions about Ombudsmand Cloud Care."
+    post_install_message: "Thanks for installing Ombudsman Cloud Care. Please visit the [Ombudsman Cloud Care](https://powerofus.force.com/s/group/0F91E0000000hq1SAA) community group on the Power of Us Hub for any questions about Ombudsman Cloud Care."
     error_message: "To get help with this error, go to [Ombudsman Cloud Care](https://powerofus.force.com/s/group/0F91E0000000hq1SAA) community group on the Power of Us Hub and post a question include any details about the install."
 
     steps:
