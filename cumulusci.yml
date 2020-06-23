@@ -141,10 +141,11 @@ tasks:
     options:
       ignore:
         QuickAction:
+          - NewTask
+          - LogACall
           - NewEvent
           - NewCase
-          - SendEmail
-          - Case.SendEmail
+          - Case.LogACall
         FlexiPage:
           - NPSP_Address_Record_Page
           - NPSP_Deliverable
