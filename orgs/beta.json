@@ -28,9 +28,6 @@
         "forceRelogin": false
       }
     },
-    "languageSettings": {
-      "enableTranslationWorkbench": true
-    },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
     }

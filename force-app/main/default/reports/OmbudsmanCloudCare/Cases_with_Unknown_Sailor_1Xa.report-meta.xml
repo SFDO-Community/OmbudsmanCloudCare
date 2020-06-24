@@ -33,7 +33,6 @@
             <operator>equals</operator>
             <value>Name Unknown (DO NOT EDIT)</value>
         </criteriaItems>
-        <language>en_US</language>
     </filter>
     <format>Tabular</format>
     <name>Cases with Unknown Sailor</name>
