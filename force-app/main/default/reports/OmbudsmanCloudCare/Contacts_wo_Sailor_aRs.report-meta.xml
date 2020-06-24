@@ -34,7 +34,6 @@
             <operator>notContain</operator>
             <value>DO NOT DELETE</value>
         </criteriaItems>
-        <language>en_US</language>
     </filter>
     <format>Summary</format>
     <groupingsDown>
