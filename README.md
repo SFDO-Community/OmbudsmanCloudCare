@@ -30,15 +30,20 @@ Originally conceived during the first weeks of the COVID-19 crisis, OCC is built
 ## Steering Committee/Tiger Team
 
 [Mary Crozier](https://powerofus.force.com/s/profile/0051E00000GYcPYQA1), Founder
+
 [Shelley Bolt](https://powerofus.force.com/s/profile/0051E000003jsuzQAA), Salesforce Admin+Ombudsman Success
+
 [Michael Kolodner](https://powerofus.force.com/s/profile/00580000009bjBJAAY), App Architect
 
 
 ## Project Team
 
 Brittany Dickerson
+
 Laura Etzler
+
 [Katie Bianco Hernandez](https://powerofus.force.com/s/profile/0051E00000GYmx7QAD)
+
 [Nick Lindberg](https://powerofus.force.com/s/profile/00580000006BbyJAAS)
 
 
