@@ -1,5 +1,6 @@
-    "Do what you can, with what you have, where you are." 
+[insert image here]
 
+    "Do what you can, with what you have, where you are." 
 ~Theodore Roosevelt
 
 Navy Command Ombudsman serve on the frontlines supporting families of deployed Sailors and serving as a liaison to military units These volunteers are some of our nation's unsung heroes, and strive valiantly, 24/7, to assist family members of deployed Sailors experiencing hardship on the homefront. 
