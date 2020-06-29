@@ -1,4 +1,4 @@
-![Ombudsman Cloud Care logo featuring Lionheart Astro connecting a Naval officer to an ombudsman on the deck of a carrier.](https://raw.githubusercontent.com/SFDO-Community-Sprints/OmbudsmanCloudCare/master/Ombudsman_Cloud_Care_Logo.png)
+![Ombudsman Cloud Care logo featuring Lionheart Astro connecting a Naval officer to an ombudsman on the deck of a carrier.](https://github.com/SFDO-Community-Sprints/OmbudsmanCloudCare/master/Ombudsman Cloud Care Logo.png)
 
     "Do what you can, with what you have, where you are." 
 ~Theodore Roosevelt
