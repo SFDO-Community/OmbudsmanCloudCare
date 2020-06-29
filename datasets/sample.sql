@@ -182,8 +182,8 @@ CREATE TABLE "Task" (
 	record_type VARCHAR(255), 
 	PRIMARY KEY (sf_id)
 );
-INSERT INTO "Task" VALUES('00T1100000OLOndEAH','2020-05-06','Description/Comments field','Not Started','Subject of the Task','6 min','','',NULL);
-INSERT INTO "Task" VALUES('00T1100000OLOneEAH','2020-05-11','Additional To: empathsunderstand@nuromo.com
+INSERT INTO "Task" VALUES('00T1100000OLOndEAH',date('now', '+1 day'),'Description/Comments field','Not Started','Subject of the Task','6 min','','',NULL);
+INSERT INTO "Task" VALUES('00T1100000OLOneEAH',date('now'),'Additional To: empathsunderstand@nuromo.com
 CC: 
 BCC: 34921581+mkolodner@users.noreply.github.com
 Attachment: 
@@ -194,8 +194,8 @@ Liana,
 Wanted to reach out to let you know that I''m still waiting for a response from Federation Fleet Services. I''ll get back to you as soon as I have more information.
 
 ref:_00D213aDj._500215olSP:ref','Completed','Email: Struggling with Depression and Anxiety    [ ref:_00D213aDj._500215olSP:ref ]','15 min','','',NULL);
-INSERT INTO "Task" VALUES('00T1100000OLOnfEAH','2020-05-15','','Not Started','Determine Ombudsman''s role','30 min','','5001100000HN2W6AAL',NULL);
-INSERT INTO "Task" VALUES('00T1100000OLOngEAH','2020-06-10','Additional To: michael@kolodner.com
+INSERT INTO "Task" VALUES('00T1100000OLOnfEAH',date('now', '+1 day'),'','Not Started','Determine Ombudsman''s role','30 min','','5001100000HN2W6AAL',NULL);
+INSERT INTO "Task" VALUES('00T1100000OLOngEAH',date('now', '-2 day'),'Additional To: michael@kolodner.com
 CC: 
 BCC: 
 Attachment: 
@@ -219,8 +219,8 @@ Very respectfully,
 User User
 
 ref:_00D0RFB9K._5000R6nBw2:ref','Completed','Email: Ombudsman Update Re: Ongoing Matter    [ ref:_00D0RFB9K._5000R6nBw2:ref ]','15 min','','5001100000HN2WEAA1',NULL);
-INSERT INTO "Task" VALUES('00T1100000OLOoVEAX','2020-05-15','','In Progress','Contact Deanna Troi re: Tasha Yar','6 min','','5001100000HN2WCAA1',NULL);
-INSERT INTO "Task" VALUES('00T1100000OLOoWEAX','2020-05-10','Additional To: 
+INSERT INTO "Task" VALUES('00T1100000OLOoVEAX',date('now', '+2 day'),'','In Progress','Contact Deanna Troi re: Tasha Yar','6 min','','5001100000HN2WCAA1',NULL);
+INSERT INTO "Task" VALUES('00T1100000OLOoWEAX',date('now', '-1 day'),'Additional To: 
 CC: 
 BCC: 34921581+mkolodner@users.noreply.github.com
 Attachment: 
@@ -241,10 +241,10 @@ Ms McNaughton,
 Please note that during this time of crisis the volunteer ombudsmen do not have the capacity to reach out to individual sailors. 
 
 ref:_00D213aDj._500215olSo:ref','Completed','Email: Overload of Emails due to Facebook Post    [ ref:_00D213aDj._500215olSo:ref ]','6 min','','5001100000HN2W9AAL',NULL);
-INSERT INTO "Task" VALUES('00T1100000OLOoYEAX','2020-05-15','','Not Started','Contact Deanna Troi re: Crusher','6 min','0031100001fHgjQAAS','5001100000HN2WDAA1',NULL);
-INSERT INTO "Task" VALUES('00T1100000OLOoZEAX','2020-05-30','','Not Started','Provide description of Ombudsman daily operations','45 min','0031100001fHgjTAAS','5001100000HN2W6AAL',NULL);
-INSERT INTO "Task" VALUES('00T1100000OLOoaEAH','2020-05-08','','Completed','Provide mailing address','6 min','0031100001fHgjUAAS','5001100000HN2WEAA1',NULL);
-INSERT INTO "Task" VALUES('00T1100000OLOobEAH','2020-05-11','Additional To: mkolodner+familycontact10@nuromo.com
+INSERT INTO "Task" VALUES('00T1100000OLOoYEAX',date('now', '+3 day'),'','Not Started','Contact Deanna Troi re: Crusher','6 min','0031100001fHgjQAAS','5001100000HN2WDAA1',NULL);
+INSERT INTO "Task" VALUES('00T1100000OLOoZEAX',date('now'),'','Not Started','Provide description of Ombudsman daily operations','45 min','0031100001fHgjTAAS','5001100000HN2W6AAL',NULL);
+INSERT INTO "Task" VALUES('00T1100000OLOoaEAH',date('now'),'','Completed','Provide mailing address','6 min','0031100001fHgjUAAS','5001100000HN2WEAA1',NULL);
+INSERT INTO "Task" VALUES('00T1100000OLOobEAH',date('now', '-3 day'),'Additional To: mkolodner+familycontact10@nuromo.com
 CC: 
 BCC: 34921581+mkolodner@users.noreply.github.com
 Attachment: 
@@ -256,5 +256,5 @@ Hang in there. I understand that your situation is very difficult. Here is a lis
  - Brittany
 
 ref:_00D213aDj._500215olRC:ref','Completed','Email: Struggling with Loss of Income Due to Layoffs    [ ref:_00D213aDj._500215olRC:ref ]','15 min','0031100001fHgjVAAS','5001100000HN2W7AAL',NULL);
-INSERT INTO "Task" VALUES('00T1100000OLOocEAH','2020-05-11','','Waiting on someone else','Reached out to Federation for Resources','6 min','0031100001fHgjaAAC','5001100000HN2W9AAL',NULL);
+INSERT INTO "Task" VALUES('00T1100000OLOocEAH',date('now', '-4 day'),'','Waiting on someone else','Reached out to Federation for Resources','6 min','0031100001fHgjaAAC','5001100000HN2W9AAL',NULL);
 COMMIT;
