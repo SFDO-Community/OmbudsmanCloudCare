@@ -338,8 +338,14 @@
         <fields>npe5__Status__c</fields>
         <fields>npe5__StartDate__c</fields>
         <fields>npe5__EndDate__c</fields>
-        <fields>npsp__Related_Opportunity_Contact_Role__c</fields>
         <relatedList>npe5__Affiliation__c.npe5__Contact__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>npe4__RelatedContact__c</fields>
+        <fields>npe4__Relationship_Explanation__c</fields>
+        <fields>npe4__Status__c</fields>
+        <relatedList>npe4__Relationship__c.npe4__Contact__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
@@ -382,7 +388,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h63000001Y8pt</masterLabel>
+        <masterLabel>00h5B000000zmzT</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
