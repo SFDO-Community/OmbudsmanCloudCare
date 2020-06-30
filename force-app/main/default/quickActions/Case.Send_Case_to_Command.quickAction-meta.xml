@@ -2,6 +2,26 @@
 <QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Allows users to send case details to Command.</description>
     <fieldOverrides>
+        <field>HtmlBody</field>
+        <formula>&quot;Dear Sirs,&quot;&amp;&quot;&lt;br&gt;&lt;br&gt;&quot;
+
+&amp;&quot;I&apos;m touching base to share the below information regarding a matter that involves a member of your Command:&quot;&amp;&quot;&lt;br&gt;&lt;br&gt;&quot;
+
+&amp;&quot;&lt;b&gt;&quot;&amp;&quot;Case Priority: &quot;&amp;&quot;&lt;/b&gt;&quot; &amp; TEXT(Case.Priority) &amp;&quot;&lt;br&gt;&quot;
+&amp;&quot;&lt;b&gt;&quot;&amp;&quot;Individual Name: &quot;&amp;&quot;&lt;/b&gt;&quot; &amp; Case.Contact.FirstName &amp; &quot; &quot; &amp; Case.Contact.LastName &amp;&quot;&lt;br&gt;&quot;
+&amp;&quot;&lt;b&gt;&quot;&amp;&quot;Sailor Name: &quot;&amp;&quot;&lt;/b&gt;&quot; &amp;  Case.Sailor__r.Name  &amp;&quot;&lt;br&gt;&quot;
+&amp;&quot;&lt;b&gt;&quot;&amp;&quot;Sailor Rank/Rate: &quot;&amp;&quot;&lt;/b&gt;&quot; &amp; Case.Sailor__r.Rank_Rate__c &amp;&quot;&lt;br&gt;&quot;
+&amp;&quot;&lt;b&gt;&quot;&amp;&quot;Sailor Department: &quot;&amp;&quot;&lt;/b&gt;&quot; &amp;  TEXT(Case.Sailor__r.Department__c) &amp;&quot;&lt;br&gt;&quot;
+&amp;&quot;&lt;b&gt;&quot;&amp;&quot;Case Reason: &quot;&amp;&quot;&lt;/b&gt;&quot; &amp; TEXT(Case.Reason) &amp;&quot;&lt;br&gt;&quot;
+&amp;&quot;&lt;b&gt;&quot;&amp;&quot;Case Description: &quot;&amp;&quot;&lt;/b&gt;&quot; &amp; Case.Description &amp;&quot;&lt;br&gt;&lt;br&gt;&quot;
+
+&amp;&quot;I&apos;m happy to provide more details at your request.&quot; &amp;&quot;&lt;br&gt;&lt;br&gt;&quot;
+
+&amp;&quot;Very respectfully,&quot; &amp;&quot;&lt;br&gt;&lt;br&gt;&quot;
+
+&amp; Case.Owner:User.FirstName &amp; &quot; &quot; &amp; Case.Owner:User.LastName</formula>
+    </fieldOverrides>
+    <fieldOverrides>
         <field>Send_Case_to_Command_Message__c</field>
         <formula>True</formula>
     </fieldOverrides>
