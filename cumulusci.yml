@@ -147,7 +147,6 @@ tasks:
           - NewCase
           - SendEmail
           - Case.LogACall
-          - Case.SendEmail
         FlexiPage:
           - NPSP_Address_Record_Page
           - NPSP_Deliverable
