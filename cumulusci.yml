@@ -193,7 +193,7 @@ flows:
         task: ensure_record_type
 
 plans:
-  existing_org:
+  install:
     slug: install
     title: Install Ombudsman Cloud Care
     is_listed: True
@@ -201,6 +201,16 @@ plans:
     preflight_message: "This will install Ombudsman Cloud Care into your org."
     post_install_message: "Thanks for installing Ombudsman Cloud Care. Please visit the [Ombudsman Cloud Care](https://powerofus.force.com/s/group/0F91E0000000hq1SAA) community group on the Power of Us Hub for any questions about Ombudsman Cloud Care."
     error_message: "To get help with this error, go to [Ombudsman Cloud Care](https://powerofus.force.com/s/group/0F91E0000000hq1SAA) community group on the Power of Us Hub and post a question include any details about the install."
+    checks:
+      - when: "'.my.' not in org_config.instance_url"
+        action: error
+        message: "Please enable My Domain in your org prior to installing."
+      - when: "email to case is not enabled"
+        action: error
+        message: "Please enable Email-to-Case in your org prior to installing."
+      - when: "notes 2.0 is not enabled"
+        action: error
+        message: "Please enable Notes in your org prior to installing."
 
     steps:
       1:
