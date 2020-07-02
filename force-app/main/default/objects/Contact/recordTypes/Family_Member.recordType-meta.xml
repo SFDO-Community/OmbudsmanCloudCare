@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RecordType xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Family_Member</fullName>
     <active>true</active>
+    <compactLayoutAssignment>OCC_Family_Contact_Compact</compactLayoutAssignment>
     <description>Select when adding anyone whom the service member has authorized to be included.</description>
     <label>Family Member</label>
     <picklistValues>

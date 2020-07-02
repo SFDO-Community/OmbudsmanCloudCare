@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Primary_Affiliation_not_to_a_Household</fullName>
     <active>true</active>
     <description>Primary Affiliation is meant to capture relationships to Organization Accounts. This validation rule prevents putting a household account in the Primary Affiliation Field.</description>

@@ -117,8 +117,8 @@ tasks:
     description: This will ensure Record Types are enabled for the Contact object in your org before installing OCC. If there are no Contact record types yet, it will create one called Family Member.
     class_path: cumulusci.tasks.salesforce.EnsureRecordTypes
     options:
-      record_type_label: Family Member
-      record_type_developer_name: Family_Member
+      record_type_label: OCC Default
+      record_type_developer_name: OCC_Default
       sobject: Contact
 
   list_changes:
@@ -147,7 +147,6 @@ tasks:
           - NewCase
           - SendEmail
           - Case.LogACall
-          - Case.SendEmail
         FlexiPage:
           - NPSP_Address_Record_Page
           - NPSP_Deliverable
