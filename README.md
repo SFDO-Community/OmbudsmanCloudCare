@@ -22,6 +22,10 @@ Root Problems:
 Originally conceived during the first weeks of the COVID-19 crisis, OCC is built to handle Ombudsman needs during crisis and day-to-day operations. With Ombudsman Cloud Care, Ombudsman have access to a modern, secure, cloud-based case management and a collaboration solution so they will be ready for the regular challenges of deployment and the extraordinary stresses of future crises.
 
 
+## OCC Admin Handbook
+[Handbook](https://occadminhandbook.bit.ai/docs/view/zv0wSuubp84Vnzsq)
+
+
 ## Presentation/Brochure
 
 [Ombudsman Cloud Care White Paper](https://drive.google.com/file/d/1J1ZFsZ2pZaGdE3lKT_NPUxL1KmibO0h1/view?usp=sharing)
