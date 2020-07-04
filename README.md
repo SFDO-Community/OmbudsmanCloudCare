@@ -1,4 +1,4 @@
-![Ombudsman Cloud Care logo featuring Lionheart Astro connecting a Naval officer to an ombudsman on the deck of a carrier.](https://raw.githubusercontent.com/SFDO-Community-Sprints/OmbudsmanCloudCare/master/Assets/OmbudsmanCloudCareLogo.png)
+![Ombudsman Cloud Care logo featuring Lionheart Astro connecting a Naval officer to an ombudsman on the deck of a carrier.](https://raw.githubusercontent.com/SFDO-Community-Sprints/OmbudsmanCloudCare/master/Assets/OmbudsmanCloudCareLogoSmall.png)
 
     "Do what you can, with what you have, where you are." 
 ~Theodore Roosevelt
@@ -97,3 +97,5 @@ To work on this project in a scratch org:
 1. [Set up CumulusCI](https://cumulusci.readthedocs.io/en/latest/tutorial.html)
 2. Run `cci flow run dev_org --org dev` to deploy this project.
 3. Run `cci org browser dev` to open the org in your browser.
+
+![Ombudsman Cloud Care logo featuring Lionheart Astro connecting a Naval officer to an ombudsman on the deck of a carrier.](https://raw.githubusercontent.com/SFDO-Community-Sprints/OmbudsmanCloudCare/master/Assets/OmbudsmanCloudCareLogoSmall.png)
