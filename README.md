@@ -89,6 +89,10 @@ In addition, it should be noted that Navy ombudsmen are volunteers. Though they 
 
 [Community Project - Ombudsman Cloud Care](https://powerofus.force.com/s/group/0F91E0000000hq1SAA/community-project-ombudsman-cloud-care): [https://powerofus.force.com/s/group/0F91E0000000hq1SAA/community-project-ombudsman-cloud-care](https://powerofus.force.com/s/group/0F91E0000000hq1SAA/community-project-ombudsman-cloud-care)
 
+## Installation Guide
+
+https://ombudcare.com/installationguide
+
 
 ## Development
 
