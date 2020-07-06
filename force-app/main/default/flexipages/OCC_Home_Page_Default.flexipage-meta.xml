@@ -8,7 +8,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>richTextValue</name>
-                <value>&lt;p&gt;&lt;b style=&quot;font-size: 20px; color: rgb(150, 153, 191);&quot;&gt;Welcome to the Ombudsman Cloud Care app!&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 14px; color: rgb(0, 0, 0);&quot;&gt;This cloud-based case management system is built to help you manage cases and keep families strong during deployment. &lt;/b&gt;&lt;/p&gt;</value>
+                <value>&lt;p&gt;&lt;b style=&quot;color: rgb(150, 153, 191); font-size: 20px;&quot;&gt;Welcome to the Ombudsman Cloud Care app!&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;This cloud-based case management system is built to help you manage cases, and keep families strong and connected throughout their time with the command.&lt;/b&gt;&lt;/p&gt;</value>
             </componentInstanceProperties>
             <componentName>flexipage:richText</componentName>
         </componentInstances>
