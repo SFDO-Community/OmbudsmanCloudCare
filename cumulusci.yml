@@ -205,6 +205,9 @@ plans:
       - when: "'.my.' not in org_config.instance_url"
         action: error
         message: "Please enable My Domain in your org prior to installing."
+      - when: "Do we need to check if NPSP is installed?  We have an update dependencies task as the first step so that should solve things I think"
+        action: error
+        message: ""
       - when: "email to case is not enabled"
         action: error
         message: "Please enable Email-to-Case in your org prior to installing."
