@@ -1,6 +1,6 @@
 {
   "orgName": "OmbudsmanCloudCare - Release Test Org",
-  "edition": "Enterprise",
+  "edition": "Developer",
   "settings": {
     "caseSettings": {
       "emailToCase": {
