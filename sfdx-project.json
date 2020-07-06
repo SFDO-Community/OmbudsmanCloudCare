@@ -1,1 +1,5 @@
-{"packageDirectories": [{"path": "force-app", "default": true}], "namespace": null, "sourceApiVersion": "48.0"}
+{
+  "packageDirectories": [{ "path": "force-app", "default": true }],
+  "namespace": "ombudcare",
+  "sourceApiVersion": "48.0"
+}

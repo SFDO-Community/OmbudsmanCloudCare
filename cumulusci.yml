@@ -3,6 +3,7 @@ project:
   name: OmbudsmanCloudCare
   package:
     name: OmbudsmanCloudCare
+    namespace: ombudcare
     api_version: "48.0"
   dependencies:
     - github: "https://github.com/SalesforceFoundation/NPSP"
