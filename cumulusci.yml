@@ -113,15 +113,6 @@ tasks:
     options:
       command: "force:source:status"
 
-  ensure_record_type:
-    name: Ensure Contact Record Types
-    description: This will ensure Record Types are enabled for the Contact object in your org before installing OCC. If there are no Contact record types yet, it will create one called Family Member.
-    class_path: cumulusci.tasks.salesforce.EnsureRecordTypes
-    options:
-      record_type_label: OCC Default
-      record_type_developer_name: OCC_Default
-      sobject: Contact
-
   list_changes:
     name: List Changes from Scratch Org
     description: List the changes from a scratch org
@@ -190,8 +181,6 @@ flows:
     steps:
       3:
         task: deploy_standardvaluesets
-      4:
-        task: ensure_record_type
 
 plans:
   install:
@@ -242,12 +231,8 @@ plans:
         ui_options:
           name: Adds specified picklist entries to Salutation Standard Value Set
       7:
-        task: ensure_record_type
-        ui_options:
-          name: Contact Record Types
-      8:
         task: install_managed
-      9:
+      8:
         task: deploy_post
         options:
           unmanaged: False
