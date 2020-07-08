@@ -15,6 +15,10 @@ orgs:
       config_file: orgs/demo.json
       days: 30
 
+    enterprise:
+      config_file: orgs/enterprise.json
+      days: 7
+
 tasks:
   add_standard_value_set_entries_caseorigin:
     description: Adds specified picklist entries to Case Origin Standard Value Set.
@@ -101,6 +105,12 @@ tasks:
     class_path: cumulusci.tasks.salesforce.Deploy
     options:
       path: unpackaged/config/qa
+
+  deploy_ombudcareprofile:
+    description: Deploys the post install configuration for Ombudsman Profile
+    class_path: cumulusci.tasks.salesforce.Deploy
+    options:
+      path: unpackaged/config/profiles
 
   deploy_standardvaluesets:
     description: Deploys the pre install configuration for an unmanaged scratch org

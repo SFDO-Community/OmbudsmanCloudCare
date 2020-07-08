@@ -1,0 +1,35 @@
+{
+  "orgName": "OmbudsmanCloudCare - Demo Org",
+  "edition": "Enterprise",
+  "settings": {
+    "caseSettings": {
+      "emailToCase": {
+        "enableEmailToCase": true
+      },
+      "webToCase": {
+        "enableWebToCase": true
+      }
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "chatterSettings": {
+      "enableChatter": true
+    },
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true
+    },
+    "userManagementSettings": {
+      "enableNewProfileUI": true
+    },
+    "securitySettings": {
+      "enableAdminLoginAsAnyUser": true,
+      "sessionSettings": {
+        "forceRelogin": false
+      }
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}

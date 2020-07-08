@@ -34,7 +34,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Case.Command_Contacted__c</field>
+        <field>Case.ombudcare__Command_Contacted__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -79,7 +79,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Case.Sailor__c</field>
+        <field>Case.ombudcare__Sailor__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -119,87 +119,87 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Contact.Relationship_to_Sailor__c</field>
+        <field>Contact.ombudcare__Relationship_to_Sailor__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Contact.Sailor__c</field>
+        <field>Contact.ombudcare__Sailor__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>EmailMessage.Send_Case_to_Command_Message__c</field>
+        <field>EmailMessage.ombudcare__Send_Case_to_Command_Message__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Event.Time_Spent__c</field>
+        <field>Event.ombudcare__Time_Spent__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Event.Time_hours__c</field>
+        <field>Event.ombudcare__Time_hours__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Sailor__c.Command_Name__c</field>
+        <field>Sailor__c.ombudcare__Command_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Sailor__c.Department__c</field>
+        <field>Sailor__c.ombudcare__Department__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Sailor__c.First_Name__c</field>
+        <field>Sailor__c.ombudcare__First_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Sailor__c.Last_4_of_SSN__c</field>
+        <field>Sailor__c.ombudcare__Last_4_of_SSN__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Sailor__c.Last_Name__c</field>
+        <field>Sailor__c.ombudcare__Last_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Sailor__c.Lookup_to_Contact__c</field>
+        <field>Sailor__c.ombudcare__Lookup_to_Contact__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Sailor__c.PRD__c</field>
+        <field>Sailor__c.ombudcare__PRD__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Sailor__c.Rank_Rate__c</field>
+        <field>Sailor__c.ombudcare__Rank_Rate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Sailor__c.Ship_Email__c</field>
+        <field>Sailor__c.ombudcare__Ship_Email__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Sailor__c.Status__c</field>
+        <field>Sailor__c.ombudcare__Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Task.Time_Spent__c</field>
+        <field>Task.ombudcare__Time_Spent__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Task.Time_hours__c</field>
+        <field>Task.ombudcare__Time_hours__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
@@ -213,14 +213,14 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-OCC Family Member</layout>
-        <recordType>Contact.Family_Member</recordType>
+        <recordType>Contact.ombudcare__Family_Member</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-OCC Resource Contact Layout</layout>
-        <recordType>Contact.Resource_Contact</recordType>
+        <recordType>Contact.ombudcare__Resource_Contact</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Sailor__c-Sailor Layout</layout>
+        <layout>ombudcare__Sailor__c-Sailor Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -237,25 +237,25 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
-        <object>Sailor__c</object>
+        <object>ombudcare__Sailor__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>Contact.Family_Member</recordType>
+        <recordType>Contact.ombudcare__Family_Member</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>Contact.Resource_Contact</recordType>
+        <recordType>Contact.ombudcare__Resource_Contact</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>OCC_Help_and_Training_Center</tab>
+        <tab>ombudcare__OCC_Help_and_Training_Center</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Sailor__c</tab>
+        <tab>ombudcare__Sailor__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
