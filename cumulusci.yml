@@ -217,35 +217,40 @@ plans:
 
     steps:
       1:
-        task: update_dependencies
-      2:
         task: deploy_pre
         options:
           path: unpackaged/pre
         ui_options:
           name: OCC Pre Install Config for Salesforce
-      3:
+      2:
         task: add_standard_value_set_entries_caseorigin
         ui_options:
           name: Adds specified picklist entries to Case Origin Standard Value Set
-      4:
+      3:
         task: add_standard_value_set_entries_casereason
         ui_options:
           name: Adds specified picklist entries to Case Reason Standard Value Set
-      5:
+      4:
         task: add_standard_value_set_entries_casepriority
         ui_options:
           name: Adds specified picklist entries to Case Priority Standard Value Set
-      6:
+      5:
         task: add_standard_value_set_entries_salutation
         ui_options:
           name: Adds specified picklist entries to Salutation Standard Value Set
-      7:
+      6:
         task: install_managed
-      8:
+      7:
         task: deploy_post
         options:
           unmanaged: False
         ui_options:
           first:
             name: OCC Post Install Config for Salesforce
+      8:
+        task: deploy_ombudcareprofile
+        options:
+          unmanaged: False
+        ui_options:
+          first:
+            name: OCC Post Install Config to create Ombudsman Cloud Care profile.
