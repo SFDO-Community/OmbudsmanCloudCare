@@ -40,6 +40,15 @@
         <field>ADDRESS2_STATE</field>
     </columns>
     <description>Number of On-boarded family members in the last 30 days</description>
+    <filter>
+        <criteriaItems>
+            <column>CONTACT_RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Contact.Family_Member</value>
+        </criteriaItems>
+    </filter>
     <format>Summary</format>
     <groupingsDown>
         <field>CREATED_DATE</field>
