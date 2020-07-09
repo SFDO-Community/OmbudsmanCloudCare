@@ -187,6 +187,10 @@ flows:
       4:
         task: load_dataset
 
+  config_managed:
+    steps:
+      3: deploy_ombudcareprofile
+
   dependencies:
     steps:
       3:
