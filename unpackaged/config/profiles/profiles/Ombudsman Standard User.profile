@@ -2,6 +2,16 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
     <description>Profile for ombudsman users, installed by the OCC app but unmanaged once installed.</description>
+    <applicationVisibilities>
+        <application>ombudcare__Ombudsman_Cloud_Care</application>
+        <default>true</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>npsp__Nonprofit_CRM</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.AccountId</field>
