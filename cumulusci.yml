@@ -189,7 +189,10 @@ flows:
 
   config_managed:
     steps:
-      3: deploy_ombudcareprofile
+      3:
+        task: deploy_dev_config
+      4:
+        task: deploy_ombudcareprofile
 
   dependencies:
     steps:
