@@ -40,7 +40,7 @@ CREATE TABLE "Case" (
 	"AccountId" VARCHAR(255), 
 	"ContactId" VARCHAR(255), 
 	"ParentId" VARCHAR(255), 
-	"Sailor__c" VARCHAR(255), 
+	"ombudcare__Sailor__c" VARCHAR(255), 
 	record_type VARCHAR(255), 
 	PRIMARY KEY (sf_id)
 );
@@ -75,12 +75,11 @@ CREATE TABLE "Contact" (
 	sf_id VARCHAR(255) NOT NULL, 
 	"FirstName" VARCHAR(255), 
 	"LastName" VARCHAR(255), 
-	"DoNotCall" VARCHAR(255), 
 	"Email" VARCHAR(255), 
 	"HasOptedOutOfEmail" VARCHAR(255), 
 	"HasOptedOutOfFax" VARCHAR(255), 
 	"RecordTypeId" VARCHAR(255), 
-	"Relationship_to_Sailor__c" VARCHAR(255), 
+	"ombudcare__Relationship_to_Sailor__c" VARCHAR(255), 
 	"npe01__AlternateEmail__c" VARCHAR(255), 
 	"npe01__HomeEmail__c" VARCHAR(255), 
 	"npe01__PreferredPhone__c" VARCHAR(255), 
@@ -100,35 +99,35 @@ CREATE TABLE "Contact" (
 	"Phone" VARCHAR(255), 
 	"AccountId" VARCHAR(255), 
 	"ReportsToId" VARCHAR(255), 
-	"Sailor__c" VARCHAR(255), 
+	"ombudcare__Sailor__c" VARCHAR(255), 
 	"npsp__Primary_Affiliation__c" VARCHAR(255), 
 	record_type VARCHAR(255), 
 	PRIMARY KEY (sf_id)
 );
-INSERT INTO "Contact" VALUES('0031100001fHgjMAAS','Thomas','Helper','false','help@resource.com','false','false','01211000001FToRAAW','','','','Work','Work','','false','','','help@resource.com','555-333-5654','false','false','false','false','false','false','555-333-5654','0011100001vZ1e1AAC','','','0011100001vZ1nVAAS',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjNAAS','Octavia','Marcus','false','mkolodner+familycontact1@nuromo.com','false','false','01211000001FToMAAW','Ex Wife','','mkolodner+familycontact1@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1e2AAC','','','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjOAAS','Michael','Kolodner','false','michael@kolodner.com','false','false','01211000001FToRAAW','','','michael@kolodner.com','Home','Personal','','false','','','michael@kolodner.com','','false','false','false','false','false','false','5555551212','0011100001vZ1e3AAC','','','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjPAAS','Samantha','Jones','false','samanthajones@nuromo.com','false','false','01211000001FToRAAW','','','samanthajones@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','5555551212','0011100001vZ1mUAAS','','','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjQAAS','Liana','Troi','false','empathsunderstand@nuromo.com','false','false','01211000001FToRAAW','','','empathsunderstand@nuromo.com','Home','Personal','','false','','','','','false','false','false','false','false','false','5555551212','0011100001vZ1mVAAS','','','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjRAAS','Bob','Smith','false','alleyesondeck@nuromo.com','false','false','01211000001FToRAAW','','','alleyesondeck@nuromo.com','Home','Personal','','false','','','','','false','false','false','false','false','false','5555551212','0011100001vZ1mWAAS','','','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjSAAS','Miles','O''Brien','false','getthereinonepiece@nuromo.com','false','false','01211000001FToRAAW','','','getthereinonepiece@nuromo.com','Home','Personal','','false','','','','','false','false','false','false','false','false','5555551212','0011100001vZ1mXAAS','','','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjTAAS','Earl','Gray','false','earl@kolodner.com','false','false','01211000001FToRAAW','','','earl@kolodner.com','Home','Personal','','false','','','','','false','false','false','false','false','false','5555551212','0011100001vZ1mYAAS','','','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjUAAS','Scott','Blumenthal','false','scott@kolodner.com','false','false','01211000001FToRAAW','','','scott@kolodner.com','Home','Personal','','false','','','','','false','false','false','false','false','false','5555551212','0011100001vZ1mZAAS','','','0011100001vZ1nWAAS',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjVAAS','Georgina','LaForge','false','mkolodner+familycontact10@nuromo.com','false','false','01211000001FToMAAW','Wife','','mkolodner+familycontact10@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1maAAC','','a0q11000005hol4AAA','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjWAAS','Momma','Beard','false','','false','false','01211000001FToMAAW','Mom','','','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mbAAC','','a0q11000005hol5AAA','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjXAAS','Penelope','Odysseus','false','mkolodner+penelope@nuromo.com','false','false','01211000001FToMAAW','Wife','','mkolodner+penelope@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mcAAC','','a0q11000005hol6AAA','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjYAAS','Jake','Sisko','false','','false','false','01211000001FToMAAW','Son','','','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mdAAC','','a0q11000005hol7AAA','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjZAAS','David','Marcus','false','mkolodner+familycontact2@nuromo.com','false','false','01211000001FToMAAW','Son (estranged)','','mkolodner+familycontact2@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1meAAC','','a0q11000005hol9AAA','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjaAAC','Hester','McNaughton','false','','false','false','01211000001FToMAAW','Grandmother','','','Home','Personal','','false','','','','','false','false','false','false','false','false','','0011100001vZ1mfAAC','','a0q11000005holAAAQ','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjbAAC','Count','Chocula','false','mkolodner+familycontact4@nuromo.com','false','false','01211000001FToMAAW','Peer','','mkolodner+familycontact4@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mgAAC','','a0q11000005holBAAQ','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjcAAC','Boo','Berry','false','mkolodner+familycontact3@nuromo.com','false','false','01211000001FToMAAW','Best Friend','','mkolodner+familycontact3@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mhAAC','','a0q11000005holBAAQ','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjdAAC','Bluto','Bully','false','mkolodner+familycontact5@nuromo.com','false','false','01211000001FToMAAW','Frenemy','','mkolodner+familycontact5@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1miAAC','','a0q11000005holCAAQ','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjeAAC','Olive','Oil','false','mkolodner+familycontact6@nuromo.com','false','false','01211000001FToMAAW','Significant Other','','mkolodner+familycontact6@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mjAAC','','a0q11000005holCAAQ','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjfAAC','Popeye''s','Mom','false','mkolodner+familycontact7@nuromo.com','false','false','01211000001FToMAAW','Mother','','mkolodner+familycontact7@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mkAAC','','a0q11000005holCAAQ','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjgAAC','Peleg','the First Mate','false','mkolodner+familycontact8@nuromo.com','false','false','01211000001FToMAAW','Mate','','mkolodner+familycontact8@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mlAAC','','a0q11000005holDAAQ','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjhAAC','Moby','Dick','false','mkolodner+familycontact9@nuromo.com','false','false','01211000001FToMAAW','Frenemy','','mkolodner+familycontact9@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mmAAC','','a0q11000005holDAAQ','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjiAAC','Tanya','Yar','false','tanyayar@nuromo.com','false','false','01211000001FToMAAW','Sister','','tanyayar@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mnAAC','','a0q11000005holGAAQ','',NULL);
-INSERT INTO "Contact" VALUES('0031100001fHgjjAAC','Betsy','Crusher','false','mkolodner+crushingit@nuromo.com','false','false','01211000001FToMAAW','Sister','','mkolodner+crushingit@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1moAAC','','a0q11000005holJAAQ','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjMAAS','Thomas','Helper','help@resource.com','false','false','01211000001FToRAAW','','','','Work','Work','','false','','','help@resource.com','555-333-5654','false','false','false','false','false','false','555-333-5654','0011100001vZ1e1AAC','','','0011100001vZ1nVAAS',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjNAAS','Octavia','Marcus','mkolodner+familycontact1@nuromo.com','false','false','01211000001FToMAAW','Ex Wife','','mkolodner+familycontact1@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1e2AAC','','','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjOAAS','Michael','Kolodner','michael@kolodner.com','false','false','01211000001FToRAAW','','','michael@kolodner.com','Home','Personal','','false','','','michael@kolodner.com','','false','false','false','false','false','false','5555551212','0011100001vZ1e3AAC','','','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjPAAS','Samantha','Jones','samanthajones@nuromo.com','false','false','01211000001FToRAAW','','','samanthajones@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','5555551212','0011100001vZ1mUAAS','','','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjQAAS','Liana','Troi','empathsunderstand@nuromo.com','false','false','01211000001FToRAAW','','','empathsunderstand@nuromo.com','Home','Personal','','false','','','','','false','false','false','false','false','false','5555551212','0011100001vZ1mVAAS','','','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjRAAS','Bob','Smith','alleyesondeck@nuromo.com','false','false','01211000001FToRAAW','','','alleyesondeck@nuromo.com','Home','Personal','','false','','','','','false','false','false','false','false','false','5555551212','0011100001vZ1mWAAS','','','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjSAAS','Miles','O''Brien','getthereinonepiece@nuromo.com','false','false','01211000001FToRAAW','','','getthereinonepiece@nuromo.com','Home','Personal','','false','','','','','false','false','false','false','false','false','5555551212','0011100001vZ1mXAAS','','','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjTAAS','Earl','Gray','earl@kolodner.com','false','false','01211000001FToRAAW','','','earl@kolodner.com','Home','Personal','','false','','','','','false','false','false','false','false','false','5555551212','0011100001vZ1mYAAS','','','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjUAAS','Scott','Blumenthal','scott@kolodner.com','false','false','01211000001FToRAAW','','','scott@kolodner.com','Home','Personal','','false','','','','','false','false','false','false','false','false','5555551212','0011100001vZ1mZAAS','','','0011100001vZ1nWAAS',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjVAAS','Georgina','LaForge','mkolodner+familycontact10@nuromo.com','false','false','01211000001FToMAAW','Wife','','mkolodner+familycontact10@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1maAAC','','a0q11000005hol4AAA','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjWAAS','Momma','Beard','','false','false','01211000001FToMAAW','Mom','','','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mbAAC','','a0q11000005hol5AAA','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjXAAS','Penelope','Odysseus','mkolodner+penelope@nuromo.com','false','false','01211000001FToMAAW','Wife','','mkolodner+penelope@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mcAAC','','a0q11000005hol6AAA','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjYAAS','Jake','Sisko','','false','false','01211000001FToMAAW','Son','','','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mdAAC','','a0q11000005hol7AAA','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjZAAS','David','Marcus','mkolodner+familycontact2@nuromo.com','false','false','01211000001FToMAAW','Son (estranged)','','mkolodner+familycontact2@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1meAAC','','a0q11000005hol9AAA','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjaAAC','Hester','McNaughton','','false','false','01211000001FToMAAW','Grandmother','','','Home','Personal','','false','','','','','false','false','false','false','false','false','','0011100001vZ1mfAAC','','a0q11000005holAAAQ','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjbAAC','Count','Chocula','mkolodner+familycontact4@nuromo.com','false','false','01211000001FToMAAW','Peer','','mkolodner+familycontact4@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mgAAC','','a0q11000005holBAAQ','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjcAAC','Boo','Berry','mkolodner+familycontact3@nuromo.com','false','false','01211000001FToMAAW','Best Friend','','mkolodner+familycontact3@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mhAAC','','a0q11000005holBAAQ','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjdAAC','Bluto','Bully','mkolodner+familycontact5@nuromo.com','false','false','01211000001FToMAAW','Frenemy','','mkolodner+familycontact5@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1miAAC','','a0q11000005holCAAQ','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjeAAC','Olive','Oil','mkolodner+familycontact6@nuromo.com','false','false','01211000001FToMAAW','Significant Other','','mkolodner+familycontact6@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mjAAC','','a0q11000005holCAAQ','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjfAAC','Popeye''s','Mom','mkolodner+familycontact7@nuromo.com','false','false','01211000001FToMAAW','Mother','','mkolodner+familycontact7@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mkAAC','','a0q11000005holCAAQ','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjgAAC','Peleg','the First Mate','mkolodner+familycontact8@nuromo.com','false','false','01211000001FToMAAW','Mate','','mkolodner+familycontact8@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mlAAC','','a0q11000005holDAAQ','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjhAAC','Moby','Dick','mkolodner+familycontact9@nuromo.com','false','false','01211000001FToMAAW','Frenemy','','mkolodner+familycontact9@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mmAAC','','a0q11000005holDAAQ','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjiAAC','Tanya','Yar','tanyayar@nuromo.com','false','false','01211000001FToMAAW','Sister','','tanyayar@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1mnAAC','','a0q11000005holGAAQ','',NULL);
+INSERT INTO "Contact" VALUES('0031100001fHgjjAAC','Betsy','Crusher','mkolodner+crushingit@nuromo.com','false','false','01211000001FToMAAW','Sister','','mkolodner+crushingit@nuromo.com','Home','Personal','Home','false','','','','','false','false','false','false','false','false','2155551212','0011100001vZ1moAAC','','a0q11000005holJAAQ','',NULL);
 CREATE TABLE "Contact_rt_mapping" (
 	record_type_id VARCHAR(18) NOT NULL, 
 	developer_name VARCHAR(255), 
@@ -136,47 +135,47 @@ CREATE TABLE "Contact_rt_mapping" (
 );
 INSERT INTO "Contact_rt_mapping" VALUES('01211000001FToMAAW','Family_Member');
 INSERT INTO "Contact_rt_mapping" VALUES('01211000001FToRAAW','Resource_Contact');
-CREATE TABLE "Sailor__c" (
+CREATE TABLE "ombudcare__Sailor__c" (
 	sf_id VARCHAR(255) NOT NULL, 
 	"Name" VARCHAR(255), 
-	"Command_Name__c" VARCHAR(255), 
-	"Department__c" VARCHAR(255), 
-	"First_Name__c" VARCHAR(255), 
-	"Last_4_of_SSN__c" VARCHAR(255), 
-	"Last_Name__c" VARCHAR(255), 
-	"PRD__c" VARCHAR(255), 
-	"Rank_Rate__c" VARCHAR(255), 
-	"Ship_Email__c" VARCHAR(255), 
-	"Status__c" VARCHAR(255), 
-	"Lookup_to_Contact__c" VARCHAR(255), 
+	"ombudcare__Command_Name__c" VARCHAR(255), 
+	"ombudcare__Department__c" VARCHAR(255), 
+	"ombudcare__First_Name__c" VARCHAR(255), 
+	"ombudcare__Last_4_of_SSN__c" VARCHAR(255), 
+	"ombudcare__Last_Name__c" VARCHAR(255), 
+	"ombudcare__PRD__c" VARCHAR(255), 
+	"ombudcare__Rank_Rate__c" VARCHAR(255), 
+	"ombudcare__Ship_Email__c" VARCHAR(255), 
+	"ombudcare__Status__c" VARCHAR(255), 
+	"ombudcare__Lookup_to_Contact__c" VARCHAR(255), 
 	record_type VARCHAR(255), 
 	PRIMARY KEY (sf_id)
 );
-INSERT INTO "Sailor__c" VALUES('a0q11000005hol4AAA','Jordi LaForge','NCC-1701','Engineering','Jordi','2321','LaForge','','Science Officer','mkolodner+jordi@nuromo.com','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005hol5AAA','John Beard','NCC-1701','Air','John','','Beard','','AN','john.beard@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005hol6AAA','Mr. Odysseus','NCC-1701','Deck','Mr.','2121','Odysseus','','Lieutenent','mkolodner+odysseus@nuromo.com','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005hol7AAA','Benjamin Sisko','NCC-1701','Admin','Benjamin','','Sisko','','CMDR','benjamin.sisko@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005hol8AAA','Sinbad the Sailor','NCC-1701','Air','Sinbad','8989','the Sailor','','Warrant Ofcr','mkolodner+sinbad@nuromo.com','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005hol9AAA','James T. Kirk','NCC-1701','Air','James T.','6565','Kirk','','Admiral','mkolodner+kirk@nuromo.com','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005holAAAQ','Wesley Crusher','NCC-1701','Engineering','Wesley','','Crusher','2020-05-08','Ensign','justakidinspace@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005holBAAQ','Captain Crunch','NCC-1701','Operations','Captain','9898','Crunch','','Ensign','mkolodner+crunch@nuromo.com','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005holCAAQ','Popeye the Sailor Man','NCC-1701','Public Affairs','Popeye','9999','the Sailor Man','','Private','mkolodner+popeye@nuromo.com','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005holDAAQ','Captain Ahab','NCC-1701','Weapons','Captain','8888','Ahab','','Captain','mkolodner+ahab@nuromo.com','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005holEAAQ','William Riker','NCC-1701','Combat Systems','William','','Riker','2020-05-08','First Officer','rikerthestriker@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005holFAAQ','Jean-Luc Picard','NCC-1701','Admin','Jean-Luc','','Picard','2020-05-08','Captain','elcapitan@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005holGAAQ','Tasha Yar','NCC-1701','Safety','Tasha','','Yar','2020-05-08','Chief Security Officer','wherestashanow@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005holHAAQ','Lieutenant Worf','NCC-1701','Combat Systems','Lieutenant','','Worf','2020-05-08','Chief Security Officer','klingonsrule@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005hol3AAA','Name Unknown (DO NOT EDIT)','NCC-1701','','Name','','Unknown (DO NOT EDIT)','','Placeholder Record','','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005holIAAQ','Deanna Troi','NCC-1701','Medical','Deanna','','Troi','2020-05-08','Counselor','empathsunderstand@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005holJAAQ','Beverly Crusher','NCC-1701','Medical','Beverly','','Crusher','2020-05-08','Doctor','itsdoctorcrushertoyou@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "Sailor__c" VALUES('a0q11000005holKAAQ','Captain Hook','NCC-1701','Admin','Captain','9998','Hook','','Admiral','mkolodner+hook@nuromo.com','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005hol4AAA','Jordi LaForge','NCC-1701','Engineering','Jordi','2321','LaForge','','Science Officer','mkolodner+jordi@nuromo.com','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005hol5AAA','John Beard','NCC-1701','Air','John','','Beard','','AN','john.beard@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005hol6AAA','Mr. Odysseus','NCC-1701','Deck','Mr.','2121','Odysseus','','Lieutenent','mkolodner+odysseus@nuromo.com','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005hol7AAA','Benjamin Sisko','NCC-1701','Admin','Benjamin','','Sisko','','CMDR','benjamin.sisko@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005hol8AAA','Sinbad the Sailor','NCC-1701','Air','Sinbad','8989','the Sailor','','Warrant Ofcr','mkolodner+sinbad@nuromo.com','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005hol9AAA','James T. Kirk','NCC-1701','Air','James T.','6565','Kirk','','Admiral','mkolodner+kirk@nuromo.com','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holAAAQ','Wesley Crusher','NCC-1701','Engineering','Wesley','','Crusher','2020-05-08','Ensign','justakidinspace@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holBAAQ','Captain Crunch','NCC-1701','Operations','Captain','9898','Crunch','','Ensign','mkolodner+crunch@nuromo.com','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holCAAQ','Popeye the Sailor Man','NCC-1701','Public Affairs','Popeye','9999','the Sailor Man','','Private','mkolodner+popeye@nuromo.com','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holDAAQ','Captain Ahab','NCC-1701','Weapons','Captain','8888','Ahab','','Captain','mkolodner+ahab@nuromo.com','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holEAAQ','William Riker','NCC-1701','Combat Systems','William','','Riker','2020-05-08','First Officer','rikerthestriker@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holFAAQ','Jean-Luc Picard','NCC-1701','Admin','Jean-Luc','','Picard','2020-05-08','Captain','elcapitan@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holGAAQ','Tasha Yar','NCC-1701','Safety','Tasha','','Yar','2020-05-08','Chief Security Officer','wherestashanow@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holHAAQ','Lieutenant Worf','NCC-1701','Combat Systems','Lieutenant','','Worf','2020-05-08','Chief Security Officer','klingonsrule@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005hol3AAA','Name Unknown (DO NOT EDIT)','NCC-1701','','Name','','Unknown (DO NOT EDIT)','','Placeholder Record','','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holIAAQ','Deanna Troi','NCC-1701','Medical','Deanna','','Troi','2020-05-08','Counselor','empathsunderstand@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holJAAQ','Beverly Crusher','NCC-1701','Medical','Beverly','','Crusher','2020-05-08','Doctor','itsdoctorcrushertoyou@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holKAAQ','Captain Hook','NCC-1701','Admin','Captain','9998','Hook','','Admiral','mkolodner+hook@nuromo.com','Current','',NULL);
 CREATE TABLE "Task" (
 	sf_id VARCHAR(255) NOT NULL, 
 	"ActivityDate" VARCHAR(255), 
 	"Description" VARCHAR(255), 
 	"Status" VARCHAR(255), 
 	"Subject" VARCHAR(255), 
-	"Time_Spent__c" VARCHAR(255), 
+	"ombudcare__Time_Spent__c" VARCHAR(255), 
 	"WhoId" VARCHAR(255), 
 	"WhatId" VARCHAR(255), 
 	record_type VARCHAR(255), 
