@@ -29,10 +29,7 @@ Originally conceived during the first weeks of the COVID-19 crisis, OCC is built
 
 [Installation Guide](https://ombudcare.com/installationguide)
 
-
-## Presentation/Brochure
-
-[Ombudsman Cloud Care White Paper](https://drive.google.com/file/d/1J1ZFsZ2pZaGdE3lKT_NPUxL1KmibO0h1/view?usp=sharing)
+[Presentation/White Paper](https://drive.google.com/file/d/1J1ZFsZ2pZaGdE3lKT_NPUxL1KmibO0h1/view?usp=sharing)
 
 
 ## Steering Committee/Tiger Team
