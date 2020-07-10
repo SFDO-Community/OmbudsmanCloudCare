@@ -27,7 +27,7 @@ Originally conceived during the first weeks of the COVID-19 crisis, OCC is built
 
 [Handbook](https://occadminhandbook.bit.ai/docs/view/zv0wSuubp84Vnzsq)
 
-[Installation Guide] (https://ombudcare.com/installationguide)
+[Installation Guide](https://ombudcare.com/installationguide)
 
 
 ## Presentation/Brochure
