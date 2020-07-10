@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
-        <application>Ombudsman_Cloud_Care</application>
+        <application>%%%NAMESPACE%%%Ombudsman_Cloud_Care</application>
         <default>true</default>
         <visible>true</visible>
     </applicationVisibilities>
     <custom>false</custom>
     <layoutAssignments>
-        <layout>Account-OCC Household Account Layout</layout>
+        <layout>Account-%%%NAMESPACE%%%OCC Household Account Layout</layout>
         <recordType>Account.HH_Account</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-OCC Organization Account Layout</layout>
+        <layout>Account-%%%NAMESPACE%%%OCC Organization Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-OCC Organization Account Layout</layout>
+        <layout>Account-%%%NAMESPACE%%%OCC Organization Account Layout</layout>
         <recordType>Account.Organization</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Case Layout</layout>
+        <layout>Case-%%%NAMESPACE%%%OCC Case Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CaseClose-Close Case Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contact-OCC Family Member</layout>
+        <layout>Contact-%%%NAMESPACE%%%OCC Family Member</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contact-OCC Family Member</layout>
-        <recordType>Contact.Family_Member</recordType>
+        <layout>Contact-%%%NAMESPACE%%%OCC Family Member</layout>
+        <recordType>Contact.%%%NAMESPACE%%%Family_Member</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contact-OCC Resource Contact Layout</layout>
-        <recordType>Contact.Resource_Contact</recordType>
+        <layout>Contact-%%%NAMESPACE%%%OCC Resource Contact Layout</layout>
+        <recordType>Contact.%%%NAMESPACE%%%Resource_Contact</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Sailor__c-Sailor Layout</layout>
+        <layout>%%%NAMESPACE%%%Sailor__c-%%%NAMESPACE%%%Sailor Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Task-Task Layout</layout>
+        <layout>Task-%%%NAMESPACE%%%OCC Task Layout</layout>
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>true</default>
@@ -52,16 +52,16 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
-        <recordType>Contact.Family_Member</recordType>
+        <recordType>Contact.%%%NAMESPACE%%%Family_Member</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>Contact.Resource_Contact</recordType>
+        <recordType>Contact.%%%NAMESPACE%%%Resource_Contact</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>Sailor__c</tab>
+        <tab>%%%NAMESPACE%%%Sailor__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>

@@ -848,10 +848,38 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Account-ombudcare__OCC Household Account Layout</layout>
+        <recordType>Account.HH_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-ombudcare__OCC Organization Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-ombudcare__OCC Organization Account Layout</layout>
+        <recordType>Account.Organization</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Case-ombudcare__OCC Case Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Global-Global Layout</layout>
+        <layout>CaseClose-Close Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-ombudcare__OCC Family Member</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-ombudcare__OCC Family Member</layout>
+        <recordType>Contact.ombudcare__Family_Member</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-ombudcare__OCC Resource Contact Layout</layout>
+        <recordType>Contact.ombudcare__Resource_Contact</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ombudcare__Sailor__c-ombudcare__Sailor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-ombudcare__OCC Task Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>

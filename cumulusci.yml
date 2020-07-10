@@ -100,6 +100,14 @@ tasks:
     options:
       path: unpackaged/config/dev
 
+  deploy_managed_config:
+    description: Deploys the post install configuration for an unmanaged DE org
+    class_path: cumulusci.tasks.salesforce.Deploy
+    options:
+      path: unpackaged/config/dev
+      unmanaged: FALSE
+      namespace_inject: $project_config.project__package__namespace
+
   deploy_qa_config:
     description: Deploys the post install configuration for an unmanaged QA org
     class_path: cumulusci.tasks.salesforce.Deploy
@@ -110,7 +118,7 @@ tasks:
     description: Deploys the post install configuration for Ombudsman Profile
     class_path: cumulusci.tasks.salesforce.Deploy
     options:
-      path: unpackaged/config/profiles
+      path: unpackaged/config/customerprofiles
 
   deploy_standardvaluesets:
     description: Deploys the pre install configuration for an unmanaged scratch org
@@ -190,7 +198,7 @@ flows:
   config_managed:
     steps:
       3:
-        task: deploy_dev_config
+        task: deploy_managed_config
       4:
         task: deploy_ombudcareprofile
 
