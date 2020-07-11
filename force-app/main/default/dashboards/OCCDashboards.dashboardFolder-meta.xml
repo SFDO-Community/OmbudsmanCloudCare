@@ -5,5 +5,5 @@
         <sharedTo>AllInternalUsers</sharedTo>
         <sharedToType>Organization</sharedToType>
     </folderShares>
-    <name>OCC Dashboards</name>
+    <name>OCC Dashboards</name>    
 </DashboardFolder>
