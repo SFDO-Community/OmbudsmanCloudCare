@@ -142,6 +142,13 @@ tasks:
     options:
       exclude: "Profile, PicklistValue, StandardValueSet"
 
+  load_managed_dataset:
+    description: Load a sample dataset using the bulk API for managed package
+    class_path: cumulusci.tasks.bulkdata.LoadData
+    options:
+      mapping: datasets/managedmapping.yml
+      sql_path: datasets/sample.sql
+
   retrieve_changes:
     name: Retrieve Changes from Scratch Org
     description: Retrieve changed components from a scratch org
@@ -205,6 +212,8 @@ flows:
         task: deploy_managed_config
       4:
         task: deploy_ombudcareprofile
+      5:
+        task: load_managed_dataset
 
   dependencies:
     steps:
