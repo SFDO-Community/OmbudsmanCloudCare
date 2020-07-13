@@ -40,7 +40,7 @@ CREATE TABLE "Case" (
 	"AccountId" VARCHAR(255), 
 	"ContactId" VARCHAR(255), 
 	"ParentId" VARCHAR(255), 
-	"ombudcare__Sailor__c" VARCHAR(255), 
+	"Sailor__c" VARCHAR(255), 
 	record_type VARCHAR(255), 
 	PRIMARY KEY (sf_id)
 );
@@ -79,7 +79,7 @@ CREATE TABLE "Contact" (
 	"HasOptedOutOfEmail" VARCHAR(255), 
 	"HasOptedOutOfFax" VARCHAR(255), 
 	"RecordTypeId" VARCHAR(255), 
-	"ombudcare__Relationship_to_Sailor__c" VARCHAR(255), 
+	"Relationship_to_Sailor__c" VARCHAR(255), 
 	"npe01__AlternateEmail__c" VARCHAR(255), 
 	"npe01__HomeEmail__c" VARCHAR(255), 
 	"npe01__PreferredPhone__c" VARCHAR(255), 
@@ -99,7 +99,7 @@ CREATE TABLE "Contact" (
 	"Phone" VARCHAR(255), 
 	"AccountId" VARCHAR(255), 
 	"ReportsToId" VARCHAR(255), 
-	"ombudcare__Sailor__c" VARCHAR(255), 
+	"Sailor__c" VARCHAR(255), 
 	"npsp__Primary_Affiliation__c" VARCHAR(255), 
 	record_type VARCHAR(255), 
 	PRIMARY KEY (sf_id)
@@ -135,47 +135,47 @@ CREATE TABLE "Contact_rt_mapping" (
 );
 INSERT INTO "Contact_rt_mapping" VALUES('01211000001FToMAAW','Family_Member');
 INSERT INTO "Contact_rt_mapping" VALUES('01211000001FToRAAW','Resource_Contact');
-CREATE TABLE "ombudcare__Sailor__c" (
+CREATE TABLE "Sailor__c" (
 	sf_id VARCHAR(255) NOT NULL, 
 	"Name" VARCHAR(255), 
-	"ombudcare__Command_Name__c" VARCHAR(255), 
-	"ombudcare__Department__c" VARCHAR(255), 
-	"ombudcare__First_Name__c" VARCHAR(255), 
-	"ombudcare__Last_4_of_SSN__c" VARCHAR(255), 
-	"ombudcare__Last_Name__c" VARCHAR(255), 
-	"ombudcare__PRD__c" VARCHAR(255), 
-	"ombudcare__Rank_Rate__c" VARCHAR(255), 
-	"ombudcare__Ship_Email__c" VARCHAR(255), 
-	"ombudcare__Status__c" VARCHAR(255), 
-	"ombudcare__Lookup_to_Contact__c" VARCHAR(255), 
+	"Command_Name__c" VARCHAR(255), 
+	"Department__c" VARCHAR(255), 
+	"First_Name__c" VARCHAR(255), 
+	"Last_4_of_SSN__c" VARCHAR(255), 
+	"Last_Name__c" VARCHAR(255), 
+	"PRD__c" VARCHAR(255), 
+	"Rank_Rate__c" VARCHAR(255), 
+	"Ship_Email__c" VARCHAR(255), 
+	"Status__c" VARCHAR(255), 
+	"Lookup_to_Contact__c" VARCHAR(255), 
 	record_type VARCHAR(255), 
 	PRIMARY KEY (sf_id)
 );
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005hol4AAA','Jordi LaForge','NCC-1701','Engineering','Jordi','2321','LaForge','','Science Officer','mkolodner+jordi@nuromo.com','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005hol5AAA','John Beard','NCC-1701','Air','John','','Beard','','AN','john.beard@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005hol6AAA','Mr. Odysseus','NCC-1701','Deck','Mr.','2121','Odysseus','','Lieutenent','mkolodner+odysseus@nuromo.com','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005hol7AAA','Benjamin Sisko','NCC-1701','Admin','Benjamin','','Sisko','','CMDR','benjamin.sisko@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005hol8AAA','Sinbad the Sailor','NCC-1701','Air','Sinbad','8989','the Sailor','','Warrant Ofcr','mkolodner+sinbad@nuromo.com','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005hol9AAA','James T. Kirk','NCC-1701','Air','James T.','6565','Kirk','','Admiral','mkolodner+kirk@nuromo.com','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holAAAQ','Wesley Crusher','NCC-1701','Engineering','Wesley','','Crusher','2020-05-08','Ensign','justakidinspace@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holBAAQ','Captain Crunch','NCC-1701','Operations','Captain','9898','Crunch','','Ensign','mkolodner+crunch@nuromo.com','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holCAAQ','Popeye the Sailor Man','NCC-1701','Public Affairs','Popeye','9999','the Sailor Man','','Private','mkolodner+popeye@nuromo.com','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holDAAQ','Captain Ahab','NCC-1701','Weapons','Captain','8888','Ahab','','Captain','mkolodner+ahab@nuromo.com','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holEAAQ','William Riker','NCC-1701','Combat Systems','William','','Riker','2020-05-08','First Officer','rikerthestriker@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holFAAQ','Jean-Luc Picard','NCC-1701','Admin','Jean-Luc','','Picard','2020-05-08','Captain','elcapitan@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holGAAQ','Tasha Yar','NCC-1701','Safety','Tasha','','Yar','2020-05-08','Chief Security Officer','wherestashanow@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holHAAQ','Lieutenant Worf','NCC-1701','Combat Systems','Lieutenant','','Worf','2020-05-08','Chief Security Officer','klingonsrule@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005hol3AAA','Name Unknown (DO NOT EDIT)','NCC-1701','','Name','','Unknown (DO NOT EDIT)','','Placeholder Record','','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holIAAQ','Deanna Troi','NCC-1701','Medical','Deanna','','Troi','2020-05-08','Counselor','empathsunderstand@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holJAAQ','Beverly Crusher','NCC-1701','Medical','Beverly','','Crusher','2020-05-08','Doctor','itsdoctorcrushertoyou@ncc1701.navy.mil','Current','',NULL);
-INSERT INTO "ombudcare__Sailor__c" VALUES('a0q11000005holKAAQ','Captain Hook','NCC-1701','Admin','Captain','9998','Hook','','Admiral','mkolodner+hook@nuromo.com','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005hol4AAA','Jordi LaForge','NCC-1701','Engineering','Jordi','2321','LaForge','','Science Officer','mkolodner+jordi@nuromo.com','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005hol5AAA','John Beard','NCC-1701','Air','John','','Beard','','AN','john.beard@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005hol6AAA','Mr. Odysseus','NCC-1701','Deck','Mr.','2121','Odysseus','','Lieutenent','mkolodner+odysseus@nuromo.com','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005hol7AAA','Benjamin Sisko','NCC-1701','Admin','Benjamin','','Sisko','','CMDR','benjamin.sisko@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005hol8AAA','Sinbad the Sailor','NCC-1701','Air','Sinbad','8989','the Sailor','','Warrant Ofcr','mkolodner+sinbad@nuromo.com','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005hol9AAA','James T. Kirk','NCC-1701','Air','James T.','6565','Kirk','','Admiral','mkolodner+kirk@nuromo.com','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005holAAAQ','Wesley Crusher','NCC-1701','Engineering','Wesley','','Crusher','2020-05-08','Ensign','justakidinspace@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005holBAAQ','Captain Crunch','NCC-1701','Operations','Captain','9898','Crunch','','Ensign','mkolodner+crunch@nuromo.com','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005holCAAQ','Popeye the Sailor Man','NCC-1701','Public Affairs','Popeye','9999','the Sailor Man','','Private','mkolodner+popeye@nuromo.com','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005holDAAQ','Captain Ahab','NCC-1701','Weapons','Captain','8888','Ahab','','Captain','mkolodner+ahab@nuromo.com','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005holEAAQ','William Riker','NCC-1701','Combat Systems','William','','Riker','2020-05-08','First Officer','rikerthestriker@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005holFAAQ','Jean-Luc Picard','NCC-1701','Admin','Jean-Luc','','Picard','2020-05-08','Captain','elcapitan@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005holGAAQ','Tasha Yar','NCC-1701','Safety','Tasha','','Yar','2020-05-08','Chief Security Officer','wherestashanow@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005holHAAQ','Lieutenant Worf','NCC-1701','Combat Systems','Lieutenant','','Worf','2020-05-08','Chief Security Officer','klingonsrule@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005hol3AAA','Name Unknown (DO NOT EDIT)','NCC-1701','','Name','','Unknown (DO NOT EDIT)','','Placeholder Record','','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005holIAAQ','Deanna Troi','NCC-1701','Medical','Deanna','','Troi','2020-05-08','Counselor','empathsunderstand@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005holJAAQ','Beverly Crusher','NCC-1701','Medical','Beverly','','Crusher','2020-05-08','Doctor','itsdoctorcrushertoyou@ncc1701.navy.mil','Current','',NULL);
+INSERT INTO "Sailor__c" VALUES('a0q11000005holKAAQ','Captain Hook','NCC-1701','Admin','Captain','9998','Hook','','Admiral','mkolodner+hook@nuromo.com','Current','',NULL);
 CREATE TABLE "Task" (
 	sf_id VARCHAR(255) NOT NULL, 
 	"ActivityDate" VARCHAR(255), 
 	"Description" VARCHAR(255), 
 	"Status" VARCHAR(255), 
 	"Subject" VARCHAR(255), 
-	"ombudcare__Time_Spent__c" VARCHAR(255), 
+	"Time_Spent__c" VARCHAR(255), 
 	"WhoId" VARCHAR(255), 
 	"WhatId" VARCHAR(255), 
 	record_type VARCHAR(255), 
