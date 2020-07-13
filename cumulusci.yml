@@ -15,6 +15,10 @@ orgs:
       config_file: orgs/demo.json
       days: 30
 
+    enterprise:
+      config_file: orgs/enterprise.json
+      days: 7
+
 tasks:
   add_standard_value_set_entries_caseorigin:
     description: Adds specified picklist entries to Case Origin Standard Value Set.
@@ -95,12 +99,30 @@ tasks:
     class_path: cumulusci.tasks.salesforce.Deploy
     options:
       path: unpackaged/config/dev
+      unmanaged: TRUE
+      namespace_inject: $project_config.project__package__namespace
+
+  deploy_managed_config:
+    description: Deploys the post install configuration for an unmanaged DE org
+    class_path: cumulusci.tasks.salesforce.Deploy
+    options:
+      path: unpackaged/config/dev
+      unmanaged: FALSE
+      namespace_inject: $project_config.project__package__namespace
 
   deploy_qa_config:
     description: Deploys the post install configuration for an unmanaged QA org
     class_path: cumulusci.tasks.salesforce.Deploy
     options:
       path: unpackaged/config/qa
+      unmanaged: TRUE
+      namespace_inject: $project_config.project__package__namespace
+
+  deploy_ombudcareprofile:
+    description: Deploys the post install configuration for Ombudsman Profile
+    class_path: cumulusci.tasks.salesforce.Deploy
+    options:
+      path: unpackaged/config/customerprofiles
 
   deploy_standardvaluesets:
     description: Deploys the pre install configuration for an unmanaged scratch org
@@ -177,6 +199,13 @@ flows:
       4:
         task: load_dataset
 
+  config_managed:
+    steps:
+      3:
+        task: deploy_managed_config
+      4:
+        task: deploy_ombudcareprofile
+
   dependencies:
     steps:
       3:
@@ -207,35 +236,40 @@ plans:
 
     steps:
       1:
-        task: update_dependencies
-      2:
         task: deploy_pre
         options:
           path: unpackaged/pre
         ui_options:
           name: OCC Pre Install Config for Salesforce
-      3:
+      2:
         task: add_standard_value_set_entries_caseorigin
         ui_options:
           name: Adds specified picklist entries to Case Origin Standard Value Set
-      4:
+      3:
         task: add_standard_value_set_entries_casereason
         ui_options:
           name: Adds specified picklist entries to Case Reason Standard Value Set
-      5:
+      4:
         task: add_standard_value_set_entries_casepriority
         ui_options:
           name: Adds specified picklist entries to Case Priority Standard Value Set
-      6:
+      5:
         task: add_standard_value_set_entries_salutation
         ui_options:
           name: Adds specified picklist entries to Salutation Standard Value Set
-      7:
+      6:
         task: install_managed
-      8:
+      7:
         task: deploy_post
         options:
           unmanaged: False
         ui_options:
           first:
             name: OCC Post Install Config for Salesforce
+      8:
+        task: deploy_ombudcareprofile
+        options:
+          unmanaged: False
+        ui_options:
+          first:
+            name: OCC Post Install Config to create Ombudsman Cloud Care profile.
