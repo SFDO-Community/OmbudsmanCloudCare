@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
-    <members>Admin</members>
+    <name>CustomField</name>
+    <members>Sailor__c.Command_Name__c</members>
+  </types>
+  <types>
+    <name>CustomObject</name>
+    <members>Sailor__c</members>
+  </types>
+  <types>
     <name>Profile</name>
+    <members>Admin</members>
+    <members>Ombudsman Standard User</members>
+  </types>
+  <types>
+    <name>StandardValueSet</name>
+    <members>CaseOrigin</members>
+    <members>CasePriority</members>
+    <members>CaseReason</members>
+    <members>Salutation</members>
   </types>
   <version>48.0</version>
 </Package>
