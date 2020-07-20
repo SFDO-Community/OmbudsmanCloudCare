@@ -94,41 +94,25 @@ tasks:
         - label: Mx.
           fullName: Mx.
 
+  deploy_customerorg:
+    description: Deploys the post install configuration for Ombudsman Cloud Care
+    class_path: cumulusci.tasks.salesforce.Deploy
+    options:
+      path: unpackaged/config/customerorg
+
   deploy_dev_config:
     description: Deploys the post install configuration for an unmanaged DE org
     class_path: cumulusci.tasks.salesforce.Deploy
     options:
       path: unpackaged/config/dev
-      unmanaged: TRUE
-      namespace_inject: $project_config.project__package__namespace
 
   deploy_managed_config:
     description: Deploys the post install configuration for an unmanaged DE org
     class_path: cumulusci.tasks.salesforce.Deploy
     options:
-      path: unpackaged/config/dev
+      path: unpackaged/config/managed
       unmanaged: FALSE
       namespace_inject: $project_config.project__package__namespace
-
-  deploy_qa_config:
-    description: Deploys the post install configuration for an unmanaged QA org
-    class_path: cumulusci.tasks.salesforce.Deploy
-    options:
-      path: unpackaged/config/qa
-      unmanaged: TRUE
-      namespace_inject: $project_config.project__package__namespace
-
-  deploy_ombudcareprofile:
-    description: Deploys the post install configuration for Ombudsman Profile
-    class_path: cumulusci.tasks.salesforce.Deploy
-    options:
-      path: unpackaged/config/customerprofiles
-
-  deploy_standardvaluesets:
-    description: Deploys the pre install configuration for an unmanaged scratch org
-    class_path: cumulusci.tasks.salesforce.Deploy
-    options:
-      path: unpackaged/config/standardValueSets
 
   dx_status:
     class_path: cumulusci.tasks.sfdx.SFDXOrgTask
@@ -196,7 +180,7 @@ flows:
   config_qa:
     steps:
       3:
-        task: deploy_qa_config
+        task: deploy_dev_config
       4:
         task: load_dataset
   config_dev:
@@ -209,16 +193,11 @@ flows:
   config_managed:
     steps:
       3:
-        task: deploy_managed_config
+        task: deploy_customerorg
       4:
-        task: deploy_ombudcareprofile
+        task: deploy_managed_config
       5:
         task: load_managed_dataset
-
-  dependencies:
-    steps:
-      3:
-        task: deploy_standardvaluesets
 
 plans:
   install:
@@ -276,9 +255,9 @@ plans:
           first:
             name: OCC Post Install Config for Salesforce
       8:
-        task: deploy_ombudcareprofile
+        task: deploy_customerorg
         options:
           unmanaged: False
         ui_options:
           first:
-            name: OCC Post Install Config to create Ombudsman Cloud Care profile.
+            name: OCC Post Install Config to Ombudsman Cloud Care.

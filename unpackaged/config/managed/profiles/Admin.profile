@@ -6,6 +6,11 @@
         <visible>true</visible>
     </applicationVisibilities>
     <custom>false</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ombudcare__Sailor__c.Command_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-%%%NAMESPACE%%%OCC Household Account Layout</layout>
         <recordType>Account.HH_Account</recordType>

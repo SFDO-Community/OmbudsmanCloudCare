@@ -4,7 +4,7 @@ Insert ombudcare__Sailor__c:
   fields:
     Id: sf_id
     Name: Name
-    ombudcare__Command_Name__c: Command_Name__c
+    Command_Name__c: Command_Name__c
     ombudcare__Department__c: Department__c
     ombudcare__First_Name__c: First_Name__c
     ombudcare__Last_4_of_SSN__c: Last_4_of_SSN__c

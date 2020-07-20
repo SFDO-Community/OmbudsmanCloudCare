@@ -4,5 +4,13 @@
     <name>Profile</name>
     <members>Ombudsman Standard User</members>
   </types>
+  <types>
+    <name>CustomObject</name>
+    <members>ombudcare__Sailor__c</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>ombudcare__Sailor__c.Command_Name__c</members>
+  </types>
   <version>48.0</version>
 </Package>
