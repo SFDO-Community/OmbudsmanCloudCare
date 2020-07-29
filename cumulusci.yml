@@ -212,39 +212,34 @@ plans:
       - when: "'.my.' not in org_config.instance_url"
         action: error
         message: "Please enable My Domain in your org prior to installing."
-      - when: "Do we need to check if NPSP is installed?  We have an update dependencies task as the first step so that should solve things I think"
+      - when: "not org_config.has_minimum_package_version('npsp', '3.180')"
         action: error
-        message: ""
-      - when: "email to case is not enabled"
+        message: "This application requires the Nonprofit Success Pack. Please install NPSP through install.salesforce.org and try again."
+      - when: "'ContentNote' not in tasks.check_sobjects_available()"
         action: error
-        message: "Please enable Email-to-Case in your org prior to installing."
-      - when: "notes 2.0 is not enabled"
-        action: error
-        message: "Please enable Notes in your org prior to installing."
+        message: "Please enable Enhanced Notes in your org prior to installing."
 
     steps:
       1:
         task: deploy_pre
-        options:
-          path: unpackaged/pre
         ui_options:
-          name: OCC Pre Install Config for Salesforce
+          name: Install List Views and Compact Layouts
       2:
         task: add_standard_value_set_entries_caseorigin
         ui_options:
-          name: Adds specified picklist entries to Case Origin Standard Value Set
+          name: Update Case Origin Picklist
       3:
         task: add_standard_value_set_entries_casereason
         ui_options:
-          name: Adds specified picklist entries to Case Reason Standard Value Set
+          name: Update Case Reason Picklist
       4:
         task: add_standard_value_set_entries_casepriority
         ui_options:
-          name: Adds specified picklist entries to Case Priority Standard Value Set
+          name: Update Case Priority Picklist
       5:
         task: add_standard_value_set_entries_salutation
         ui_options:
-          name: Adds specified picklist entries to Salutation Standard Value Set
+          name: Update Salutation Picklist
       6:
         task: install_managed
       7:
@@ -253,11 +248,11 @@ plans:
           unmanaged: False
         ui_options:
           first:
-            name: OCC Post Install Config for Salesforce
+            name: Install Ombudsman Cloud Care Branding
       8:
         task: deploy_customerorg
         options:
           unmanaged: False
         ui_options:
           first:
-            name: OCC Post Install Config to Ombudsman Cloud Care.
+            name: Deploy Ombudsman Standard User Profile
