@@ -243,15 +243,14 @@ flows:
         options:
           unmanaged: False
         ui_options:
-          first:
+          branding:
             name: Install Ombudsman Cloud Care Branding
       8:
         task: deploy_customerorg
         options:
           unmanaged: False
         ui_options:
-          first:
-            name: Deploy Ombudsman Standard User Profile
+          name: Deploy Ombudsman Standard User Profile
 
 
 plans:
