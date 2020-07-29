@@ -216,7 +216,10 @@ flows:
       1:
         task: deploy_pre
         ui_options:
-          name: Install List Views and Compact Layouts
+          compact_layouts:
+            name: Install Compact Layouts
+          list_views:
+            name: Install List Views
       2:
         task: add_standard_value_set_entries_caseorigin
         ui_options:
