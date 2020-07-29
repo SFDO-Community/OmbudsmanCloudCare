@@ -94,6 +94,9 @@ tasks:
         - label: Mx.
           fullName: Mx.
 
+  check_email_to_case:
+    class_path: tasks.e2c_preflight.CheckEmailToCase
+
   deploy_customerorg:
     description: Deploys the post install configuration for Ombudsman Cloud Care
     class_path: cumulusci.tasks.salesforce.Deploy
@@ -265,7 +268,9 @@ plans:
       - when: "'ContentNote' not in tasks.check_sobjects_available()"
         action: error
         message: "Please enable Enhanced Notes in your org prior to installing."
-
+      - when: "not tasks.check_email_to_case()"
+        action: warn
+        message: "We can't detect an Email-to-Case configuration in your org. Please make sure that Email-to-Case is configured before installing."
     steps:
       1:
         flow: customer_org_minimal
