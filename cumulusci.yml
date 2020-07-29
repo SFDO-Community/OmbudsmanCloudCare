@@ -8,6 +8,8 @@ project:
   dependencies:
     - github: "https://github.com/SalesforceFoundation/NPSP"
   source_format: sfdx
+  git:
+    repo_url: https://github.com/SFDO-Community/OmbudsmanCloudCare
 
 orgs:
   scratch:
