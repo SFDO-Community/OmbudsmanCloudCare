@@ -204,51 +204,51 @@ flows:
       5:
         task: load_managed_dataset
     
-    customer_org:
-      steps:
-        1:
-          flow: dependencies
-        2:
-          flow: customer_org_minimal
-  
-    customer_org_minimal:
-      steps:
-        1:
-          task: deploy_pre
-          ui_options:
-            name: Install List Views and Compact Layouts
-        2:
-          task: add_standard_value_set_entries_caseorigin
-          ui_options:
-            name: Update Case Origin Picklist
-        3:
-          task: add_standard_value_set_entries_casereason
-          ui_options:
-            name: Update Case Reason Picklist
-        4:
-          task: add_standard_value_set_entries_casepriority
-          ui_options:
-            name: Update Case Priority Picklist
-        5:
-          task: add_standard_value_set_entries_salutation
-          ui_options:
-            name: Update Salutation Picklist
-        6:
-          task: install_managed
-        7:
-          task: deploy_post
-          options:
-            unmanaged: False
-          ui_options:
-            first:
-              name: Install Ombudsman Cloud Care Branding
-        8:
-          task: deploy_customerorg
-          options:
-            unmanaged: False
-          ui_options:
-            first:
-              name: Deploy Ombudsman Standard User Profile
+  customer_org:
+    steps:
+      1:
+        flow: dependencies
+      2:
+        flow: customer_org_minimal
+
+  customer_org_minimal:
+    steps:
+      1:
+        task: deploy_pre
+        ui_options:
+          name: Install List Views and Compact Layouts
+      2:
+        task: add_standard_value_set_entries_caseorigin
+        ui_options:
+          name: Update Case Origin Picklist
+      3:
+        task: add_standard_value_set_entries_casereason
+        ui_options:
+          name: Update Case Reason Picklist
+      4:
+        task: add_standard_value_set_entries_casepriority
+        ui_options:
+          name: Update Case Priority Picklist
+      5:
+        task: add_standard_value_set_entries_salutation
+        ui_options:
+          name: Update Salutation Picklist
+      6:
+        task: install_managed
+      7:
+        task: deploy_post
+        options:
+          unmanaged: False
+        ui_options:
+          first:
+            name: Install Ombudsman Cloud Care Branding
+      8:
+        task: deploy_customerorg
+        options:
+          unmanaged: False
+        ui_options:
+          first:
+            name: Deploy Ombudsman Standard User Profile
 
 
 plans:
