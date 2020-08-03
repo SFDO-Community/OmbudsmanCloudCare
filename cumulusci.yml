@@ -163,10 +163,10 @@ tasks:
           - NPSP_Engagement_Plan_Record_Page
           - NPSP_GAU_Allocation
           - NPSP_General_Accounting_Unit
-        List_view:
+        ListView:
           - Household_Accounts
           - Resource_Organization_Accounts
-        Compact_layouts:
+        CompactLayout:
           - OCC_HH_Acct_Compact_Layout
           - OCC_Org_Acct_Compact_Layout
 
@@ -182,6 +182,11 @@ tasks:
       output: robot/OmbudsmanCloudCare/doc/OmbudsmanCloudCare_tests.html
 
 flows:
+  dependencies:
+    steps:
+      3:
+        task: add_standard_value_set_entries_salutation
+
   config_qa:
     steps:
       3:
