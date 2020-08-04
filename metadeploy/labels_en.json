@@ -1,0 +1,78 @@
+{
+    "product": {
+        "title": {
+            "message": "Ombudsman Cloud Care",
+            "description": "name of product"
+        },
+        "short_description": {
+            "message": "Track, resolve, and report on US Navy ombudsman cases",
+            "description": "tagline of product"
+        },
+        "description": {
+            "message": "Ombudsman Cloud Care is a complete case management solution for US Navy ombudsmen, designed to modernize outdated tools like paper call logs, Excel spreadsheets, and manual reporting to commands. Ombudsman Cloud Care is perfect for ombudsman teams of all sizes, but especially those that support large commands with thousands of families and need a secure tool and streamlined process for effective collaboration.\r\n\r\nResources:\r\n\r\n- [Installation Guide](https://ombudcare.com/installationguide)\r\n- [Open source GitHub repository](https://github.com/SFDO-Community-Sprints/OmbudsmanCloudCare)\r\n- Learn more and get support: [Power of Us Hub Group](https://powerofus.force.com/s/group/0F91E0000000hq1SAA/community-project-ombudsman-cloud-care). Please login to the Power of Us Hub, and post your question to the Ombudsman Cloud Care group. Maintainers of this application and Salesforce.org Open Source Program team members actively monitor every post.\r\n\r\n\r\n![](https://raw.githubusercontent.com/SFDO-Community-Sprints/OmbudsmanCloudCare/master/Assets/OmbudsmanCloudCareLogoSmall.png)",
+            "description": "shown on product detail page (markdown)"
+        }
+    },
+    "plan:install": {
+        "title": {
+            "message": "Install Ombudsman Cloud Care",
+            "description": "title of installation plan"
+        },
+        "preflight_message": {
+            "message": "This will install Ombudsman Cloud Care into your org.",
+            "description": "shown before user starts installation (markdown)"
+        },
+        "post_install_message": {
+            "message": "Thanks for installing Ombudsman Cloud Care. Please visit the [Ombudsman Cloud Care](https://powerofus.force.com/s/group/0F91E0000000hq1SAA) community group on the Power of Us Hub for any questions about Ombudsman Cloud Care.",
+            "description": "shown after successful installation (markdown)"
+        },
+        "error_message": {
+            "message": "To get help with this error, go to [Ombudsman Cloud Care](https://powerofus.force.com/s/group/0F91E0000000hq1SAA) community group on the Power of Us Hub and post a question include any details about the install.",
+            "description": "shown after failed installation (markdown)"
+        }
+    },
+    "checks": {
+        "Please enable My Domain in your org prior to installing.": {
+            "message": "Please enable My Domain in your org prior to installing.",
+            "description": "shown if validation fails"
+        },
+        "This application requires the Nonprofit Success Pack. Please install NPSP through install.salesforce.org and try again.": {
+            "message": "This application requires the Nonprofit Success Pack. Please install NPSP through install.salesforce.org and try again.",
+            "description": "shown if validation fails"
+        },
+        "Please enable Enhanced Notes in your org prior to installing.": {
+            "message": "Please enable Enhanced Notes in your org prior to installing.",
+            "description": "shown if validation fails"
+        },
+        "We can't detect an Email-to-Case configuration with On-Demand Service in your org. Please make sure that Email-to-Case is configured before installing.": {
+            "message": "We can't detect an Email-to-Case configuration with On-Demand Service in your org. Please make sure that Email-to-Case is configured before installing.",
+            "description": "shown if validation fails"
+        }
+    },
+    "steps": {
+        "Update Case Origin Picklist": {
+            "message": "Update Case Origin Picklist",
+            "description": "title of installation step"
+        },
+        "Update Case Reason Picklist": {
+            "message": "Update Case Reason Picklist",
+            "description": "title of installation step"
+        },
+        "Update Case Priority Picklist": {
+            "message": "Update Case Priority Picklist",
+            "description": "title of installation step"
+        },
+        "Update Salutation Picklist": {
+            "message": "Update Salutation Picklist",
+            "description": "title of installation step"
+        },
+        "Install {product} {version}": {
+            "message": "Install {product} {version}",
+            "description": "title of installation step"
+        },
+        "Deploy Ombudsman Standard User Profile": {
+            "message": "Deploy Ombudsman Standard User Profile",
+            "description": "title of installation step"
+        }
+    }
+}

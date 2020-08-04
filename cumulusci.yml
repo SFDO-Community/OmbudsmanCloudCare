@@ -8,6 +8,8 @@ project:
   dependencies:
     - github: "https://github.com/SalesforceFoundation/NPSP"
   source_format: sfdx
+  git:
+    repo_url: https://github.com/SFDO-Community/OmbudsmanCloudCare
 
 orgs:
   scratch:
@@ -94,6 +96,9 @@ tasks:
         - label: Mx.
           fullName: Mx.
 
+  check_email_to_case:
+    class_path: tasks.e2c_preflight.CheckEmailToCase
+
   deploy_customerorg:
     description: Deploys the post install configuration for Ombudsman Cloud Care
     class_path: cumulusci.tasks.salesforce.Deploy
@@ -158,10 +163,10 @@ tasks:
           - NPSP_Engagement_Plan_Record_Page
           - NPSP_GAU_Allocation
           - NPSP_General_Accounting_Unit
-        List_view:
+        ListView:
           - Household_Accounts
           - Resource_Organization_Accounts
-        Compact_layouts:
+        CompactLayout:
           - OCC_HH_Acct_Compact_Layout
           - OCC_Org_Acct_Compact_Layout
 
@@ -177,6 +182,11 @@ tasks:
       output: robot/OmbudsmanCloudCare/doc/OmbudsmanCloudCare_tests.html
 
 flows:
+  dependencies:
+    steps:
+      3:
+        task: add_standard_value_set_entries_salutation
+
   config_qa:
     steps:
       3:
@@ -198,6 +208,55 @@ flows:
         task: deploy_managed_config
       5:
         task: load_managed_dataset
+    
+  customer_org:
+    steps:
+      1:
+        flow: dependencies
+      2:
+        flow: customer_org_minimal
+
+  customer_org_minimal:
+    steps:
+      1:
+        task: deploy_pre
+        ui_options:
+          compact_layouts:
+            name: Install Compact Layouts
+          list_views:
+            name: Install List Views
+      2:
+        task: add_standard_value_set_entries_caseorigin
+        ui_options:
+          name: Update Case Origin Picklist
+      3:
+        task: add_standard_value_set_entries_casereason
+        ui_options:
+          name: Update Case Reason Picklist
+      4:
+        task: add_standard_value_set_entries_casepriority
+        ui_options:
+          name: Update Case Priority Picklist
+      5:
+        task: add_standard_value_set_entries_salutation
+        ui_options:
+          name: Update Salutation Picklist
+      6:
+        task: install_managed
+      7:
+        task: deploy_post
+        options:
+          unmanaged: False
+        ui_options:
+          branding:
+            name: Install Ombudsman Cloud Care Branding
+      8:
+        task: deploy_customerorg
+        options:
+          unmanaged: False
+        ui_options:
+          name: Deploy Ombudsman Standard User Profile
+
 
 plans:
   install:
@@ -212,52 +271,15 @@ plans:
       - when: "'.my.' not in org_config.instance_url"
         action: error
         message: "Please enable My Domain in your org prior to installing."
-      - when: "Do we need to check if NPSP is installed?  We have an update dependencies task as the first step so that should solve things I think"
+      - when: "not org_config.has_minimum_package_version('npsp', '3.180')"
         action: error
-        message: ""
-      - when: "email to case is not enabled"
+        message: "This application requires the Nonprofit Success Pack. Please install NPSP through install.salesforce.org and try again."
+      - when: "'ContentNote' not in tasks.check_sobjects_available()"
         action: error
-        message: "Please enable Email-to-Case in your org prior to installing."
-      - when: "notes 2.0 is not enabled"
+        message: "Please enable Enhanced Notes in your org prior to installing."
+      - when: "not tasks.check_email_to_case()"
         action: error
-        message: "Please enable Notes in your org prior to installing."
-
+        message: "We can't detect an Email-to-Case configuration with On-Demand Service in your org. Please make sure that Email-to-Case is configured before installing."
     steps:
       1:
-        task: deploy_pre
-        options:
-          path: unpackaged/pre
-        ui_options:
-          name: OCC Pre Install Config for Salesforce
-      2:
-        task: add_standard_value_set_entries_caseorigin
-        ui_options:
-          name: Adds specified picklist entries to Case Origin Standard Value Set
-      3:
-        task: add_standard_value_set_entries_casereason
-        ui_options:
-          name: Adds specified picklist entries to Case Reason Standard Value Set
-      4:
-        task: add_standard_value_set_entries_casepriority
-        ui_options:
-          name: Adds specified picklist entries to Case Priority Standard Value Set
-      5:
-        task: add_standard_value_set_entries_salutation
-        ui_options:
-          name: Adds specified picklist entries to Salutation Standard Value Set
-      6:
-        task: install_managed
-      7:
-        task: deploy_post
-        options:
-          unmanaged: False
-        ui_options:
-          first:
-            name: OCC Post Install Config for Salesforce
-      8:
-        task: deploy_customerorg
-        options:
-          unmanaged: False
-        ui_options:
-          first:
-            name: OCC Post Install Config to Ombudsman Cloud Care.
+        flow: customer_org_minimal
