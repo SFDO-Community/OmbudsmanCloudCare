@@ -119,6 +119,12 @@ tasks:
       unmanaged: FALSE
       namespace_inject: $project_config.project__package__namespace
 
+  deploy_standardvaluesets:
+    description: Deploys the pre install configuration for an unmanaged scratch org
+    class_path: cumulusci.tasks.salesforce.Deploy
+    options:
+      path: unpackaged/config/standardValueSet
+
   dx_status:
     class_path: cumulusci.tasks.sfdx.SFDXOrgTask
     options:
@@ -185,7 +191,7 @@ flows:
   dependencies:
     steps:
       3:
-        task: add_standard_value_set_entries_salutation
+        task: deploy_standardvaluesets
 
   config_qa:
     steps:
@@ -208,13 +214,6 @@ flows:
         task: deploy_managed_config
       5:
         task: load_managed_dataset
-    
-  customer_org:
-    steps:
-      1:
-        flow: dependencies
-      2:
-        flow: customer_org_minimal
 
   customer_org_minimal:
     steps:
@@ -256,7 +255,6 @@ flows:
           unmanaged: False
         ui_options:
           name: Deploy Ombudsman Standard User Profile
-
 
 plans:
   install:
