@@ -123,7 +123,7 @@ tasks:
     description: Deploys the pre install configuration for an unmanaged scratch org
     class_path: cumulusci.tasks.salesforce.Deploy
     options:
-      path: unpackaged/dev/standardValueSets
+      path: unpackaged/config/dev/standardValueSets
 
   dx_status:
     class_path: cumulusci.tasks.sfdx.SFDXOrgTask
