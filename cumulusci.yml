@@ -228,37 +228,25 @@ flows:
           list_views:
             name: Install List Views
       2:
-        task: add_standard_value_set_entries_caseorigin
+        Flow: standardvaluesets
         ui_options:
-          name: Update Case Origin Picklist
+          name: Update Case Origin, Case Priority, Case Reason and Salutation Picklist Values
       3:
-        task: add_standard_value_set_entries_casereason
-        ui_options:
-          name: Update Case Reason Picklist
-      4:
-        task: add_standard_value_set_entries_casepriority
-        ui_options:
-          name: Update Case Priority Picklist
-      5:
-        task: add_standard_value_set_entries_salutation
-        ui_options:
-          name: Update Salutation Picklist
-      6:
         task: install_managed
-      7:
+      4:
         task: deploy_post
         options:
           unmanaged: False
         ui_options:
           branding:
             name: Install Ombudsman Cloud Care Branding
-      8:
+      5:
         task: deploy_customerorg
         options:
           unmanaged: False
         ui_options:
           name: Deploy Ombudsman Standard User Profile
-      9:
+      6:
         task: load_placeholder_sailor_dataset
         ui_options:
           name: Add Placeholder Sailor Record
