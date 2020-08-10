@@ -228,7 +228,7 @@ flows:
           list_views:
             name: Install List Views
       2:
-        Flow: standardvaluesets
+        flow: standardvaluesets
         ui_options:
           name: Update Case Origin, Case Priority, Case Reason and Salutation Picklist Values
       3:
