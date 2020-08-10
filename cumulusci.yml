@@ -119,12 +119,6 @@ tasks:
       unmanaged: FALSE
       namespace_inject: $project_config.project__package__namespace
 
-  deploy_standardvaluesets:
-    description: Deploys the pre install configuration for an unmanaged scratch org
-    class_path: cumulusci.tasks.salesforce.Deploy
-    options:
-      path: unpackaged/config/dev/standardValueSets
-
   dx_status:
     class_path: cumulusci.tasks.sfdx.SFDXOrgTask
     options:
@@ -186,12 +180,6 @@ tasks:
     options:
       path: robot/OmbudsmanCloudCare/tests
       output: robot/OmbudsmanCloudCare/doc/OmbudsmanCloudCare_tests.html
-
-flows:
-  dependencies:
-    steps:
-      3:
-        task: deploy_standardvaluesets
 
   config_qa:
     steps:
