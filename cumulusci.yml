@@ -138,6 +138,13 @@ tasks:
       mapping: datasets/managedmapping.yml
       sql_path: datasets/sample.sql
 
+  load_placeholder_sailor_dataset:
+    description: Load a placeholder sailor using the bulk API for managed package
+    class_path: cumulusci.tasks.bulkdata.LoadData
+    options:
+      mapping: datasets/placeholdersailormapping.yml
+      sql_path: datasets/placeholdersailor.sql
+
   retrieve_changes:
     name: Retrieve Changes from Scratch Org
     description: Retrieve changed components from a scratch org
@@ -181,6 +188,7 @@ tasks:
       path: robot/OmbudsmanCloudCare/tests
       output: robot/OmbudsmanCloudCare/doc/OmbudsmanCloudCare_tests.html
 
+flows:
   config_qa:
     steps:
       3:
@@ -250,6 +258,27 @@ tasks:
           unmanaged: False
         ui_options:
           name: Deploy Ombudsman Standard User Profile
+      9:
+        task: load_placeholder_sailor_dataset
+        ui_options:
+          name: Add Placeholder Sailor Record
+
+  dependencies:
+    steps:
+      3:
+        task: add_standard_value_set_entries_salutation
+
+  standardvaluesets:
+    description: Run Add Standard Value Set Tasks for Case Origin, Case Priority, Case Reason and Salutation
+    steps:
+      1:
+        task: add_standard_value_set_entries_caseorigin
+      2:
+        task: add_standard_value_set_entries_casepriority
+      3:
+        task: add_standard_value_set_entries_casereason
+      4:
+        task: add_standard_value_set_entries_salutation
 
 plans:
   install:
