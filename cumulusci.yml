@@ -124,6 +124,13 @@ tasks:
     options:
       command: "force:source:status"
 
+  insert_placeholdersailor_record:
+    description: Inserts placeholder Sailor record into customer orgs
+    class_path: cumulusci.tasks.salesforce.insert_record.InsertRecord
+    options:
+      object: ombudcare__Sailor__c
+      values: Name:Name Unknown (DO NOT EDIT),ombudcare__First_Name__c:Name,ombudcare__Last_Name__c:Unknown (DO NOT EDIT),ombudcare__Rank_Rate__c:Placeholder Record,ombudcare__Status__c:Current
+
   list_changes:
     name: List Changes from Scratch Org
     description: List the changes from a scratch org
@@ -137,13 +144,6 @@ tasks:
     options:
       mapping: datasets/managedmapping.yml
       sql_path: datasets/sample.sql
-
-  load_placeholder_sailor_dataset:
-    description: Load a placeholder sailor using the bulk API for managed package
-    class_path: cumulusci.tasks.bulkdata.LoadData
-    options:
-      mapping: datasets/placeholdersailormapping.yml
-      sql_path: datasets/placeholdersailor.sql
 
   retrieve_changes:
     name: Retrieve Changes from Scratch Org
@@ -247,7 +247,7 @@ flows:
         ui_options:
           name: Deploy Ombudsman Standard User Profile
       6:
-        task: load_placeholder_sailor_dataset
+        task: insert_placeholdersailor_record
         ui_options:
           name: Add Placeholder Sailor Record
 
