@@ -124,6 +124,13 @@ tasks:
     options:
       command: "force:source:status"
 
+  insert_placeholdersailor_record:
+    description: Inserts placeholder Sailor record into customer orgs
+    class_path: cumulusci.tasks.salesforce.insert_record.InsertRecord
+    options:
+      object: ombudcare__Sailor__c
+      values: Name:Name Unknown (DO NOT EDIT),ombudcare__First_Name__c:Name,ombudcare__Last_Name__c:Unknown (DO NOT EDIT),ombudcare__Rank_Rate__c:Placeholder Record,ombudcare__Status__c:Current
+
   list_changes:
     name: List Changes from Scratch Org
     description: List the changes from a scratch org
@@ -182,11 +189,6 @@ tasks:
       output: robot/OmbudsmanCloudCare/doc/OmbudsmanCloudCare_tests.html
 
 flows:
-  dependencies:
-    steps:
-      3:
-        task: add_standard_value_set_entries_salutation
-
   config_qa:
     steps:
       3:
@@ -208,7 +210,7 @@ flows:
         task: deploy_managed_config
       5:
         task: load_managed_dataset
-    
+
   customer_org:
     steps:
       1:
@@ -226,37 +228,45 @@ flows:
           list_views:
             name: Install List Views
       2:
-        task: add_standard_value_set_entries_caseorigin
+        flow: standardvaluesets
         ui_options:
-          name: Update Case Origin Picklist
+          name: Update Case Origin, Case Priority, Case Reason and Salutation Picklist Values
       3:
-        task: add_standard_value_set_entries_casereason
-        ui_options:
-          name: Update Case Reason Picklist
-      4:
-        task: add_standard_value_set_entries_casepriority
-        ui_options:
-          name: Update Case Priority Picklist
-      5:
-        task: add_standard_value_set_entries_salutation
-        ui_options:
-          name: Update Salutation Picklist
-      6:
         task: install_managed
-      7:
+      4:
         task: deploy_post
         options:
           unmanaged: False
         ui_options:
           branding:
             name: Install Ombudsman Cloud Care Branding
-      8:
+      5:
         task: deploy_customerorg
         options:
           unmanaged: False
         ui_options:
           name: Deploy Ombudsman Standard User Profile
+      6:
+        task: insert_placeholdersailor_record
+        ui_options:
+          name: Add Placeholder Sailor Record
 
+  dependencies:
+    steps:
+      3:
+        task: add_standard_value_set_entries_salutation
+
+  standardvaluesets:
+    description: Run Add Standard Value Set Tasks for Case Origin, Case Priority, Case Reason and Salutation
+    steps:
+      1:
+        task: add_standard_value_set_entries_caseorigin
+      2:
+        task: add_standard_value_set_entries_casepriority
+      3:
+        task: add_standard_value_set_entries_casereason
+      4:
+        task: add_standard_value_set_entries_salutation
 
 plans:
   install:
