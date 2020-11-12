@@ -1,9 +1,9 @@
 ![Ombudsman Cloud Care logo featuring Lionheart Astro connecting a Naval officer to an ombudsman on the deck of a carrier.](https://raw.githubusercontent.com/SFDO-Community-Sprints/OmbudsmanCloudCare/master/Assets/OmbudsmanCloudCareLogoSmall.png)
 
-    "Do what you can, with what you have, where you are." 
-~Theodore Roosevelt
+>"Do what you can, with what you have, where you are." 
+> ~Theodore Roosevelt
 
-Navy Command Ombudsman serve on the frontlines supporting families of deployed Sailors and serving as a liaison to military units These volunteers are some of our nation's unsung heroes, and strive valiantly, 24/7, to assist family members of deployed Sailors experiencing hardship on the homefront. 
+Navy Command Ombudsman serve on the frontlines supporting families of deployed Sailors and serving as a liaison to military units. These volunteers are some of our nation's unsung heroes, and strive valiantly, 24/7, to assist family members of deployed Sailors experiencing hardship on the homefront. 
 
 For years, Mary Crozier, a Navy command leadership spouse and Salesforce consultant, worked alongside these hardworking volunteers assisting them with their management of hundreds of cases and guiding them as they handled challenging and personal Sailor family issues. There is currently no database system given to the Ombudsman, so they are forced to use simple tools such as shared email addresses, paper call logs, and slow spreadsheets. As Mary gained experience as a Salesforce consultant, she quickly recognized that there could be a much more effective and secure method to assist Ombudsman in managing their challenging workload. 
 
