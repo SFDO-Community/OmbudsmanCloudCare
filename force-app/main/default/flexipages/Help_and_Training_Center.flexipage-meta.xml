@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>decorate</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>richTextValue</name>
+                <value>&lt;p&gt;&lt;b style=&quot;color: rgb(150, 153, 191); font-size: 20px;&quot;&gt;Ombudsman Cloud Care Help and Training Center&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Welcome to Ombudsman Cloud Care (OCC), a case management tool built on Salesforce, designed to modernize ombudsman call logs to drive secure digital transformation, innovation, and operational excellence.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;OCC User Guides and Training:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://occadminhandbook.bit.ai/docs/view/zv0wSuubp84Vnzsq&quot; target=&quot;_blank&quot;&gt;Getting Started&lt;/a&gt; - A guide for new OCC users&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://occadminhandbook.bit.ai/docs/view/kfh9Pjyp5Ppoz4iz&quot; target=&quot;_blank&quot;&gt;Glossary of Terms&lt;/a&gt; - Definitions of terms used in OCC&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://occadminhandbook.bit.ai/docs/view/Gn1Ljg0ko6W7ycjk&quot; target=&quot;_blank&quot;&gt;FAQ&lt;/a&gt; - Frequently asked OCC questions&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Salesforce Introductions and Training:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://trailhead.salesforce.com/home&quot; target=&quot;_blank&quot;&gt;Trailhead&lt;/a&gt; - the free and fun way to learn Salesforce&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://trailhead.salesforce.com/users/michaelkolodner/trailmixes/ombudsman-salesforce-intro&quot; target=&quot;_blank&quot;&gt;Ombudsman Trailmix&lt;/a&gt; - a curated list of Trailhead modules for the ombudsman new to Salesforce&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Online Community&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://veterans.force.com&quot; target=&quot;_blank&quot;&gt;Salesforce Military&lt;/a&gt; - Online community for veterans and military spouses. (Sign up required.)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://powerofus.force.com&quot; target=&quot;_blank&quot;&gt;Power of Us Hub&lt;/a&gt; - Online community for nonprofit Salesforce users. (Log in using same info as here.) There is &lt;a href=&quot;https://powerofus.force.com/s/group/0F91E0000000hq1SAA/community-project-ombudsman-cloud-care&quot; target=&quot;_blank&quot;&gt;a group&lt;/a&gt; on the Hub for discussion of Ombudsman Cloud Care.&lt;/p&gt;</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:richText</componentName>
+        </componentInstances>
+        <name>region1</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>region2</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>region3</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>region4</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>Help and Training Center</masterLabel>
+    <template>
+        <name>flexipage:appHomeTemplateHeaderThreeColumns</name>
+    </template>
+    <type>AppPage</type>
+</FlexiPage>
