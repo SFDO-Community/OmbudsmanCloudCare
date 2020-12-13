@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RequireTouchpointsForCompletedTasks</fullName>
+    <active>true</active>
+    <description>If a task is marked complete the ombudsman must enter at least one touchpoint for the ombudsman registry.</description>
+    <errorConditionFormula>ISPICKVAL(Status, &quot;Completed&quot;) &amp;&amp;
+
+Total_Registry_Touchpoints__c = 0</errorConditionFormula>
+    <errorMessage>If this task is complete you must enter touchpoints for the ombudsman registry.</errorMessage>
+</ValidationRule>
