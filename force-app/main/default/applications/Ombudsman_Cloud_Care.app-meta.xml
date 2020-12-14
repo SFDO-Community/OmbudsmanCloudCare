@@ -74,7 +74,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Ombudsman Cloud Care</label>
-    <navType>Console</navType>
+    <navType>Standard</navType>
     <tabs>standard-home</tabs>
     <tabs>standard-Case</tabs>
     <tabs>Sailor__c</tabs>
@@ -86,33 +86,4 @@
     <tabs>OCC_Help_and_Training_Center</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Ombudsman_Cloud_Care_UtilityBar</utilityBar>
-    <workspaceConfig>
-        <mappings>
-            <tab>OCC_Help_and_Training_Center</tab>
-        </mappings>
-        <mappings>
-            <tab>Sailor__c</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Account</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Case</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Contact</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Dashboard</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Task</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-home</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-report</tab>
-        </mappings>
-    </workspaceConfig>
 </CustomApplication>
