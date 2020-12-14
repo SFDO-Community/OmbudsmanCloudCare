@@ -113,7 +113,43 @@ Insert Task:
     Description: Description
     Status: Status
     Subject: Subject
-    Time_Spent__c: Time_Spent__c
+    ombudcare__Time_Spent__c: Time_Spent__c
+    Childcare_Incoming__c: Childcare_Incoming__c
+    Childcare_Outgoing__c: Childcare_Outgoing__c
+    Deployment_FRG_Incoming__c: Deployment_FRG_Incoming__c
+    Deployment_FRG_Outgoing__c: Deployment_FRG_Outgoing__c
+    Education_Incoming__c: Education_Incoming__c
+    Education_Outgoing__c: Education_Outgoing__c
+    EFMP_Incoming__c: EFMP_Incoming__c
+    EFMP_Outgoing__c: EFMP_Outgoing__c
+    Emergency_Crisis_Incoming__c: Emergency_Crisis_Incoming__c
+    Emergency_Crisis_Outgoing__c: Emergency_Crisis_Outgoing__c
+    Employment_Incoming__c: Employment_Incoming__c
+    Employment_Outgoing__c: Employment_Outgoing__c
+    Financial_Pay_Incoming__c: Financial_Pay_Incoming__c
+    Financial_Pay_Outgoing__c: Financial_Pay_Outgoing__c
+    Individual_Augmentee_Incoming__c: Individual_Augmentee_Incoming__c
+    Individual_Augmentee_Outgoing__c: Individual_Augmentee_Outgoing__c
+    Legal_Incoming__c: Legal_Incoming__c
+    Legal_Incoming__c: Legal_Incoming__c
+    Medical_Incoming__c: Medical_Incoming__c
+    Medical_Outgoing__c: Medical_Outgoing__c
+    Military_Records_Incoming__c: Military_Records_Incoming__c
+    Military_Records_Outgoing__c: Military_Records_Outgoing__c
+    MWR_Incoming__c: MWR_Incoming__c
+    MWR_Outgoing__c: MWR_Outgoing__c
+    Newsletter_Incoming__c: Newsletter_Incoming__c
+    Newsletter_Outgoing__c: Newsletter_Outgoing__c
+    Other_Info_Referral_Incoming__c: Other_Info_Referral_Incoming__c
+    Other_Info_Referral_Outgoing__c: Other_Info_Referral_Outgoing__c
+    Red_Cross_Message_Incoming__c: Red_Cross_Message_Incoming__c
+    Red_Cross_Message_Outgoing__c: Red_Cross_Message_Outgoing__c
+    Relocation_Housing_Sponsor_Incoming__c: Relocation_Housing_Sponsor_Incoming__c
+    Relocation_Housing_Sponsor_Outgoing__c: Relocation_Housing_Sponsor_Outgoing__c
+    SAPR_Incoming__c: SAPR_Incoming__c
+    SAPR_Outgoing__c: SAPR_Outgoing__c
+    Social_Media_Incoming__c: Social_Media_Incoming__c
+    Social_Media_Outgoing__c: Social_Media_Outgoing__c
   lookups:
     WhoId:
       table: Contact
