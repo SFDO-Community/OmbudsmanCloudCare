@@ -14,7 +14,7 @@
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
                 <field>WhoId</field>
-                <uiBehavior>Edit</uiBehavior>
+                <uiBehavior>Required</uiBehavior>
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
