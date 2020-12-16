@@ -27,6 +27,9 @@
         <titleSize>18</titleSize>
     </chart>
     <columns>
+        <field>CASE</field>
+    </columns>
+    <columns>
         <aggregateTypes>Sum</aggregateTypes>
         <field>Activity.Total_Registry_Touchpoints__c</field>
     </columns>
@@ -35,9 +38,6 @@
     </columns>
     <columns>
         <field>LAST_UPDATE</field>
-    </columns>
-    <columns>
-        <field>DUE_DATE</field>
     </columns>
     <columns>
         <field>Activity.Time_Spent__c</field>
@@ -182,7 +182,21 @@
         <aggregateTypes>Sum</aggregateTypes>
         <field>Activity.Other_Info_Referral_Outgoing__c</field>
     </columns>
+    <filter>
+        <criteriaItems>
+            <column>DUE_DATE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>THIS_MONTH,LAST_MONTH</value>
+        </criteriaItems>
+    </filter>
     <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>MonthInYear</dateGranularity>
+        <field>DUE_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
         <field>ASSIGNED</field>
@@ -193,15 +207,10 @@
         <field>SUBJECT</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <groupingsDown>
-        <dateGranularity>Day</dateGranularity>
-        <field>CASE</field>
-        <sortOrder>Asc</sortOrder>
-    </groupingsDown>
     <name>Ombudsman Registry Activities</name>
     <params>
         <name>closed</name>
-        <value>open</value>
+        <value>all</value>
     </params>
     <params>
         <name>type</name>
@@ -216,11 +225,8 @@
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
     <showSubTotals>true</showSubTotals>
-    <sortColumn>DUE_DATE</sortColumn>
-    <sortOrder>Asc</sortOrder>
     <timeFrameFilter>
         <dateColumn>DUE_DATE</dateColumn>
-        <interval>INTERVAL_CUSTOM</interval>
-        <startDate>2020-12-08</startDate>
+        <interval>INTERVAL_CURY</interval>
     </timeFrameFilter>
 </Report>

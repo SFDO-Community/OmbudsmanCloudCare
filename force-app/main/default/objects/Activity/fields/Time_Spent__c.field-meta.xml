@@ -3,7 +3,7 @@
     <fullName>Time_Spent__c</fullName>
     <description>Allows users to record how much time they spent completing this activity.</description>
     <externalId>false</externalId>
-    <inlineHelpText></inlineHelpText>
+    <inlineHelpText>How much time did you spend on this activity?</inlineHelpText>
     <label>Time Spent</label>
     <required>false</required>
     <type>Picklist</type>
