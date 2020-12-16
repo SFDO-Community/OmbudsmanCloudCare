@@ -3,6 +3,7 @@
   <types>
     <name>Profile</name>
     <members>Ombudsman Standard User</members>
+    <members>Admin</members>
   </types>
   <types>
     <name>CustomObject</name>
