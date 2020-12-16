@@ -201,7 +201,7 @@
     <name>Ombudsman Registry Activities</name>
     <params>
         <name>closed</name>
-        <value>open</value>
+        <value>all</value>
     </params>
     <params>
         <name>type</name>
