@@ -146,8 +146,8 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <allowInChatterGroups>true</allowInChatterGroups>
-    <compactLayoutAssignment>Sailor_Compact_Layout</compactLayoutAssignment>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>

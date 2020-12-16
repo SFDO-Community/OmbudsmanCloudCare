@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Last_4_of_SSN__c</fullName>
     <externalId>false</externalId>
-    <inlineHelpText>Last four digits of the sailor&#39;s social security number. Used for identification/deduplication.</inlineHelpText>
+    <inlineHelpText>Last four digits of the sailor&apos;s social security number. Used for identification/deduplication.</inlineHelpText>
     <label>Last 4 of SSN</label>
     <length>4</length>
     <required>false</required>
