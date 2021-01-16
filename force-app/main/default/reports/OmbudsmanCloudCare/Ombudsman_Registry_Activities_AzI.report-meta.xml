@@ -182,6 +182,15 @@
         <aggregateTypes>Sum</aggregateTypes>
         <field>Activity.Other_Info_Referral_Outgoing__c</field>
     </columns>
+    <filter>
+        <criteriaItems>
+            <column>DUE_DATE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>LAST_MONTH,THIS_MONTH</value>
+        </criteriaItems>
+    </filter>
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
@@ -201,7 +210,7 @@
     <name>Ombudsman Registry Activities</name>
     <params>
         <name>closed</name>
-        <value>open</value>
+        <value>all</value>
     </params>
     <params>
         <name>type</name>
@@ -212,7 +221,7 @@
         <value>1</value>
     </params>
     <reportType>Activity</reportType>
-    <scope>team</scope>
+    <scope>organization</scope>
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
     <showSubTotals>true</showSubTotals>
@@ -221,6 +230,5 @@
     <timeFrameFilter>
         <dateColumn>DUE_DATE</dateColumn>
         <interval>INTERVAL_CUSTOM</interval>
-        <startDate>2020-12-08</startDate>
     </timeFrameFilter>
 </Report>
