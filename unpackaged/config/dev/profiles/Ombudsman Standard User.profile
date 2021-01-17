@@ -4,6 +4,11 @@
     <description>Profile for ombudsman users, installed by the OCC app but unmanaged once installed.</description>
     <applicationVisibilities>
         <application>Ombudsman_Cloud_Care</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Ombudsman_Cloud_Care_Standard</application>
         <default>true</default>
         <visible>true</visible>
     </applicationVisibilities>
