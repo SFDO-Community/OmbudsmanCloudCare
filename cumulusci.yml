@@ -253,13 +253,11 @@ flows:
           name: Add Placeholder Sailor Record
 
   dependencies:
-      steps:
-          1:
-            task:   update_dependencies
-            options:
-              include_beta: False
-
     steps:
+      1:
+        task: update_dependencies
+        options:
+          include_beta: False
       3:
         task: add_standard_value_set_entries_salutation
 
