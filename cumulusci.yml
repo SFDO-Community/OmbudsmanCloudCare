@@ -189,11 +189,6 @@ tasks:
       output: robot/OmbudsmanCloudCare/doc/OmbudsmanCloudCare_tests.html
 
 flows:
-  ci_feature:
-    options:
-      update_dependencies:
-        include_beta: False
-
   config_qa:
     steps:
       3:
@@ -258,23 +253,15 @@ flows:
           name: Add Placeholder Sailor Record
 
   dependencies:
-    options:
-      update_dependencies:
-        include_beta: False
+      steps:
+          1:
+            task:   update_dependencies
+            options:
+              include_beta: False
 
     steps:
       3:
         task: add_standard_value_set_entries_salutation
-
-  install_beta:
-    options:
-      update_dependencies:
-        include_beta: False
-
-  qa_org:
-    options:
-      update_dependencies:
-        include_beta: False
 
   standardvaluesets:
     description: Run Add Standard Value Set Tasks for Case Origin, Case Priority, Case Reason and Salutation
