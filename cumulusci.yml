@@ -195,6 +195,7 @@ flows:
         task: deploy_dev_config
       4:
         task: load_dataset
+
   config_dev:
     steps:
       3:
@@ -253,6 +254,10 @@ flows:
 
   dependencies:
     steps:
+      1:
+        task: update_dependencies
+        options:
+          include_beta: False
       3:
         task: add_standard_value_set_entries_salutation
 
