@@ -192,7 +192,7 @@ flows:
   ci_feature:
     options:
       update_dependencies:
-      include_beta: False
+        include_beta: False
 
   config_qa:
     steps:
@@ -260,7 +260,7 @@ flows:
   dependencies:
     options:
       update_dependencies:
-      include_beta: False
+        include_beta: False
 
     steps:
       3:
@@ -269,12 +269,12 @@ flows:
   install_beta:
     options:
       update_dependencies:
-      include_beta: False
+        include_beta: False
 
   qa_org:
     options:
       update_dependencies:
-      include_beta: False
+        include_beta: False
 
   standardvaluesets:
     description: Run Add Standard Value Set Tasks for Case Origin, Case Priority, Case Reason and Salutation
