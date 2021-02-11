@@ -73,8 +73,8 @@ tasks:
           fullName: Military Records
         - label: MWR
           fullName: MWR
-        - label: Newsetter
-          fullName: Newsetter
+        - label: Newsletter
+          fullName: Newsletter
         - label: Red Cross Message
           fullName: Red Cross Message
         - label: Relocation/Housing/Sponsor
