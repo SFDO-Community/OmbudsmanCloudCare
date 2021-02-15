@@ -74,9 +74,9 @@
         <cssExposed>false</cssExposed>
     </standardValue>
     <standardValue>
-        <fullName>Newsetter</fullName>
+        <fullName>Newsletter</fullName>
         <default>false</default>
-        <label>Newsetter</label>
+        <label>Newsletter</label>
         <cssExposed>false</cssExposed>
     </standardValue>
     <standardValue>
@@ -84,7 +84,8 @@
         <default>false</default>
         <label>Red Cross Message</label>
         <cssExposed>false</cssExposed>
-    </standardValue><standardValue>
+    </standardValue>
+    <standardValue>
         <fullName>Relocation/Housing/Sponsor</fullName>
         <default>false</default>
         <label>Relocation/Housing/Sponsor</label>
