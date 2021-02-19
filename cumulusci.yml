@@ -177,6 +177,10 @@ tasks:
           - OCC_HH_Acct_Compact_Layout
           - OCC_Org_Acct_Compact_Layout
 
+  update_admin_profile:
+    options:
+      package_xml: lib/admin_profile.xml
+
   robot:
     options:
       suites: robot/OmbudsmanCloudCare/tests
