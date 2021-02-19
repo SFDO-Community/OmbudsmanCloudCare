@@ -73,8 +73,8 @@ tasks:
           fullName: Military Records
         - label: MWR
           fullName: MWR
-        - label: Newsetter
-          fullName: Newsetter
+        - label: Newsletter
+          fullName: Newsletter
         - label: Red Cross Message
           fullName: Red Cross Message
         - label: Relocation/Housing/Sponsor
@@ -176,6 +176,10 @@ tasks:
         CompactLayout:
           - OCC_HH_Acct_Compact_Layout
           - OCC_Org_Acct_Compact_Layout
+
+  update_admin_profile:
+    options:
+      package_xml: lib/admin_profile.xml
 
   robot:
     options:
