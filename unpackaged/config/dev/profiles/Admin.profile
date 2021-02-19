@@ -2,6 +2,11 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>Ombudsman_Cloud_Care</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Ombudsman_Cloud_Care_Standard</application>
         <default>true</default>
         <visible>true</visible>
     </applicationVisibilities>
