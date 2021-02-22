@@ -119,6 +119,17 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
+            <componentInstanceProperties>
+                <name>decorate</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>richTextValue</name>
+                <value>&lt;p&gt;&lt;b&gt;OCC Community Help Desk&amp;nbsp;&lt;/b&gt;Click this link to join the Trailhead - Ombudsman Cloud Care Community Group to ask questions, connect with others, share success stories, and more.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ombudcare.com/OCC-Community-Help-Desk&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://ombudcare.com/OCC-Community-Help-Desk&lt;/a&gt;&lt;/p&gt;</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:richText</componentName>
+        </componentInstances>
+        <componentInstances>
             <componentName>runtime_sales_activities:todayTaskContainer</componentName>
         </componentInstances>
         <componentInstances>
