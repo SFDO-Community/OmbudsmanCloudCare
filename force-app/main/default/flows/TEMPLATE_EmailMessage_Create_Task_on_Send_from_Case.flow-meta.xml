@@ -203,21 +203,6 @@
             <label>Newsletter</label>
         </rules>
         <rules>
-            <name>Red_Cross_Message</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>Get_Related_Case.Reason</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Red Cross Message</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>OutTouch_Red_Cross_Message</targetReference>
-            </connector>
-            <label>Red Cross Message</label>
-        </rules>
-        <rules>
             <name>Relocation_Housing_Sponsor</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
@@ -821,45 +806,6 @@
         </inputAssignments>
         <inputAssignments>
             <field>Other_Info_Referral_Outgoing__c</field>
-            <value>
-                <numberValue>1.0</numberValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Status</field>
-            <value>
-                <stringValue>Completed</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Subject</field>
-            <value>
-                <stringValue>Email</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>WhatId</field>
-            <value>
-                <elementReference>Get_Related_Case.Id</elementReference>
-            </value>
-        </inputAssignments>
-        <object>Task</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordCreates>
-    <recordCreates>
-        <description>Creates a Task record to record outgoing touchpoints for the Ombudsman Registry.</description>
-        <name>OutTouch_Red_Cross_Message</name>
-        <label>OutTouch - Red Cross Message</label>
-        <locationX>3482</locationX>
-        <locationY>541</locationY>
-        <inputAssignments>
-            <field>ActivityDate</field>
-            <value>
-                <elementReference>$Flow.CurrentDate</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Red_Cross_Message_Outgoing__c</field>
             <value>
                 <numberValue>1.0</numberValue>
             </value>
