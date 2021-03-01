@@ -168,6 +168,14 @@
     </columns>
     <columns>
         <aggregateTypes>Sum</aggregateTypes>
+        <field>Activity.SAPR_Incoming__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Activity.SAPR_Outgoing__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
         <field>Activity.Social_Media_Incoming__c</field>
     </columns>
     <columns>
