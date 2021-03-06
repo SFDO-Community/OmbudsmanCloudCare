@@ -1100,7 +1100,6 @@
     </objectPermissions>
     <recordTypeVisibilities>
         <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
         <recordType>Contact.ombudcare__Family_Member</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
