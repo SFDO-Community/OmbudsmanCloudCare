@@ -1100,7 +1100,6 @@
     </objectPermissions>
     <recordTypeVisibilities>
         <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
         <recordType>Contact.ombudcare__Family_Member</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -1110,11 +1109,11 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>standard-Contact</tab>
+        <tab>ombudcare__OCC_Help_and_Training_Center</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Opportunity</tab>
+        <tab>ombudcare__Sailor__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
