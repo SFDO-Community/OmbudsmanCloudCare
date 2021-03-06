@@ -71,6 +71,10 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
+        <tab>%%%NAMESPACE%%%OCC_Help_and_Training_Center</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>%%%NAMESPACE%%%Sailor__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
