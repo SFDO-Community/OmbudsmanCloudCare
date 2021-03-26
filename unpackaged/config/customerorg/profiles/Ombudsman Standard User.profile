@@ -1071,6 +1071,9 @@
     <layoutAssignments>
         <layout>Task-ombudcare__OCC Task Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Global-OCC Global Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
