@@ -34,9 +34,6 @@
         <quickActionListItems>
             <quickActionName>FeedItem.ContentPost</quickActionName>
         </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>npsp__LogACall</quickActionName>
-        </quickActionListItems>
     </quickActionList>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
