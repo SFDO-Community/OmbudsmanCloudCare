@@ -8,7 +8,7 @@
             <quickActionName>npsp__NewContact</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
-            <quickActionName>NewContactFamilyMember</quickActionName>
+            <quickActionName>ombudcare__NewContactFamilyMember</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>ombudcare__NewSailor</quickActionName>
