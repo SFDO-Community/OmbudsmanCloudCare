@@ -1066,6 +1066,9 @@
         <recordType>Contact.Resource_Contact</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Lead-OCC Lead Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Sailor__c-Sailor Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
