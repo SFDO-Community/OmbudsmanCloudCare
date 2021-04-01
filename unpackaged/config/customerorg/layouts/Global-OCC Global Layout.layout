@@ -5,9 +5,6 @@
             <quickActionName>FeedItem.TextPost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
-            <quickActionName>npsp__NewContact</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
             <quickActionName>ombudcare__NewContactFamilyMember</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
@@ -18,21 +15,6 @@
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>ombudcare__TouchpointsOnly</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>New_Organization</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>New_Household_Account</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>npsp__New_Recurring_Donation</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>npsp__New_Campaign</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>npsp__NewTask</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>FeedItem.ContentPost</quickActionName>
