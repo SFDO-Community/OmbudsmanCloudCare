@@ -14,6 +14,9 @@
             <quickActionName>NewSailor</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
+            <quickActionName>Interaction</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
             <quickActionName>TouchpointsOnly</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
