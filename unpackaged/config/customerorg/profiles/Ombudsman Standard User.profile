@@ -1066,10 +1066,16 @@
         <recordType>Contact.ombudcare__Resource_Contact</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Lead-ombudcare__OCC Lead Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ombudcare__Sailor__c-ombudcare__Sailor Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-ombudcare__OCC Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Global-OCC Global Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>

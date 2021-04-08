@@ -1066,10 +1066,16 @@
         <recordType>Contact.Resource_Contact</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Lead-OCC Lead Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Sailor__c-Sailor Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-OCC Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Global-OCC Global Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
