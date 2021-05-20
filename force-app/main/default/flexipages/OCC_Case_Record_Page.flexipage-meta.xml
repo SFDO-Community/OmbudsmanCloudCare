@@ -66,6 +66,23 @@
                 </criteria>
             </visibilityRule>
         </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>decorate</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>richTextValue</name>
+                <value>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;color: rgb(107, 109, 112); font-size: 18px;&quot;&gt; 🚨🚨 Please add a Case Reason to this Case so that your out-going emails are automatically logged as interactions! 🚨🚨&lt;/b&gt;&lt;/p&gt;</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:richText</componentName>
+            <visibilityRule>
+                <criteria>
+                    <leftValue>{!Record.Case_Reason_Text__c}</leftValue>
+                    <operator>EQUAL</operator>
+                </criteria>
+            </visibilityRule>
+        </componentInstances>
         <name>header</name>
         <type>Region</type>
     </flexiPageRegions>
