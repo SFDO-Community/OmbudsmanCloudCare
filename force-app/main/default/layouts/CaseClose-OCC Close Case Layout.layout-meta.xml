@@ -22,10 +22,6 @@
                 <behavior>Edit</behavior>
                 <field>Sailor__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Case_Reason_Text__c</field>
-            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
