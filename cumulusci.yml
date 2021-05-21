@@ -75,8 +75,6 @@ tasks:
           fullName: MWR
         - label: Newsletter
           fullName: Newsletter
-        - label: Red Cross Message
-          fullName: Red Cross Message
         - label: Relocation/Housing/Sponsor
           fullName: Relocation/Housing/Sponsor
         - label: Sexual Assault Prevention
