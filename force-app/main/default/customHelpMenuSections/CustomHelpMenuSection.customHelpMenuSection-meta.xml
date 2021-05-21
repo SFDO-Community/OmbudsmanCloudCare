@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomHelpMenuSection xmlns="http://soap.sforce.com/2006/04/metadata">
     <customHelpMenuItems>
-        <linkUrl>https://occadminhandbook.bit.ai/docs/view/Gn1Ljg0ko6W7ycjk</linkUrl>
-        <masterLabel>FAQ</masterLabel>
+        <linkUrl>https://trailblazers.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F94S000000GwW8SAK</linkUrl>
+        <masterLabel>OCC Community Help Desk</masterLabel>
         <sortOrder>1</sortOrder>
     </customHelpMenuItems>
     <customHelpMenuItems>
         <linkUrl>https://occadminhandbook.bit.ai/docs/view/zv0wSuubp84Vnzsq</linkUrl>
-        <masterLabel>User Manual</masterLabel>
+        <masterLabel>OCC Getting Started Guide</masterLabel>
         <sortOrder>2</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://occadminhandbook.bit.ai/docs/view/kfh9Pjyp5Ppoz4iz</linkUrl>
+        <masterLabel>OCC Glossary of Terms</masterLabel>
+        <sortOrder>3</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://occadminhandbook.bit.ai/docs/view/Gn1Ljg0ko6W7ycjk</linkUrl>
+        <masterLabel>OCC FAQs</masterLabel>
+        <sortOrder>4</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://trailhead.salesforce.com/users/mkolodner/trailmixes/ombudsman-salesforce-intro</linkUrl>
+        <masterLabel>Ombudsman Trailmix</masterLabel>
+        <sortOrder>5</sortOrder>
     </customHelpMenuItems>
     <masterLabel>Ombudsman Cloud Care Help and Training</masterLabel>
 </CustomHelpMenuSection>
