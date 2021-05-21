@@ -89,10 +89,6 @@
                 <behavior>Required</behavior>
                 <field>Sailor__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Case_Reason_Text__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
