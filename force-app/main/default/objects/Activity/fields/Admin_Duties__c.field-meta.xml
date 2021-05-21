@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Admin_Duties__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of ombudsman administrative duty being recorded.</inlineHelpText>
+    <label>Admin Duties</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Meeting Attended</fullName>
+                <default>false</default>
+                <label>Meeting Attended</label>
+            </value>
+            <value>
+                <fullName>Presentations/Briefs</fullName>
+                <default>false</default>
+                <label>Presentations/Briefs</label>
+            </value>
+            <value>
+                <fullName>Trainings Attended</fullName>
+                <default>false</default>
+                <label>Trainings Attended</label>
+            </value>
+            <value>
+                <fullName>Newsletter</fullName>
+                <default>false</default>
+                <label>Newsletter</label>
+            </value>
+            <value>
+                <fullName>Social Media Maintenance</fullName>
+                <default>false</default>
+                <label>Social Media Maintenance</label>
+            </value>
+            <value>
+                <fullName>Other Duties</fullName>
+                <default>false</default>
+                <label>Other Duties</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
