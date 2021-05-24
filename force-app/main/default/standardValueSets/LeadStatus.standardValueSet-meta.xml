@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>New by Sailor</fullName>
+        <default>false</default>
+        <label>New by Sailor</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Working - Contacted</fullName>
+        <default>false</default>
+        <label>Working - Contacted</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Other Commands</fullName>
+        <default>false</default>
+        <label>Other Commands</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Requires Family Follow-up</fullName>
+        <default>false</default>
+        <label>Requires Family Follow-up</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Sailor Confirmation</fullName>
+        <default>false</default>
+        <label>Sailor Confirmation</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospective Families</fullName>
+        <default>false</default>
+        <label>Prospective Families</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Converted</fullName>
+        <default>false</default>
+        <label>Closed - Converted</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Not Converted</fullName>
+        <default>false</default>
+        <label>Closed - Not Converted</label>
+        <converted>false</converted>
+    </standardValue>
+</StandardValueSet>
