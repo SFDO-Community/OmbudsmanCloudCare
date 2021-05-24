@@ -4,7 +4,7 @@
         <fullName>Update_Sailor_Full_Name</fullName>
         <description>Update Sailor Full Name based on values in First and Last Name</description>
         <field>Name</field>
-        <formula>First_Name__c &amp;&quot; &quot;&amp; Last_Name__c</formula>
+        <formula>First_Name__c &amp; IF(Middle_Name__c != null, &quot; &quot; &amp; Middle_Name__c &amp; &quot; &quot;, &quot; &quot;) &amp; Last_Name__c &amp; IF(Suffix__c != null, &quot;, &quot; &amp; Suffix__c, null)</formula>
         <name>Update Sailor Full Name</name>
         <notifyAssignee>false</notifyAssignee>
         <operation>Formula</operation>
@@ -17,10 +17,8 @@
             <type>FieldUpdate</type>
         </actions>
         <active>true</active>
-        <description>Populates Sailor Full Name based on First/Last Name on create and edit</description>
-        <formula>OR(ISNEW(),
-ISCHANGED(First_Name__c),
-ISCHANGED(Last_Name__c))</formula>
+        <description>Populates Sailor Full Name based on First/Middle/Last Name + Suffix on create and edit</description>
+        <formula>OR(ISNEW(), ISCHANGED(Name), ISCHANGED(First_Name__c), ISCHANGED(Last_Name__c),  ISCHANGED(Middle_Name__c) ,  ISCHANGED(Suffix__c) )</formula>
         <triggerType>onAllChanges</triggerType>
     </rules>
 </Workflow>
