@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>npsp__Opportunity__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Opportunity this soft credit applies to.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Opportunity this soft credit applies to.</inlineHelpText>
+    <label>Opportunity</label>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>Partial Soft Credits</relationshipLabel>
+    <relationshipName>Partial_Soft_Credits</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

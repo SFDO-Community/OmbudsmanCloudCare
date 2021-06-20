@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>npsp__Dry_Run_Errors</fullName>
+    <columns>NAME</columns>
+    <columns>npsp__Status__c</columns>
+    <columns>npsp__FailureInformation__c</columns>
+    <columns>npsp__Contact1_Firstname__c</columns>
+    <columns>npsp__Contact1_Lastname__c</columns>
+    <columns>npsp__Account1_Name__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>npsp__Status__c</field>
+        <operation>equals</operation>
+        <value>Dry Run - Error</value>
+    </filters>
+    <label>Dry Run - Errors</label>
+    <language>en_US</language>
+</ListView>

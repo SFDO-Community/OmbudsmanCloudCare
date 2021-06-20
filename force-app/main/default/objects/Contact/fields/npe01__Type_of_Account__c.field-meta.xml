@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>npe01__Type_of_Account__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Formula: &quot;Individual&quot; or &quot;Organization&quot; depending on Account setting.</description>
+    <externalId>false</externalId>
+    <formula>IF(Account.npe01__SYSTEMIsIndividual__c,&quot;Individual&quot;,&quot;Organization&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Formula: &quot;Individual&quot; or &quot;Organization&quot; depending on Account setting.</inlineHelpText>
+    <label>Type of Account</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

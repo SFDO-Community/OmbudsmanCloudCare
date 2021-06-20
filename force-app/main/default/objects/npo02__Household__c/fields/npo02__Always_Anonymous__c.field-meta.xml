@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>npo02__Always_Anonymous__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Used to set the Household name and other fields using anonymous information.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to set the Household name and other fields using anonymous information.</inlineHelpText>
+    <label>Always Anonymous</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

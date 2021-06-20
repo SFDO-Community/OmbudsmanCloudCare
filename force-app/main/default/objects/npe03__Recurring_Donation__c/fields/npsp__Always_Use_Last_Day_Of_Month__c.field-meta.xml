@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>npsp__Always_Use_Last_Day_Of_Month__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Sets future monthly, custom monthly, or quarterly donation installments to the last day of the month, regardless of Next Donation Date. Installment period must be Monthly or Quarterly, or a custom installment period using months.</inlineHelpText>
+    <label>Always use last day of month</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>npo02__Household</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Household</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!IF(ISNULL(Contact.npo02__HouseholdId__c),URLFOR($Action.npo02__Household__c.New,null,[cid=Contact.Id,retURL=URLFOR($Action.Contact.View, Contact.Id)]),URLFOR($Action.npo02__Household__c.Edit,Contact.npo02__HouseholdId__c,[cid=Contact.Id,hhid=Contact.npo02__HouseholdId__c,retURL=URLFOR($Action.Contact.View, Contact.Id)]))}</url>
+</WebLink>

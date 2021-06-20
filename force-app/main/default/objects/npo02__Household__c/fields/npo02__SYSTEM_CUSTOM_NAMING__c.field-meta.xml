@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>npo02__SYSTEM_CUSTOM_NAMING__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Hidden system field: do not change. Updated by automatic processes.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Name, Formal Greeting, or Informal Greeting</inlineHelpText>
+    <label>_SYSTEM: CUSTOM NAMING</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Name</fullName>
+                <default>false</default>
+                <label>Name</label>
+            </value>
+            <value>
+                <fullName>Formal_Greeting__c</fullName>
+                <default>false</default>
+                <label>Formal_Greeting__c</label>
+            </value>
+            <value>
+                <fullName>Informal_Greeting__c</fullName>
+                <default>false</default>
+                <label>Informal_Greeting__c</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>npsp__Formula_MailingAddress__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>npsp__MailingStreet__c &amp; BR() &amp;
+npsp__MailingStreet2__c &amp; IF(ISBLANK(npsp__MailingStreet2__c), &quot;&quot;, BR()) &amp; 
+npsp__MailingCity__c &amp; IF(ISBLANK(npsp__MailingCity__c), &quot;&quot;, &quot;, &quot;) &amp; npsp__MailingState__c &amp; &quot; &quot; &amp; npsp__MailingPostalCode__c 
+&amp; IF(ISBLANK(npsp__MailingCountry__c), &quot;&quot;, BR() &amp; npsp__MailingCountry__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Mailing Address</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

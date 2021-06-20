@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>npsp__Process_Batch</fullName>
+    <availability>online</availability>
+    <description>invoke the Data Importer on all records associated with this Batch</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Process Batch</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/apex/{!$Setup.npsp__Package_Settings__c.npsp__Namespace_Prefix__c}BDI_DataImport?batchId={!npsp__DataImportBatch__c.Id}&amp;retURL={!URLFOR(&apos;/&apos; + npsp__DataImportBatch__c.Id)}</url>
+</WebLink>
