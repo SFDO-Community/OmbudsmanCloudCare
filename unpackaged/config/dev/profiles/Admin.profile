@@ -45,6 +45,9 @@
         <recordType>Contact.Resource_Contact</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Global-OCC Global Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Lead-OCC Lead Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

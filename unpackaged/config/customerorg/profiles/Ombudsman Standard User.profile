@@ -1091,6 +1091,9 @@
         <recordType>Contact.ombudcare__Resource_Contact</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Global-OCC Global Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Lead-ombudcare__OCC Lead Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
