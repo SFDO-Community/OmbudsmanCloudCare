@@ -9,6 +9,10 @@
     <members>Sailor__c</members>
   </types>
   <types>
+    <name>Layout</name>
+    <members>Global-OCC Global Layout</members>
+  </types>
+  <types>
     <name>Profile</name>
     <members>Admin</members>
     <members>Ombudsman Standard User</members>
