@@ -22,6 +22,7 @@
     <members>CaseOrigin</members>
     <members>CasePriority</members>
     <members>CaseReason</members>
+    <members>LeadStatus</members>
     <members>Salutation</members>
   </types>
   <version>48.0</version>
