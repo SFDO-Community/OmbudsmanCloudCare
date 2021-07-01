@@ -654,6 +654,31 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Lead.ombudcare__Relationship_to_Sailor__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.ombudcare__Request_Additional_Information_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.ombudcare__Request_Additional_Information__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.ombudcare__Sailor_s_Command_or_Ship_Email__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.ombudcare__Sailor_s_Full_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1066,6 +1091,13 @@
         <recordType>Contact.ombudcare__Resource_Contact</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Lead-ombudcare__OCC Lead Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-ombudcare__OCC Lead Layout</layout>
+        <recordType>Lead.ombudcare__Family_Member</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ombudcare__Sailor__c-ombudcare__Sailor Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1106,6 +1138,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Contact.ombudcare__Resource_Contact</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Lead.ombudcare__Family_Member</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>

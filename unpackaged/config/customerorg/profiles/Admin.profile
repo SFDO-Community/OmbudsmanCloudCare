@@ -19,6 +19,13 @@
         <layout>Contact-ombudcare__OCC Resource Contact Layout</layout>
         <recordType>Contact.ombudcare__Resource_Contact</recordType>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-ombudcare__OCC Lead Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-ombudcare__OCC Lead Layout</layout>
+        <recordType>Lead.Family_Member</recordType>
+    </layoutAssignments>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Contact.ombudcare__Family_Member</recordType>
@@ -27,6 +34,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Contact.ombudcare__Resource_Contact</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Lead.Family_Member</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
