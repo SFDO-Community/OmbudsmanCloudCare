@@ -295,7 +295,7 @@ flows:
         task: add_standard_value_set_entries_casepriority
       3:
         task: add_standard_value_set_entries_casereason
-      4. 
+      4: 
         task: add_standard_value_set_entries_leadstatus
       5:
         task: add_standard_value_set_entries_salutation
