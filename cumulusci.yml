@@ -93,15 +93,15 @@ tasks:
       entries:
         - label: New
           fullName: New
-          label: New by Sailor
+        - label: New by Sailor
           fullName: New by Sailor
-          label: Other Commands
+        - label: Other Commands
           fullName: Other Commands
-          label: Requires Family Follow-up
+        - label: Requires Family Follow-up
           fullName: Requires Family Follow-up
-          label: Sailor Confirmation
+        - label: Sailor Confirmation
           fullName: Sailor Confirmation
-          label: Prospective Families
+        - label: Prospective Families
           fullName: Prospective Families
 
   add_standard_value_set_entries_salutation:
@@ -283,7 +283,7 @@ flows:
       3:
         task: add_standard_value_set_entries_salutation
 
-      4: 
+      4:
         task: add_standard_value_set_entries_leadstatus
 
   standardvaluesets:
@@ -295,7 +295,7 @@ flows:
         task: add_standard_value_set_entries_casepriority
       3:
         task: add_standard_value_set_entries_casereason
-      4: 
+      4:
         task: add_standard_value_set_entries_leadstatus
       5:
         task: add_standard_value_set_entries_salutation
