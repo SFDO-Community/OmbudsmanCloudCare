@@ -9,10 +9,6 @@
     <members>Sailor__c</members>
   </types>
   <types>
-    <name>Layout</name>
-    <members>Global-OCC Global Layout</members>
-  </types>
-  <types>
     <name>Profile</name>
     <members>Admin</members>
     <members>Ombudsman Standard User</members>
@@ -22,6 +18,7 @@
     <members>CaseOrigin</members>
     <members>CasePriority</members>
     <members>CaseReason</members>
+    <members>LeadStatus</members>
     <members>Salutation</members>
   </types>
   <version>48.0</version>

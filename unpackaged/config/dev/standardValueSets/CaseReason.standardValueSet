@@ -80,12 +80,6 @@
         <cssExposed>false</cssExposed>
     </standardValue>
     <standardValue>
-        <fullName>Red Cross Message</fullName>
-        <default>false</default>
-        <label>Red Cross Message</label>
-        <cssExposed>false</cssExposed>
-    </standardValue>
-    <standardValue>
         <fullName>Relocation/Housing/Sponsor</fullName>
         <default>false</default>
         <label>Relocation/Housing/Sponsor</label>
