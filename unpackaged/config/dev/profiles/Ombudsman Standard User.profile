@@ -654,31 +654,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Lead.Relationship_to_Sailor__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Lead.Request_Additional_Information_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Lead.Request_Additional_Information__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Lead.Sailor_s_Command_or_Ship_Email__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Lead.Sailor_s_Full_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Opportunity.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1276,16 +1251,6 @@
         <recordType>Contact.Resource_Contact</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Global-OCC Global Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Lead-OCC Lead Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Lead-OCC Lead Layout</layout>
-        <recordType>Lead.Family_Member</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Sailor__c-Sailor Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1337,11 +1302,6 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Contact.Resource_Contact</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>true</default>
-        <recordType>Lead.Family_Member</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
