@@ -93,16 +93,22 @@ tasks:
       entries:
         - label: New
           fullName: New
+          converted: FALSE
         - label: New by Sailor
           fullName: New by Sailor
+          converted: FALSE
         - label: Other Commands
           fullName: Other Commands
+          converted: FALSE
         - label: Requires Family Follow-up
           fullName: Requires Family Follow-up
+          converted: FALSE
         - label: Sailor Confirmation
           fullName: Sailor Confirmation
+          converted: FALSE
         - label: Prospective Families
           fullName: Prospective Families
+          converted: FALSE
 
   add_standard_value_set_entries_salutation:
     description: Adds specified picklist entries to Salutation Standard Value Set.
