@@ -152,14 +152,6 @@
     </columns>
     <columns>
         <aggregateTypes>Sum</aggregateTypes>
-        <field>Activity.Red_Cross_Message_Incoming__c</field>
-    </columns>
-    <columns>
-        <aggregateTypes>Sum</aggregateTypes>
-        <field>Activity.Red_Cross_Message_Outgoing__c</field>
-    </columns>
-    <columns>
-        <aggregateTypes>Sum</aggregateTypes>
         <field>Activity.Relocation_Housing_Sponsor_Incoming__c</field>
     </columns>
     <columns>
