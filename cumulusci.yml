@@ -109,9 +109,6 @@ tasks:
         - label: Prospective Families
           fullName: Prospective Families
           converted: FALSE
-        - label: Prospective Families
-          fullName: Prospective Families
-          converted: FALSE
 
   add_standard_value_set_entries_salutation:
     description: Adds specified picklist entries to Salutation Standard Value Set.
