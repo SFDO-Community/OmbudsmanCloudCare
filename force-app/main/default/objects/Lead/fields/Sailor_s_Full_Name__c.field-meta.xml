@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Relationship_to_Sailor__c</fullName>
+    <fullName>Sailor_s_Full_Name__c</fullName>
     <externalId>false</externalId>
-    <inlineHelpText>How is this person related?</inlineHelpText>
-    <label>Relationship to Sailor</label>
-    <length>25</length>
+    <label>Sailor&apos;s Full Name</label>
+    <length>50</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Text</type>

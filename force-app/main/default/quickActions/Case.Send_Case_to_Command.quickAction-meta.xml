@@ -9,6 +9,8 @@
 
 &amp;&quot;&lt;b&gt;&quot;&amp;&quot;Case Priority: &quot;&amp;&quot;&lt;/b&gt;&quot; &amp; TEXT(Case.Priority) &amp;&quot;&lt;br&gt;&quot;
 &amp;&quot;&lt;b&gt;&quot;&amp;&quot;Individual Name: &quot;&amp;&quot;&lt;/b&gt;&quot; &amp; Case.Contact.FirstName &amp; &quot; &quot; &amp; Case.Contact.LastName &amp;&quot;&lt;br&gt;&quot;
+&amp;&quot;&lt;b&gt;&quot;&amp;&quot; Individual Email:&quot;&amp;&quot;&lt;/b&gt;&quot; &amp; Case.ContactEmail &amp;&quot;&lt;br&gt;&quot;
+&amp;&quot;&lt;b&gt;&quot;&amp;&quot; Individual Phone Number: &quot;&amp;&quot;&lt;/b&gt;&quot; &amp; Case.Contact.Phone &amp;&quot;&lt;br&gt;&quot;
 &amp;&quot;&lt;b&gt;&quot;&amp;&quot;Sailor Name: &quot;&amp;&quot;&lt;/b&gt;&quot; &amp;  Case.Sailor__r.Name  &amp;&quot;&lt;br&gt;&quot;
 &amp;&quot;&lt;b&gt;&quot;&amp;&quot;Sailor Rank/Rate: &quot;&amp;&quot;&lt;/b&gt;&quot; &amp; Case.Sailor__r.Rank_Rate__c &amp;&quot;&lt;br&gt;&quot;
 &amp;&quot;&lt;b&gt;&quot;&amp;&quot;Sailor Department: &quot;&amp;&quot;&lt;/b&gt;&quot; &amp;  TEXT(Case.Sailor__r.Department__c) &amp;&quot;&lt;br&gt;&quot;
