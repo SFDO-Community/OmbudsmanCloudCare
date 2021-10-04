@@ -75,8 +75,6 @@ tasks:
           fullName: MWR
         - label: Newsletter
           fullName: Newsletter
-        - label: Red Cross Message
-          fullName: Red Cross Message
         - label: Relocation/Housing/Sponsor
           fullName: Relocation/Housing/Sponsor
         - label: Sexual Assault Prevention
@@ -85,6 +83,32 @@ tasks:
           fullName: Social Media
         - label: Other Info and Referral
           fullName: Other Info and Referral
+
+  add_standard_value_set_entries_leadstatus:
+    description: Adds specified picklist entries to Lead Status Standard Value Set.
+    class_path: cumulusci.tasks.metadata_etl.AddValueSetEntries
+    options:
+      api_names:
+        - LeadStatus
+      entries:
+        - label: New
+          fullName: New
+          converted: FALSE
+        - label: New by Sailor
+          fullName: New by Sailor
+          converted: FALSE
+        - label: Other Commands
+          fullName: Other Commands
+          converted: FALSE
+        - label: Requires Family Follow-up
+          fullName: Requires Family Follow-up
+          converted: FALSE
+        - label: Sailor Confirmation
+          fullName: Sailor Confirmation
+          converted: FALSE
+        - label: Prospective Families
+          fullName: Prospective Families
+          converted: FALSE
 
   add_standard_value_set_entries_salutation:
     description: Adds specified picklist entries to Salutation Standard Value Set.
@@ -235,7 +259,7 @@ flows:
       2:
         flow: standardvaluesets
         ui_options:
-          name: Update Case Origin, Case Priority, Case Reason and Salutation Picklist Values
+          name: Update Case Origin, Case Priority, Case Reason, Lead Status, and Salutation Picklist Values
       3:
         task: install_managed
       4:
@@ -265,8 +289,11 @@ flows:
       3:
         task: add_standard_value_set_entries_salutation
 
+      4:
+        task: add_standard_value_set_entries_leadstatus
+
   standardvaluesets:
-    description: Run Add Standard Value Set Tasks for Case Origin, Case Priority, Case Reason and Salutation
+    description: Run Add Standard Value Set Tasks for Case Origin, Case Priority, Case Reason, Lead Status, and Salutation
     steps:
       1:
         task: add_standard_value_set_entries_caseorigin
@@ -275,6 +302,8 @@ flows:
       3:
         task: add_standard_value_set_entries_casereason
       4:
+        task: add_standard_value_set_entries_leadstatus
+      5:
         task: add_standard_value_set_entries_salutation
 
 plans:
