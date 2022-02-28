@@ -45,6 +45,13 @@
         <recordType>Contact.%%%NAMESPACE%%%Resource_Contact</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Lead-%%%NAMESPACE%%%OCC Lead Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-%%%NAMESPACE%%%OCC Lead Layout</layout>
+        <recordType>Lead.%%%NAMESPACE%%%Family_Member</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>%%%NAMESPACE%%%Sailor__c-%%%NAMESPACE%%%Sailor Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -68,6 +75,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Contact.%%%NAMESPACE%%%Resource_Contact</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Lead.%%%NAMESPACE%%%Family_Member</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>

@@ -6,6 +6,9 @@
     <columns>
         <field>CUST_CREATED_NAME</field>
     </columns>
+    <columns>
+        <field>Sailor__c.Status__c</field>
+    </columns>
     <description>Count of all Sailors in Salesforce</description>
     <format>Summary</format>
     <groupingsDown>
