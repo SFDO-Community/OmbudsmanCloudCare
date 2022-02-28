@@ -265,6 +265,7 @@
     </decisions>
     <description>TEMPLATE ONLY DO NOT ACTIVATE. Clone your own new flow and activate that. Activating this flow installed by the managed package can result in problems when package updates are published.</description>
     <interviewLabel>TEMPLATE EmailMessage_Create Task on Send from Case {!$Flow.CurrentDateTime}</interviewLabel>
+    <isTemplate>true</isTemplate>
     <label>TEMPLATE EmailMessage_Create Task on Send from Case</label>
     <processMetadataValues>
         <name>BuilderType</name>

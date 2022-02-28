@@ -286,6 +286,8 @@ flows:
         task: update_dependencies
         options:
           include_beta: False
+      3:
+        flow: standardvaluesets
 
   standardvaluesets:
     description: Run Add Standard Value Set Tasks for Case Origin, Case Priority, Case Reason, Lead Status, and Salutation
