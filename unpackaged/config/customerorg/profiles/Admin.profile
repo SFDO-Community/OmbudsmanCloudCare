@@ -24,7 +24,7 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-ombudcare__OCC Lead Layout</layout>
-        <recordType>Lead.Family_Member</recordType>
+        <recordType>Lead.ombudcare__Family_Member</recordType>
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>true</default>
@@ -38,7 +38,7 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
-        <recordType>Lead.Family_Member</recordType>
+        <recordType>Lead.ombudcare__Family_Member</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
