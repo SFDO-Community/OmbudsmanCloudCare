@@ -6,10 +6,6 @@
     <members>Admin</members>
   </types>
   <types>
-    <name>Layout</name>
-    <members>Global-OCC Global Layout</members>
-  </types>
-  <types>
     <name>CustomObject</name>
     <members>ombudcare__Sailor__c</members>
   </types>
