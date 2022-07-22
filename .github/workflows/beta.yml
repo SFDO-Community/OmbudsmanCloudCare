@@ -2,7 +2,7 @@ name: Upload Beta Release (1GP)
 on:
   push:
     branches:
-      - 'main'
+      - 'master'
 jobs:
   upload-beta:
     uses: SFDO-Community/standard-workflows/.github/workflows/beta-1gp.yml@main
