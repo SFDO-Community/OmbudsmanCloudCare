@@ -73,6 +73,38 @@
         "Deploy Ombudsman Standard User Profile": {
             "message": "Deploy Ombudsman Standard User Profile",
             "description": "title of installation step"
+        },
+        "Install Compact Layouts": {
+            "message": "Install Compact Layouts",
+            "description": "title of installation step"
+        },
+        "Install List Views": {
+            "message": "Install List Views",
+            "description": "title of installation step"
+        },
+        "add_standard_value_set_entries_caseorigin": {
+            "message": "add_standard_value_set_entries_caseorigin",
+            "description": "title of installation step"
+        },
+        "add_standard_value_set_entries_casepriority": {
+            "message": "add_standard_value_set_entries_casepriority",
+            "description": "title of installation step"
+        },
+        "add_standard_value_set_entries_casereason": {
+            "message": "add_standard_value_set_entries_casereason",
+            "description": "title of installation step"
+        },
+        "add_standard_value_set_entries_salutation": {
+            "message": "add_standard_value_set_entries_salutation",
+            "description": "title of installation step"
+        },
+        "Install Ombudsman Cloud Care Branding": {
+            "message": "Install Ombudsman Cloud Care Branding",
+            "description": "title of installation step"
+        },
+        "Add Placeholder Sailor Record": {
+            "message": "Add Placeholder Sailor Record",
+            "description": "title of installation step"
         }
     }
 }
